@@ -2220,7 +2220,6 @@ body .section-methods, body #pay_methods_container {
 
 body .choose-package, body #paymentwall2 .bg, #paymentwall2 body .bg {
 	height: 55%;
-	background: #F5F5F5 !important;
 }
 
 .choose-package .choose-package, #paymentwall2 .bg .choose-package {
@@ -2268,7 +2267,6 @@ body .section, body #pay_methods_container, body #paymentwall2 .bg, #paymentwall
 	height: 100%;
 	margin: 0;
 	overflow: visible;
-	background: white;
 }
 
 .section-label, .step {
@@ -2278,11 +2276,10 @@ body .section, body #pay_methods_container, body #paymentwall2 .bg, #paymentwall
 	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	height: 50px;
+	height: calc((100% - 100px) * .45);
 	line-height: 50px;
 	width: 100%;
 	padding: 0 50px;
-	position: absolute;
 	z-index: 10;
 	pointer-events: none;
 	left: 0;
@@ -2290,10 +2287,12 @@ body .section, body #pay_methods_container, body #paymentwall2 .bg, #paymentwall
 	top: 0;
 }
 
+.step1.step {
+	background: white;
+}
+
 .section-label.step2, .step2.step {
-	top: 45%;
-	margin-top: -50px;
-	padding-top: 5px
+	top: calc(45% - 50px);
 }
 
 .section-label .number, .step .number {
@@ -3287,22 +3286,22 @@ body .modal-iframe-container #ps_content, body .modal-position #ps_form_popup_la
 @keyframes SPINNERSLIDE {
 	from {
 		opacity: 0;
-		transform: translateY(0%) skewX(-16.5deg)
+		transform: translateY(0%);
 	}
 	to {
 		opacity: 1;
-		transform: translateY(0%) scale(2) skewX(-16.5deg)
+		transform: translateY(0%) scale(2);
 	}
 }
 
 @keyframes SPINNERSLIDE-MAIN {
 	from {
 		opacity: 0;
-		transform: translate(-50%, -50%) translateY(0%) skewX(-16.5deg)
+		transform: translate(-50%, -50%) translateY(0%);
 	}
 	to {
 		opacity: 1;
-		transform: translate(-50%, -50%) translateY(0%) scale(2) skewX(-16.5deg)
+		transform: translate(-50%, -50%) translateY(0%) scale(2);
 	}
 }
 
@@ -3321,9 +3320,8 @@ body .spinner, body .modal-iframe-container iframe+form, body .modal-position #p
 
 body .spinner, body .modal-iframe-container iframe+form, body .modal-position #ps_form_popup_layer_content iframe+form, body #crm-root #ps_form_popup_layer_content iframe+form, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form, body #crm-spinner, body #ps_widget_preloader, body #ps_widget_preloader_widget, body .actions .preloader, .actions body .preloader, body .spinner:before, body .modal-iframe-container iframe+form:before, body .modal-position #ps_form_popup_layer_content iframe+form:before, body #crm-root #ps_form_popup_layer_content iframe+form:before, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form:before, body #crm-spinner:before, body #ps_widget_preloader:before, body #ps_widget_preloader_widget:before, body .actions .preloader:before, .actions body .preloader:before, body .spinner:after, body .modal-iframe-container iframe+form:after, body .modal-position #ps_form_popup_layer_content iframe+form:after, body #crm-root #ps_form_popup_layer_content iframe+form:after, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form:after, body #crm-spinner:after, body #ps_widget_preloader:after, body #ps_widget_preloader_widget:after, body .actions .preloader:after, .actions body .preloader:after {
 	display: block;
-	transform: skewX(-16.5deg);
 	height: 3px;
-	width: 10px
+	width: 6px
 }
 
 body .spinner:before, body .modal-iframe-container iframe+form:before, body .modal-position #ps_form_popup_layer_content iframe+form:before, body #crm-root #ps_form_popup_layer_content iframe+form:before, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form:before, body #crm-spinner:before, body #ps_widget_preloader:before, body #ps_widget_preloader_widget:before, body .actions .preloader:before, .actions body .preloader:before, body .spinner:after, body .modal-iframe-container iframe+form:after, body .modal-position #ps_form_popup_layer_content iframe+form:after, body #crm-root #ps_form_popup_layer_content iframe+form:after, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form:after, body #crm-spinner:after, body #ps_widget_preloader:after, body #ps_widget_preloader_widget:after, body .actions .preloader:after, .actions body .preloader:after {
@@ -3334,14 +3332,14 @@ body .spinner:before, body .modal-iframe-container iframe+form:before, body .mod
 }
 
 body .spinner:before, body .modal-iframe-container iframe+form:before, body .modal-position #ps_form_popup_layer_content iframe+form:before, body #crm-root #ps_form_popup_layer_content iframe+form:before, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form:before, body #crm-spinner:before, body #ps_widget_preloader:before, body #ps_widget_preloader_widget:before, body .actions .preloader:before, .actions body .preloader:before {
-	left: -125%;
-	background: #111645;
+	left: -200%;
+	background: #55b2ff;
 	animation: SPINNERSLIDE 300ms -150ms infinite ease-in-out alternate
 }
 
 body .spinner:after, body .modal-iframe-container iframe+form:after, body .modal-position #ps_form_popup_layer_content iframe+form:after, body #crm-root #ps_form_popup_layer_content iframe+form:after, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form:after, body #crm-spinner:after, body #ps_widget_preloader:after, body #ps_widget_preloader_widget:after, body .actions .preloader:after, .actions body .preloader:after {
-	left: 125%;
-	background: #e77c31;
+	left: 200%;
+	background: #55b2ff;
 	animation: SPINNERSLIDE 300ms -450ms infinite ease-in-out alternate
 }
 
@@ -3517,7 +3515,7 @@ body .spinner:after, body .modal-iframe-container iframe+form:after, body .modal
 
 html, body {
 	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
-	background: #fff;
+	background: #F5F5F5;
 	height: 100%;
 	width: 100%;
 	padding-top: 0;
@@ -3542,7 +3540,6 @@ body #window-resizer-tooltip {
 	width: 100%;
 	height: 100%;
 	padding-bottom: 100px;
-	background: #F5F5F5 !important;
 }
 
 #subppage, #paymentwall2, #ps_payment_cnt, #ps_price_cnt, #ps_content, #ps_price_table_cnt, #ps_price_table_cnt .bx-wrapper, #ps_price.choose-package, #ps_price_form {
@@ -3566,17 +3563,13 @@ body #window-resizer-tooltip {
 	height: calc(100% + 100px)
 }
 
-body#ps_content {
-	background: rgba(225, 225, 225, 0.3) !important
-}
-
 #cardsForm {
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 100px;
 	left: 0;
-	padding: 50px 35px 40px 0
+	padding: 40px 0
 }
 
 #cardsForm .box_padding {
@@ -3593,7 +3586,7 @@ body#ps_content {
 	width: calc(25vw + 50px) !important;
 	height: calc(100% + 40px + 50px + 100px) !important;
 	margin-top: -50px;
-	padding: 50px 35px 100px 50px;
+	padding: 40px 35px 100px 50px;
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: flex-start;
@@ -3812,7 +3805,6 @@ body#ps_content .data_in_success .success strong {
 	font-size: 16px !important;
 	line-height: 24px
 }
-
 
 
 
