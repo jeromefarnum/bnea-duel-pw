@@ -1,0 +1,3821 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline
+}
+
+html {
+	line-height: 1
+}
+
+ol, ul {
+	list-style: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle
+}
+
+q, blockquote {
+	quotes: none
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+	content: "";
+	content: none
+}
+
+a img {
+	border: none
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block
+}
+
+.package-card-wrapper .price_button .vc strong, #ps_price>li .price_button .vc strong {
+	font-size: 35px;
+	line-height: 35px
+}
+
+.footer-pricing>strong, #current_price>strong, body #cardsForm h3.cc>strong, .footer-pricing div.current_price_amount_container span, #current_price div.current_price_amount_container span, body #cardsForm h3.cc div.current_price_amount_container span, .footer-pricing div.current_price_coins_container span, #current_price div.current_price_coins_container span, body #cardsForm h3.cc div.current_price_coins_container span, body#ps_content .data_in_success .success {
+	font-size: 19px;
+	line-height: 20px
+}
+
+body .generic-button, body .submit-button, body .submit-button-container .button, .submit-button-container body .button, body .actions td.td_right .button, .actions td.td_right body .button, body #card_but.button .button, #card_but.button body .button, body #save_card_form #save_card1 .button, #save_card_form #save_card1 body .button, body .submit-button-container .button2, .submit-button-container body .button2, body .actions td.td_right .button2, .actions td.td_right body .button2, body #card_but.button .button2, #card_but.button body .button2, body #save_card_form #save_card1 .button2, #save_card_form #save_card1 body .button2, body .generic-button span, body .submit-button span, body .submit-button-container .button span, .submit-button-container body .button span, body .actions td.td_right .button span, .actions td.td_right body .button span, body #card_but.button .button span, #card_but.button body .button span, body #save_card_form #save_card1 .button span, #save_card_form #save_card1 body .button span, body .submit-button-container .button2 span, .submit-button-container body .button2 span, body .actions td.td_right .button2 span, .actions td.td_right body .button2 span, body #card_but.button .button2 span, #card_but.button body .button2 span, body #save_card_form #save_card1 .button2 span, #save_card_form #save_card1 body .button2 span, body .generic-button:hover, body .submit-button:hover, body .submit-button-container .button:hover, .submit-button-container body .button:hover, body .actions td.td_right .button:hover, .actions td.td_right body .button:hover, body #card_but.button .button:hover, #card_but.button body .button:hover, body #save_card_form #save_card1 .button:hover, #save_card_form #save_card1 body .button:hover, body .submit-button-container .button2:hover, .submit-button-container body .button2:hover, body .actions td.td_right .button2:hover, .actions td.td_right body .button2:hover, body #card_but.button .button2:hover, #card_but.button body .button2:hover, body #save_card_form #save_card1 .button2:hover, #save_card_form #save_card1 body .button2:hover, body .generic-button:active, body .submit-button:active, body .submit-button-container .button:active, .submit-button-container body .button:active, body .actions td.td_right .button:active, .actions td.td_right body .button:active, body #card_but.button .button:active, #card_but.button body .button:active, body #save_card_form #save_card1 .button:active, #save_card_form #save_card1 body .button:active, body .submit-button-container .button2:active, .submit-button-container body .button2:active, body .actions td.td_right .button2:active, .actions td.td_right body .button2:active, body #card_but.button .button2:active, #card_but.button body .button2:active, body #save_card_form #save_card1 .button2:active, #save_card_form #save_card1 body .button2:active, body .generic-button:focus, body .submit-button:focus, body .submit-button-container .button:focus, .submit-button-container body .button:focus, body .actions td.td_right .button:focus, .actions td.td_right body .button:focus, body #card_but.button .button:focus, #card_but.button body .button:focus, body #save_card_form #save_card1 .button:focus, #save_card_form #save_card1 body .button:focus, body .submit-button-container .button2:focus, .submit-button-container body .button2:focus, body .actions td.td_right .button2:focus, .actions td.td_right body .button2:focus, body #card_but.button .button2:focus, #card_but.button body .button2:focus, body #save_card_form #save_card1 .button2:focus, #save_card_form #save_card1 body .button2:focus, body .generic-button:visited, body .submit-button:visited, body .submit-button-container .button:visited, .submit-button-container body .button:visited, body .actions td.td_right .button:visited, .actions td.td_right body .button:visited, body #card_but.button .button:visited, #card_but.button body .button:visited, body #save_card_form #save_card1 .button:visited, #save_card_form #save_card1 body .button:visited, body .submit-button-container .button2:visited, .submit-button-container body .button2:visited, body .actions td.td_right .button2:visited, .actions td.td_right body .button2:visited, body #card_but.button .button2:visited, #card_but.button body .button2:visited, body #save_card_form #save_card1 .button2:visited, #save_card_form #save_card1 body .button2:visited, .form-field input, #cardsForm #cards .inline input, .form-field .expr_delimiter, #cardsForm #cards .inline .expr_delimiter, #save_card_form .save_holder .save_text {
+	font-size: 15px;
+	line-height: 20px
+}
+
+.section-label, .step, .footer-popover-column a, .menu2 .lang .col a, .menu2 .lang .currencies a, .menu2 #currency_popup .col a, .menu2 #currency_popup .currencies a, body .modal-container .footer, body .modal-position #ps_form_popup_layer_content .footer, body #crm-root #ps_form_popup_layer_content .footer, body #ps_form_popup_layer #ps_form_popup_layer_content .footer, body .modal-position .container .footer, body #crm-root .container .footer, body #ps_form_popup_layer .container .footer, .form-field .title, #cardsForm #cards .inline .title, #cardsForm #errors.cc_response_error, #cardsForm #error_msg {
+	font-size: 12px;
+	line-height: 15px
+}
+
+.fixed-footer, .footer, body .actions, #save_card_form .save_holder, .fixed-footer span, .footer span, body .actions span, #save_card_form .save_holder span, .fixed-footer a, .footer a, body .actions a, #save_card_form .save_holder a, .fixed-footer a:hover, .footer a:hover, body .actions a:hover, .fixed-footer a:focus, .footer a:focus, body .actions a:focus, .fixed-footer a:active, .footer a:active, body .actions a:active, .fixed-footer a:visited, .footer a:visited, body .actions a:visited, .footer-pricing, #current_price, body #cardsForm h3.cc, .footer-pricing div.current_price_amount_container strong, #current_price div.current_price_amount_container strong, body #cardsForm h3.cc div.current_price_amount_container strong, .footer-pricing div.current_price_amount_container label, #current_price div.current_price_amount_container label, body #cardsForm h3.cc div.current_price_amount_container label, .footer-pricing div.current_price_coins_container strong, #current_price div.current_price_coins_container strong, body #cardsForm h3.cc div.current_price_coins_container strong, .footer-pricing div.current_price_coins_container label, #current_price div.current_price_coins_container label, body #cardsForm h3.cc div.current_price_coins_container label, body .footer-menu .ie7>a, body .paymentwall .menu2 .ie7>a, .paymentwall body .menu2 .ie7>a, .footer-menu .crm-help-button, .paymentwall .menu2 .crm-help-button, .footer-menu .crm-help-button b, .paymentwall .menu2 .crm-help-button b, .footer-popover-currencies a, .menu2 .lang .currencies a, .menu2 #currency_popup .currencies a, .submit-button-container .small, .actions td.td_right .small, #card_but.button .small, #save_card_form #save_card1 .small, .card, #pay_methods>div>a, #ps_price>li>div, #cardsForm #selectcard>div, #save_card_form .save_holder .save .checkbox, .package-card-wrapper .price_button .vc span, #ps_price>li .price_button .vc span, .package-card-wrapper .price_button .discount, #ps_price>li .price_button .discount, .package-card-wrapper .price_button .price, #ps_price>li .price_button .price, .package-card-wrapper .price_button .value, #ps_price>li .price_button .value, .package-card-wrapper .price_button .popular, #ps_price>li .price_button .popular {
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: .5px
+}
+
+@font-face {
+	font-family: Averta;
+	src: url("fonts/averta-regular-webfont.eot");
+	src: url("fonts/averta-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/averta-regular-webfont.woff2") format("woff2"), url("fonts/averta-regular-webfont.woff") format("woff"), url("fonts/averta-regular-webfont.ttf") format("truetype"), url("fonts/averta-regular-webfont.svg#svg") format("svg");
+	font-weight: normal;
+	font-style: normal
+}
+
+@font-face {
+	font-family: Averta;
+	src: url("fonts/averta-bold-webfont.eot");
+	src: url("fonts/averta-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/averta-bold-webfont.woff2") format("woff2"), url("fonts/averta-bold-webfont.woff") format("woff"), url("fonts/averta-bold-webfont.ttf") format("truetype"), url("fonts/averta-bold-webfont.svg#svg") format("svg");
+	font-weight: bold;
+	font-style: normal
+}
+
+@font-face {
+	font-family: Averta;
+	src: url("fonts/averta-light-webfont.eot");
+	src: url("fonts/averta-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/averta-light-webfont.woff2") format("woff2"), url("fonts/averta-light-webfont.woff") format("woff"), url("fonts/averta-light-webfont.ttf") format("truetype"), url("fonts/averta-light-webfont.svg#svg") format("svg");
+	font-weight: 100;
+	font-style: normal
+}
+
+
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url("fonts/fontawesome-webfont.eot?v=4.2.0");
+	src: url("fonts/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("fonts/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
+	font-weight: normal;
+	font-style: normal
+}
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.fa-lg {
+	font-size: 1.33333333em;
+	line-height: 0.75em;
+	vertical-align: -15%
+}
+
+.fa-2x {
+	font-size: 2em
+}
+
+.fa-3x {
+	font-size: 3em
+}
+
+.fa-4x {
+	font-size: 4em
+}
+
+.fa-5x {
+	font-size: 5em
+}
+
+.fa-fw {
+	width: 1.28571429em;
+	text-align: center
+}
+
+.fa-ul {
+	padding-left: 0;
+	margin-left: 2.14285714em;
+	list-style-type: none
+}
+
+.fa-ul>li {
+	position: relative
+}
+
+.fa-li {
+	position: absolute;
+	left: -2.14285714em;
+	width: 2.14285714em;
+	top: 0.14285714em;
+	text-align: center
+}
+
+.fa-li.fa-lg {
+	left: -1.85714286em
+}
+
+.fa-border {
+	padding: .2em .25em .15em;
+	border: solid 0.08em #eeeeee;
+	border-radius: .1em
+}
+
+.pull-right {
+	float: right
+}
+
+.pull-left {
+	float: left
+}
+
+.fa.pull-left {
+	margin-right: .3em
+}
+
+.fa.pull-right {
+	margin-left: .3em
+}
+
+.fa-spin {
+	-webkit-animation: fa-spin 2s infinite linear;
+	animation: fa-spin 2s infinite linear
+}
+
+@-webkit-keyframes fa-spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg)
+	}
+}
+
+@keyframes fa-spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg)
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg)
+	}
+}
+
+.fa-rotate-90 {
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg)
+}
+
+.fa-rotate-180 {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg)
+}
+
+.fa-rotate-270 {
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg)
+}
+
+.fa-flip-horizontal {
+	-webkit-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1)
+}
+
+.fa-flip-vertical {
+	-webkit-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(1, -1)
+}
+
+:root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-flip-horizontal, :root .fa-flip-vertical {
+
+}
+
+.fa-stack {
+	position: relative;
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	vertical-align: middle
+}
+
+.fa-stack-1x, .fa-stack-2x {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center
+}
+
+.fa-stack-1x {
+	line-height: inherit
+}
+
+.fa-stack-2x {
+	font-size: 2em
+}
+
+.fa-inverse {
+	color: #ffffff
+}
+
+.fa-glass:before {
+	content: "\f000"
+}
+
+.fa-music:before {
+	content: "\f001"
+}
+
+.fa-search:before {
+	content: "\f002"
+}
+
+.fa-envelope-o:before {
+	content: "\f003"
+}
+
+.fa-heart:before {
+	content: "\f004"
+}
+
+.fa-star:before {
+	content: "\f005"
+}
+
+.fa-star-o:before {
+	content: "\f006"
+}
+
+.fa-user:before {
+	content: "\f007"
+}
+
+.fa-film:before {
+	content: "\f008"
+}
+
+.fa-th-large:before {
+	content: "\f009"
+}
+
+.fa-th:before {
+	content: "\f00a"
+}
+
+.fa-th-list:before {
+	content: "\f00b"
+}
+
+.fa-check:before {
+	content: "\f00c"
+}
+
+.fa-remove:before, .fa-close:before, .fa-times:before {
+	content: "\f00d"
+}
+
+.fa-search-plus:before {
+	content: "\f00e"
+}
+
+.fa-search-minus:before {
+	content: "\f010"
+}
+
+.fa-power-off:before {
+	content: "\f011"
+}
+
+.fa-signal:before {
+	content: "\f012"
+}
+
+.fa-gear:before, .fa-cog:before {
+	content: "\f013"
+}
+
+.fa-trash-o:before {
+	content: "\f014"
+}
+
+.fa-home:before {
+	content: "\f015"
+}
+
+.fa-file-o:before {
+	content: "\f016"
+}
+
+.fa-clock-o:before {
+	content: "\f017"
+}
+
+.fa-road:before {
+	content: "\f018"
+}
+
+.fa-download:before {
+	content: "\f019"
+}
+
+.fa-arrow-circle-o-down:before {
+	content: "\f01a"
+}
+
+.fa-arrow-circle-o-up:before {
+	content: "\f01b"
+}
+
+.fa-inbox:before {
+	content: "\f01c"
+}
+
+.fa-play-circle-o:before {
+	content: "\f01d"
+}
+
+.fa-rotate-right:before, .fa-repeat:before {
+	content: "\f01e"
+}
+
+.fa-refresh:before {
+	content: "\f021"
+}
+
+.fa-list-alt:before {
+	content: "\f022"
+}
+
+.fa-lock:before {
+	content: "\f023"
+}
+
+.fa-flag:before {
+	content: "\f024"
+}
+
+.fa-headphones:before {
+	content: "\f025"
+}
+
+.fa-volume-off:before {
+	content: "\f026"
+}
+
+.fa-volume-down:before {
+	content: "\f027"
+}
+
+.fa-volume-up:before {
+	content: "\f028"
+}
+
+.fa-qrcode:before {
+	content: "\f029"
+}
+
+.fa-barcode:before {
+	content: "\f02a"
+}
+
+.fa-tag:before {
+	content: "\f02b"
+}
+
+.fa-tags:before {
+	content: "\f02c"
+}
+
+.fa-book:before {
+	content: "\f02d"
+}
+
+.fa-bookmark:before {
+	content: "\f02e"
+}
+
+.fa-print:before {
+	content: "\f02f"
+}
+
+.fa-camera:before {
+	content: "\f030"
+}
+
+.fa-font:before {
+	content: "\f031"
+}
+
+.fa-bold:before {
+	content: "\f032"
+}
+
+.fa-italic:before {
+	content: "\f033"
+}
+
+.fa-text-height:before {
+	content: "\f034"
+}
+
+.fa-text-width:before {
+	content: "\f035"
+}
+
+.fa-align-left:before {
+	content: "\f036"
+}
+
+.fa-align-center:before {
+	content: "\f037"
+}
+
+.fa-align-right:before {
+	content: "\f038"
+}
+
+.fa-align-justify:before {
+	content: "\f039"
+}
+
+.fa-list:before {
+	content: "\f03a"
+}
+
+.fa-dedent:before, .fa-outdent:before {
+	content: "\f03b"
+}
+
+.fa-indent:before {
+	content: "\f03c"
+}
+
+.fa-video-camera:before {
+	content: "\f03d"
+}
+
+.fa-photo:before, .fa-image:before, .fa-picture-o:before {
+	content: "\f03e"
+}
+
+.fa-pencil:before {
+	content: "\f040"
+}
+
+.fa-map-marker:before {
+	content: "\f041"
+}
+
+.fa-adjust:before {
+	content: "\f042"
+}
+
+.fa-tint:before {
+	content: "\f043"
+}
+
+.fa-edit:before, .fa-pencil-square-o:before {
+	content: "\f044"
+}
+
+.fa-share-square-o:before {
+	content: "\f045"
+}
+
+.fa-check-square-o:before {
+	content: "\f046"
+}
+
+.fa-arrows:before {
+	content: "\f047"
+}
+
+.fa-step-backward:before {
+	content: "\f048"
+}
+
+.fa-fast-backward:before {
+	content: "\f049"
+}
+
+.fa-backward:before {
+	content: "\f04a"
+}
+
+.fa-play:before {
+	content: "\f04b"
+}
+
+.fa-pause:before {
+	content: "\f04c"
+}
+
+.fa-stop:before {
+	content: "\f04d"
+}
+
+.fa-forward:before {
+	content: "\f04e"
+}
+
+.fa-fast-forward:before {
+	content: "\f050"
+}
+
+.fa-step-forward:before {
+	content: "\f051"
+}
+
+.fa-eject:before {
+	content: "\f052"
+}
+
+.fa-chevron-left:before {
+	content: "\f053"
+}
+
+.fa-chevron-right:before {
+	content: "\f054"
+}
+
+.fa-plus-circle:before {
+	content: "\f055"
+}
+
+.fa-minus-circle:before {
+	content: "\f056"
+}
+
+.fa-times-circle:before {
+	content: "\f057"
+}
+
+.fa-check-circle:before {
+	content: "\f058"
+}
+
+.fa-question-circle:before {
+	content: "\f059"
+}
+
+.fa-info-circle:before {
+	content: "\f05a"
+}
+
+.fa-crosshairs:before {
+	content: "\f05b"
+}
+
+.fa-times-circle-o:before {
+	content: "\f05c"
+}
+
+.fa-check-circle-o:before {
+	content: "\f05d"
+}
+
+.fa-ban:before {
+	content: "\f05e"
+}
+
+.fa-arrow-left:before {
+	content: "\f060"
+}
+
+.fa-arrow-right:before {
+	content: "\f061"
+}
+
+.fa-arrow-up:before {
+	content: "\f062"
+}
+
+.fa-arrow-down:before {
+	content: "\f063"
+}
+
+.fa-mail-forward:before, .fa-share:before {
+	content: "\f064"
+}
+
+.fa-expand:before {
+	content: "\f065"
+}
+
+.fa-compress:before {
+	content: "\f066"
+}
+
+.fa-plus:before {
+	content: "\f067"
+}
+
+.fa-minus:before {
+	content: "\f068"
+}
+
+.fa-asterisk:before {
+	content: "\f069"
+}
+
+.fa-exclamation-circle:before {
+	content: "\f06a"
+}
+
+.fa-gift:before {
+	content: "\f06b"
+}
+
+.fa-leaf:before {
+	content: "\f06c"
+}
+
+.fa-fire:before {
+	content: "\f06d"
+}
+
+.fa-eye:before {
+	content: "\f06e"
+}
+
+.fa-eye-slash:before {
+	content: "\f070"
+}
+
+.fa-warning:before, .fa-exclamation-triangle:before {
+	content: "\f071"
+}
+
+.fa-plane:before {
+	content: "\f072"
+}
+
+.fa-calendar:before {
+	content: "\f073"
+}
+
+.fa-random:before {
+	content: "\f074"
+}
+
+.fa-comment:before {
+	content: "\f075"
+}
+
+.fa-magnet:before {
+	content: "\f076"
+}
+
+.fa-chevron-up:before {
+	content: "\f077"
+}
+
+.fa-chevron-down:before {
+	content: "\f078"
+}
+
+.fa-retweet:before {
+	content: "\f079"
+}
+
+.fa-shopping-cart:before {
+	content: "\f07a"
+}
+
+.fa-folder:before {
+	content: "\f07b"
+}
+
+.fa-folder-open:before {
+	content: "\f07c"
+}
+
+.fa-arrows-v:before {
+	content: "\f07d"
+}
+
+.fa-arrows-h:before {
+	content: "\f07e"
+}
+
+.fa-bar-chart-o:before, .fa-bar-chart:before {
+	content: "\f080"
+}
+
+.fa-twitter-square:before {
+	content: "\f081"
+}
+
+.fa-facebook-square:before {
+	content: "\f082"
+}
+
+.fa-camera-retro:before {
+	content: "\f083"
+}
+
+.fa-key:before {
+	content: "\f084"
+}
+
+.fa-gears:before, .fa-cogs:before {
+	content: "\f085"
+}
+
+.fa-comments:before {
+	content: "\f086"
+}
+
+.fa-thumbs-o-up:before {
+	content: "\f087"
+}
+
+.fa-thumbs-o-down:before {
+	content: "\f088"
+}
+
+.fa-star-half:before {
+	content: "\f089"
+}
+
+.fa-heart-o:before {
+	content: "\f08a"
+}
+
+.fa-sign-out:before {
+	content: "\f08b"
+}
+
+.fa-linkedin-square:before {
+	content: "\f08c"
+}
+
+.fa-thumb-tack:before {
+	content: "\f08d"
+}
+
+.fa-external-link:before {
+	content: "\f08e"
+}
+
+.fa-sign-in:before {
+	content: "\f090"
+}
+
+.fa-trophy:before {
+	content: "\f091"
+}
+
+.fa-github-square:before {
+	content: "\f092"
+}
+
+.fa-upload:before {
+	content: "\f093"
+}
+
+.fa-lemon-o:before {
+	content: "\f094"
+}
+
+.fa-phone:before {
+	content: "\f095"
+}
+
+.fa-square-o:before {
+	content: "\f096"
+}
+
+.fa-bookmark-o:before {
+	content: "\f097"
+}
+
+.fa-phone-square:before {
+	content: "\f098"
+}
+
+.fa-twitter:before {
+	content: "\f099"
+}
+
+.fa-facebook:before {
+	content: "\f09a"
+}
+
+.fa-github:before {
+	content: "\f09b"
+}
+
+.fa-unlock:before {
+	content: "\f09c"
+}
+
+.fa-credit-card:before {
+	content: "\f09d"
+}
+
+.fa-rss:before {
+	content: "\f09e"
+}
+
+.fa-hdd-o:before {
+	content: "\f0a0"
+}
+
+.fa-bullhorn:before {
+	content: "\f0a1"
+}
+
+.fa-bell:before {
+	content: "\f0f3"
+}
+
+.fa-certificate:before {
+	content: "\f0a3"
+}
+
+.fa-hand-o-right:before {
+	content: "\f0a4"
+}
+
+.fa-hand-o-left:before {
+	content: "\f0a5"
+}
+
+.fa-hand-o-up:before {
+	content: "\f0a6"
+}
+
+.fa-hand-o-down:before {
+	content: "\f0a7"
+}
+
+.fa-arrow-circle-left:before {
+	content: "\f0a8"
+}
+
+.fa-arrow-circle-right:before {
+	content: "\f0a9"
+}
+
+.fa-arrow-circle-up:before {
+	content: "\f0aa"
+}
+
+.fa-arrow-circle-down:before {
+	content: "\f0ab"
+}
+
+.fa-globe:before {
+	content: "\f0ac"
+}
+
+.fa-wrench:before {
+	content: "\f0ad"
+}
+
+.fa-tasks:before {
+	content: "\f0ae"
+}
+
+.fa-filter:before {
+	content: "\f0b0"
+}
+
+.fa-briefcase:before {
+	content: "\f0b1"
+}
+
+.fa-arrows-alt:before {
+	content: "\f0b2"
+}
+
+.fa-group:before, .fa-users:before {
+	content: "\f0c0"
+}
+
+.fa-chain:before, .fa-link:before {
+	content: "\f0c1"
+}
+
+.fa-cloud:before {
+	content: "\f0c2"
+}
+
+.fa-flask:before {
+	content: "\f0c3"
+}
+
+.fa-cut:before, .fa-scissors:before {
+	content: "\f0c4"
+}
+
+.fa-copy:before, .fa-files-o:before {
+	content: "\f0c5"
+}
+
+.fa-paperclip:before {
+	content: "\f0c6"
+}
+
+.fa-save:before, .fa-floppy-o:before {
+	content: "\f0c7"
+}
+
+.fa-square:before {
+	content: "\f0c8"
+}
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+	content: "\f0c9"
+}
+
+.fa-list-ul:before {
+	content: "\f0ca"
+}
+
+.fa-list-ol:before {
+	content: "\f0cb"
+}
+
+.fa-strikethrough:before {
+	content: "\f0cc"
+}
+
+.fa-underline:before {
+	content: "\f0cd"
+}
+
+.fa-table:before {
+	content: "\f0ce"
+}
+
+.fa-magic:before {
+	content: "\f0d0"
+}
+
+.fa-truck:before {
+	content: "\f0d1"
+}
+
+.fa-pinterest:before {
+	content: "\f0d2"
+}
+
+.fa-pinterest-square:before {
+	content: "\f0d3"
+}
+
+.fa-google-plus-square:before {
+	content: "\f0d4"
+}
+
+.fa-google-plus:before {
+	content: "\f0d5"
+}
+
+.fa-money:before {
+	content: "\f0d6"
+}
+
+.fa-caret-down:before {
+	content: "\f0d7"
+}
+
+.fa-caret-up:before {
+	content: "\f0d8"
+}
+
+.fa-caret-left:before {
+	content: "\f0d9"
+}
+
+.fa-caret-right:before {
+	content: "\f0da"
+}
+
+.fa-columns:before {
+	content: "\f0db"
+}
+
+.fa-unsorted:before, .fa-sort:before {
+	content: "\f0dc"
+}
+
+.fa-sort-down:before, .fa-sort-desc:before {
+	content: "\f0dd"
+}
+
+.fa-sort-up:before, .fa-sort-asc:before {
+	content: "\f0de"
+}
+
+.fa-envelope:before {
+	content: "\f0e0"
+}
+
+.fa-linkedin:before {
+	content: "\f0e1"
+}
+
+.fa-rotate-left:before, .fa-undo:before {
+	content: "\f0e2"
+}
+
+.fa-legal:before, .fa-gavel:before {
+	content: "\f0e3"
+}
+
+.fa-dashboard:before, .fa-tachometer:before {
+	content: "\f0e4"
+}
+
+.fa-comment-o:before {
+	content: "\f0e5"
+}
+
+.fa-comments-o:before {
+	content: "\f0e6"
+}
+
+.fa-flash:before, .fa-bolt:before {
+	content: "\f0e7"
+}
+
+.fa-sitemap:before {
+	content: "\f0e8"
+}
+
+.fa-umbrella:before {
+	content: "\f0e9"
+}
+
+.fa-paste:before, .fa-clipboard:before {
+	content: "\f0ea"
+}
+
+.fa-lightbulb-o:before {
+	content: "\f0eb"
+}
+
+.fa-exchange:before {
+	content: "\f0ec"
+}
+
+.fa-cloud-download:before {
+	content: "\f0ed"
+}
+
+.fa-cloud-upload:before {
+	content: "\f0ee"
+}
+
+.fa-user-md:before {
+	content: "\f0f0"
+}
+
+.fa-stethoscope:before {
+	content: "\f0f1"
+}
+
+.fa-suitcase:before {
+	content: "\f0f2"
+}
+
+.fa-bell-o:before {
+	content: "\f0a2"
+}
+
+.fa-coffee:before {
+	content: "\f0f4"
+}
+
+.fa-cutlery:before {
+	content: "\f0f5"
+}
+
+.fa-file-text-o:before {
+	content: "\f0f6"
+}
+
+.fa-building-o:before {
+	content: "\f0f7"
+}
+
+.fa-hospital-o:before {
+	content: "\f0f8"
+}
+
+.fa-ambulance:before {
+	content: "\f0f9"
+}
+
+.fa-medkit:before {
+	content: "\f0fa"
+}
+
+.fa-fighter-jet:before {
+	content: "\f0fb"
+}
+
+.fa-beer:before {
+	content: "\f0fc"
+}
+
+.fa-h-square:before {
+	content: "\f0fd"
+}
+
+.fa-plus-square:before {
+	content: "\f0fe"
+}
+
+.fa-angle-double-left:before {
+	content: "\f100"
+}
+
+.fa-angle-double-right:before {
+	content: "\f101"
+}
+
+.fa-angle-double-up:before {
+	content: "\f102"
+}
+
+.fa-angle-double-down:before {
+	content: "\f103"
+}
+
+.fa-angle-left:before {
+	content: "\f104"
+}
+
+.fa-angle-right:before {
+	content: "\f105"
+}
+
+.fa-angle-up:before {
+	content: "\f106"
+}
+
+.fa-angle-down:before {
+	content: "\f107"
+}
+
+.fa-desktop:before {
+	content: "\f108"
+}
+
+.fa-laptop:before {
+	content: "\f109"
+}
+
+.fa-tablet:before {
+	content: "\f10a"
+}
+
+.fa-mobile-phone:before, .fa-mobile:before {
+	content: "\f10b"
+}
+
+.fa-circle-o:before {
+	content: "\f10c"
+}
+
+.fa-quote-left:before {
+	content: "\f10d"
+}
+
+.fa-quote-right:before {
+	content: "\f10e"
+}
+
+.fa-spinner:before {
+	content: "\f110"
+}
+
+.fa-circle:before {
+	content: "\f111"
+}
+
+.fa-mail-reply:before, .fa-reply:before {
+	content: "\f112"
+}
+
+.fa-github-alt:before {
+	content: "\f113"
+}
+
+.fa-folder-o:before {
+	content: "\f114"
+}
+
+.fa-folder-open-o:before {
+	content: "\f115"
+}
+
+.fa-smile-o:before {
+	content: "\f118"
+}
+
+.fa-frown-o:before {
+	content: "\f119"
+}
+
+.fa-meh-o:before {
+	content: "\f11a"
+}
+
+.fa-gamepad:before {
+	content: "\f11b"
+}
+
+.fa-keyboard-o:before {
+	content: "\f11c"
+}
+
+.fa-flag-o:before {
+	content: "\f11d"
+}
+
+.fa-flag-checkered:before {
+	content: "\f11e"
+}
+
+.fa-terminal:before {
+	content: "\f120"
+}
+
+.fa-code:before {
+	content: "\f121"
+}
+
+.fa-mail-reply-all:before, .fa-reply-all:before {
+	content: "\f122"
+}
+
+.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
+	content: "\f123"
+}
+
+.fa-location-arrow:before {
+	content: "\f124"
+}
+
+.fa-crop:before {
+	content: "\f125"
+}
+
+.fa-code-fork:before {
+	content: "\f126"
+}
+
+.fa-unlink:before, .fa-chain-broken:before {
+	content: "\f127"
+}
+
+.fa-question:before {
+	content: "\f128"
+}
+
+.fa-info:before {
+	content: "\f129"
+}
+
+.fa-exclamation:before {
+	content: "\f12a"
+}
+
+.fa-superscript:before {
+	content: "\f12b"
+}
+
+.fa-subscript:before {
+	content: "\f12c"
+}
+
+.fa-eraser:before {
+	content: "\f12d"
+}
+
+.fa-puzzle-piece:before {
+	content: "\f12e"
+}
+
+.fa-microphone:before {
+	content: "\f130"
+}
+
+.fa-microphone-slash:before {
+	content: "\f131"
+}
+
+.fa-shield:before {
+	content: "\f132"
+}
+
+.fa-calendar-o:before {
+	content: "\f133"
+}
+
+.fa-fire-extinguisher:before {
+	content: "\f134"
+}
+
+.fa-rocket:before {
+	content: "\f135"
+}
+
+.fa-maxcdn:before {
+	content: "\f136"
+}
+
+.fa-chevron-circle-left:before {
+	content: "\f137"
+}
+
+.fa-chevron-circle-right:before {
+	content: "\f138"
+}
+
+.fa-chevron-circle-up:before {
+	content: "\f139"
+}
+
+.fa-chevron-circle-down:before {
+	content: "\f13a"
+}
+
+.fa-html5:before {
+	content: "\f13b"
+}
+
+.fa-css3:before {
+	content: "\f13c"
+}
+
+.fa-anchor:before {
+	content: "\f13d"
+}
+
+.fa-unlock-alt:before {
+	content: "\f13e"
+}
+
+.fa-bullseye:before {
+	content: "\f140"
+}
+
+.fa-ellipsis-h:before {
+	content: "\f141"
+}
+
+.fa-ellipsis-v:before {
+	content: "\f142"
+}
+
+.fa-rss-square:before {
+	content: "\f143"
+}
+
+.fa-play-circle:before {
+	content: "\f144"
+}
+
+.fa-ticket:before {
+	content: "\f145"
+}
+
+.fa-minus-square:before {
+	content: "\f146"
+}
+
+.fa-minus-square-o:before {
+	content: "\f147"
+}
+
+.fa-level-up:before {
+	content: "\f148"
+}
+
+.fa-level-down:before {
+	content: "\f149"
+}
+
+.fa-check-square:before {
+	content: "\f14a"
+}
+
+.fa-pencil-square:before {
+	content: "\f14b"
+}
+
+.fa-external-link-square:before {
+	content: "\f14c"
+}
+
+.fa-share-square:before {
+	content: "\f14d"
+}
+
+.fa-compass:before {
+	content: "\f14e"
+}
+
+.fa-toggle-down:before, .fa-caret-square-o-down:before {
+	content: "\f150"
+}
+
+.fa-toggle-up:before, .fa-caret-square-o-up:before {
+	content: "\f151"
+}
+
+.fa-toggle-right:before, .fa-caret-square-o-right:before {
+	content: "\f152"
+}
+
+.fa-euro:before, .fa-eur:before {
+	content: "\f153"
+}
+
+.fa-gbp:before {
+	content: "\f154"
+}
+
+.fa-dollar:before, .fa-usd:before {
+	content: "\f155"
+}
+
+.fa-rupee:before, .fa-inr:before {
+	content: "\f156"
+}
+
+.fa-cny:before, .fa-rmb:before, .fa-yen:before, .fa-jpy:before {
+	content: "\f157"
+}
+
+.fa-ruble:before, .fa-rouble:before, .fa-rub:before {
+	content: "\f158"
+}
+
+.fa-won:before, .fa-krw:before {
+	content: "\f159"
+}
+
+.fa-bitcoin:before, .fa-btc:before {
+	content: "\f15a"
+}
+
+.fa-file:before {
+	content: "\f15b"
+}
+
+.fa-file-text:before {
+	content: "\f15c"
+}
+
+.fa-sort-alpha-asc:before {
+	content: "\f15d"
+}
+
+.fa-sort-alpha-desc:before {
+	content: "\f15e"
+}
+
+.fa-sort-amount-asc:before {
+	content: "\f160"
+}
+
+.fa-sort-amount-desc:before {
+	content: "\f161"
+}
+
+.fa-sort-numeric-asc:before {
+	content: "\f162"
+}
+
+.fa-sort-numeric-desc:before {
+	content: "\f163"
+}
+
+.fa-thumbs-up:before {
+	content: "\f164"
+}
+
+.fa-thumbs-down:before {
+	content: "\f165"
+}
+
+.fa-youtube-square:before {
+	content: "\f166"
+}
+
+.fa-youtube:before {
+	content: "\f167"
+}
+
+.fa-xing:before {
+	content: "\f168"
+}
+
+.fa-xing-square:before {
+	content: "\f169"
+}
+
+.fa-youtube-play:before {
+	content: "\f16a"
+}
+
+.fa-dropbox:before {
+	content: "\f16b"
+}
+
+.fa-stack-overflow:before {
+	content: "\f16c"
+}
+
+.fa-instagram:before {
+	content: "\f16d"
+}
+
+.fa-flickr:before {
+	content: "\f16e"
+}
+
+.fa-adn:before {
+	content: "\f170"
+}
+
+.fa-bitbucket:before {
+	content: "\f171"
+}
+
+.fa-bitbucket-square:before {
+	content: "\f172"
+}
+
+.fa-tumblr:before {
+	content: "\f173"
+}
+
+.fa-tumblr-square:before {
+	content: "\f174"
+}
+
+.fa-long-arrow-down:before {
+	content: "\f175"
+}
+
+.fa-long-arrow-up:before {
+	content: "\f176"
+}
+
+.fa-long-arrow-left:before {
+	content: "\f177"
+}
+
+.fa-long-arrow-right:before {
+	content: "\f178"
+}
+
+.fa-apple:before {
+	content: "\f179"
+}
+
+.fa-windows:before {
+	content: "\f17a"
+}
+
+.fa-android:before {
+	content: "\f17b"
+}
+
+.fa-linux:before {
+	content: "\f17c"
+}
+
+.fa-dribbble:before {
+	content: "\f17d"
+}
+
+.fa-skype:before {
+	content: "\f17e"
+}
+
+.fa-foursquare:before {
+	content: "\f180"
+}
+
+.fa-trello:before {
+	content: "\f181"
+}
+
+.fa-female:before {
+	content: "\f182"
+}
+
+.fa-male:before {
+	content: "\f183"
+}
+
+.fa-gittip:before {
+	content: "\f184"
+}
+
+.fa-sun-o:before {
+	content: "\f185"
+}
+
+.fa-moon-o:before {
+	content: "\f186"
+}
+
+.fa-archive:before {
+	content: "\f187"
+}
+
+.fa-bug:before {
+	content: "\f188"
+}
+
+.fa-vk:before {
+	content: "\f189"
+}
+
+.fa-weibo:before {
+	content: "\f18a"
+}
+
+.fa-renren:before {
+	content: "\f18b"
+}
+
+.fa-pagelines:before {
+	content: "\f18c"
+}
+
+.fa-stack-exchange:before {
+	content: "\f18d"
+}
+
+.fa-arrow-circle-o-right:before {
+	content: "\f18e"
+}
+
+.fa-arrow-circle-o-left:before {
+	content: "\f190"
+}
+
+.fa-toggle-left:before, .fa-caret-square-o-left:before {
+	content: "\f191"
+}
+
+.fa-dot-circle-o:before {
+	content: "\f192"
+}
+
+.fa-wheelchair:before {
+	content: "\f193"
+}
+
+.fa-vimeo-square:before {
+	content: "\f194"
+}
+
+.fa-turkish-lira:before, .fa-try:before {
+	content: "\f195"
+}
+
+.fa-plus-square-o:before {
+	content: "\f196"
+}
+
+.fa-space-shuttle:before {
+	content: "\f197"
+}
+
+.fa-slack:before {
+	content: "\f198"
+}
+
+.fa-envelope-square:before {
+	content: "\f199"
+}
+
+.fa-wordpress:before {
+	content: "\f19a"
+}
+
+.fa-openid:before {
+	content: "\f19b"
+}
+
+.fa-institution:before, .fa-bank:before, .fa-university:before {
+	content: "\f19c"
+}
+
+.fa-mortar-board:before, .fa-graduation-cap:before {
+	content: "\f19d"
+}
+
+.fa-yahoo:before {
+	content: "\f19e"
+}
+
+.fa-google:before {
+	content: "\f1a0"
+}
+
+.fa-reddit:before {
+	content: "\f1a1"
+}
+
+.fa-reddit-square:before {
+	content: "\f1a2"
+}
+
+.fa-stumbleupon-circle:before {
+	content: "\f1a3"
+}
+
+.fa-stumbleupon:before {
+	content: "\f1a4"
+}
+
+.fa-delicious:before {
+	content: "\f1a5"
+}
+
+.fa-digg:before {
+	content: "\f1a6"
+}
+
+.fa-pied-piper:before {
+	content: "\f1a7"
+}
+
+.fa-pied-piper-alt:before {
+	content: "\f1a8"
+}
+
+.fa-drupal:before {
+	content: "\f1a9"
+}
+
+.fa-joomla:before {
+	content: "\f1aa"
+}
+
+.fa-language:before {
+	content: "\f1ab"
+}
+
+.fa-fax:before {
+	content: "\f1ac"
+}
+
+.fa-building:before {
+	content: "\f1ad"
+}
+
+.fa-child:before {
+	content: "\f1ae"
+}
+
+.fa-paw:before {
+	content: "\f1b0"
+}
+
+.fa-spoon:before {
+	content: "\f1b1"
+}
+
+.fa-cube:before {
+	content: "\f1b2"
+}
+
+.fa-cubes:before {
+	content: "\f1b3"
+}
+
+.fa-behance:before {
+	content: "\f1b4"
+}
+
+.fa-behance-square:before {
+	content: "\f1b5"
+}
+
+.fa-steam:before {
+	content: "\f1b6"
+}
+
+.fa-steam-square:before {
+	content: "\f1b7"
+}
+
+.fa-recycle:before {
+	content: "\f1b8"
+}
+
+.fa-automobile:before, .fa-car:before {
+	content: "\f1b9"
+}
+
+.fa-cab:before, .fa-taxi:before {
+	content: "\f1ba"
+}
+
+.fa-tree:before {
+	content: "\f1bb"
+}
+
+.fa-spotify:before {
+	content: "\f1bc"
+}
+
+.fa-deviantart:before {
+	content: "\f1bd"
+}
+
+.fa-soundcloud:before {
+	content: "\f1be"
+}
+
+.fa-database:before {
+	content: "\f1c0"
+}
+
+.fa-file-pdf-o:before {
+	content: "\f1c1"
+}
+
+.fa-file-word-o:before {
+	content: "\f1c2"
+}
+
+.fa-file-excel-o:before {
+	content: "\f1c3"
+}
+
+.fa-file-powerpoint-o:before {
+	content: "\f1c4"
+}
+
+.fa-file-photo-o:before, .fa-file-picture-o:before, .fa-file-image-o:before {
+	content: "\f1c5"
+}
+
+.fa-file-zip-o:before, .fa-file-archive-o:before {
+	content: "\f1c6"
+}
+
+.fa-file-sound-o:before, .fa-file-audio-o:before {
+	content: "\f1c7"
+}
+
+.fa-file-movie-o:before, .fa-file-video-o:before {
+	content: "\f1c8"
+}
+
+.fa-file-code-o:before {
+	content: "\f1c9"
+}
+
+.fa-vine:before {
+	content: "\f1ca"
+}
+
+.fa-codepen:before {
+	content: "\f1cb"
+}
+
+.fa-jsfiddle:before {
+	content: "\f1cc"
+}
+
+.fa-life-bouy:before, .fa-life-buoy:before, .fa-life-saver:before, .fa-support:before, .fa-life-ring:before {
+	content: "\f1cd"
+}
+
+.fa-circle-o-notch:before {
+	content: "\f1ce"
+}
+
+.fa-ra:before, .fa-rebel:before {
+	content: "\f1d0"
+}
+
+.fa-ge:before, .fa-empire:before {
+	content: "\f1d1"
+}
+
+.fa-git-square:before {
+	content: "\f1d2"
+}
+
+.fa-git:before {
+	content: "\f1d3"
+}
+
+.fa-hacker-news:before {
+	content: "\f1d4"
+}
+
+.fa-tencent-weibo:before {
+	content: "\f1d5"
+}
+
+.fa-qq:before {
+	content: "\f1d6"
+}
+
+.fa-wechat:before, .fa-weixin:before {
+	content: "\f1d7"
+}
+
+.fa-send:before, .fa-paper-plane:before {
+	content: "\f1d8"
+}
+
+.fa-send-o:before, .fa-paper-plane-o:before {
+	content: "\f1d9"
+}
+
+.fa-history:before {
+	content: "\f1da"
+}
+
+.fa-circle-thin:before {
+	content: "\f1db"
+}
+
+.fa-header:before {
+	content: "\f1dc"
+}
+
+.fa-paragraph:before {
+	content: "\f1dd"
+}
+
+.fa-sliders:before {
+	content: "\f1de"
+}
+
+.fa-share-alt:before {
+	content: "\f1e0"
+}
+
+.fa-share-alt-square:before {
+	content: "\f1e1"
+}
+
+.fa-bomb:before {
+	content: "\f1e2"
+}
+
+.fa-soccer-ball-o:before, .fa-futbol-o:before {
+	content: "\f1e3"
+}
+
+.fa-tty:before {
+	content: "\f1e4"
+}
+
+.fa-binoculars:before {
+	content: "\f1e5"
+}
+
+.fa-plug:before {
+	content: "\f1e6"
+}
+
+.fa-slideshare:before {
+	content: "\f1e7"
+}
+
+.fa-twitch:before {
+	content: "\f1e8"
+}
+
+.fa-yelp:before {
+	content: "\f1e9"
+}
+
+.fa-newspaper-o:before {
+	content: "\f1ea"
+}
+
+.fa-wifi:before {
+	content: "\f1eb"
+}
+
+.fa-calculator:before {
+	content: "\f1ec"
+}
+
+.fa-paypal:before {
+	content: "\f1ed"
+}
+
+.fa-google-wallet:before {
+	content: "\f1ee"
+}
+
+.fa-cc-visa:before {
+	content: "\f1f0"
+}
+
+.fa-cc-mastercard:before {
+	content: "\f1f1"
+}
+
+.fa-cc-discover:before {
+	content: "\f1f2"
+}
+
+.fa-cc-amex:before {
+	content: "\f1f3"
+}
+
+.fa-cc-paypal:before {
+	content: "\f1f4"
+}
+
+.fa-cc-stripe:before {
+	content: "\f1f5"
+}
+
+.fa-bell-slash:before {
+	content: "\f1f6"
+}
+
+.fa-bell-slash-o:before {
+	content: "\f1f7"
+}
+
+.fa-trash:before {
+	content: "\f1f8"
+}
+
+.fa-copyright:before {
+	content: "\f1f9"
+}
+
+.fa-at:before {
+	content: "\f1fa"
+}
+
+.fa-eyedropper:before {
+	content: "\f1fb"
+}
+
+.fa-paint-brush:before {
+	content: "\f1fc"
+}
+
+.fa-birthday-cake:before {
+	content: "\f1fd"
+}
+
+.fa-area-chart:before {
+	content: "\f1fe"
+}
+
+.fa-pie-chart:before {
+	content: "\f200"
+}
+
+.fa-line-chart:before {
+	content: "\f201"
+}
+
+.fa-lastfm:before {
+	content: "\f202"
+}
+
+.fa-lastfm-square:before {
+	content: "\f203"
+}
+
+.fa-toggle-off:before {
+	content: "\f204"
+}
+
+.fa-toggle-on:before {
+	content: "\f205"
+}
+
+.fa-bicycle:before {
+	content: "\f206"
+}
+
+.fa-bus:before {
+	content: "\f207"
+}
+
+.fa-ioxhost:before {
+	content: "\f208"
+}
+
+.fa-angellist:before {
+	content: "\f209"
+}
+
+.fa-cc:before {
+	content: "\f20a"
+}
+
+.fa-shekel:before, .fa-sheqel:before, .fa-ils:before {
+	content: "\f20b"
+}
+
+.fa-meanpath:before {
+	content: "\f20c"
+}
+
+.full-reset, .menu2, #pay_methods_container, #ppage, .data, .data_in, .box_padding, .actions, #cardsForm h3.cc, body .save_holder_in {
+	position: static;
+	z-index: auto;
+	box-shadow: none;
+	top: auto;
+	right: auto;
+	bottom: auto;
+	left: auto;
+	border: 0;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	float: none;
+	border-radius: 0;
+	border-color: transparent
+}
+
+.display-none, .bx-pager, #account_toolbar, #paymentSystemTitle, body #window-resizer-tooltip, #crm-spinner-content {
+	display: none
+}
+
+body .section-methods, body #pay_methods_container {
+	height: 45%;
+	position: relative
+}
+
+body .choose-package, body #paymentwall2 .bg, #paymentwall2 body .bg {
+	height: 55%;
+	background: #F5F5F5 !important;
+}
+
+.choose-package .choose-package, #paymentwall2 .bg .choose-package {
+	z-index: 0
+}
+
+.choose-package .bx-viewport, #paymentwall2 .bg .bx-viewport {
+	overflow: visible !important;
+	margin-left: 42.5px
+}
+
+.choose-package .bx-viewport:before, #paymentwall2 .bg .bx-viewport:before, .choose-package .bx-viewport:after, #paymentwall2 .bg .bx-viewport:after {
+	content: "";
+	width: 50px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	bottom: 0;
+	background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0))
+}
+
+.choose-package .bx-viewport:before, #paymentwall2 .bg .bx-viewport:before {
+	left: -57.5px
+}
+
+.choose-package .bx-viewport:after, #paymentwall2 .bg .bx-viewport:after {
+	right: 42.5px;
+	transform: scale(-1)
+}
+
+.section, #pay_methods_container, #paymentwall2 .bg {
+	background: transparent !important;
+	overflow: visible
+}
+
+body .section, body #pay_methods_container, body #paymentwall2 .bg, #paymentwall2 body .bg {
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+.section-carousel, #pay_methods_container #pay_methods {
+	float: none;
+	height: 100%;
+	margin: 0;
+	overflow: visible;
+	background: white;
+}
+
+.section-label, .step {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+	padding: 0 50px;
+	position: absolute;
+	z-index: 10;
+	pointer-events: none;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.section-label.step2, .step2.step {
+	top: 45%;
+	margin-top: -50px;
+	padding-top: 5px
+}
+
+.section-label .number, .step .number {
+	display: none
+}
+
+.section-arrow, .bx-prev, .bx-next, #pay_methods_container .payarr {
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	transform: translateY(-50%);
+	background: transparent;
+	margin-top: 5px;
+	overflow: hidden;
+	text-indent: -1000px
+}
+
+.section-arrow:before, .bx-prev:before, .bx-next:before, #pay_methods_container .payarr:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 50px;
+	text-align: center;
+	font-family: "FontAwesome";
+	text-indent: 0;
+	font-size: 32px;
+	color: #e77c31
+}
+
+.section-arrow-previous, .bx-prev, #pay_methods_container .payarr.payps {
+	left: 0
+}
+
+.section-arrow-previous:before, .bx-prev:before, #pay_methods_container .payarr.payps:before {
+	content: "\f060"
+}
+
+.section-arrow-next, .bx-next, #pay_methods_container .payarr.payns {
+	right: 0
+}
+
+.section-arrow-next:before, .bx-next:before, #pay_methods_container .payarr.payns:before {
+	content: "\f061"
+}
+
+.section-arrow-hide, #pay_methods_container .payarr.payp, #pay_methods_container .payarr.payn {
+	display: none
+}
+
+.fixed-footer, .footer, body .actions, #save_card_form .save_holder {
+	position: fixed;
+	z-index: 100;
+	left: 0;
+	right: 50%;
+	bottom: 0;
+	height: 100px;
+	color: #888;
+	background: transparent;
+	margin: 0;
+	padding: 20px 50px 20px 30px;
+	display: flex;
+	align-items: center
+}
+
+.fixed-footer:before, .footer:before {
+	content: "";
+	display: block;
+	width: 64px;
+	height: 56px;
+	min-width: 64px;
+	background: url(images/bnea-logo.png) center center no-repeat;
+	background-size: contain;
+	margin-right: 20px;
+}
+
+#crm-root .fixed-footer:before, #crm-root .footer:before {
+	display: none;
+}
+
+.fixed-footer, .footer, body .actions, #save_card_form .save_holder, .fixed-footer span, .footer span, body .actions span, #save_card_form .save_holder span {
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+.fixed-footer a, .footer a, body .actions a, #save_card_form .save_holder a {
+	display: inline-block
+}
+
+.fixed-footer a, .footer a, body .actions a, #save_card_form .save_holder a, .fixed-footer a:hover, .footer a:hover, body .actions a:hover, #save_card_form .save_holder a:hover, .fixed-footer a:focus, .footer a:focus, body .actions a:focus, #save_card_form .save_holder a:focus, .fixed-footer a:active, .footer a:active, body .actions a:active, #save_card_form .save_holder a:active, .fixed-footer a:visited, .footer a:visited, body .actions a:visited, #save_card_form .save_holder a:visited {
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #55b2ff
+}
+
+.fixed-footer a:hover, .footer a:hover, body .actions a:hover, #save_card_form .save_holder a:hover, .fixed-footer a:focus, .footer a:focus, body .actions a:focus, #save_card_form .save_holder a:focus, .fixed-footer a:active, .footer a:active, body .actions a:active, #save_card_form .save_holder a:active {
+	text-decoration: underline
+}
+
+.fixed-footer table, .footer table, body .actions table, #save_card_form .save_holder table, .fixed-footer td, .footer td, body .actions td, #save_card_form .save_holder td {
+	display: block;
+	width: 200px;
+	vertical-align: middle
+}
+
+.fixed-footer td:nth-child(2), .footer td:nth-child(2), body .actions td:nth-child(2), #save_card_form .save_holder td:nth-child(2) {
+	margin-top: 10px
+}
+
+.footer-pricing, #current_price, body #cardsForm h3.cc {
+	position: fixed;
+	z-index: 0;
+	right: 250px;
+	height: 60px;
+	bottom: 20px;
+	color: rgba(136, 136, 136, 0.8);
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-transform: uppercase;
+	text-align: right
+}
+
+.footer-pricing.cc, .cc#current_price, body #cardsForm h3.cc {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	padding: 0 30px
+}
+
+.footer-pricing>strong, #current_price>strong, body #cardsForm h3.cc>strong {
+	display: block;
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #000
+}
+
+.footer-pricing div.current_price_amount_container, #current_price div.current_price_amount_container, body #cardsForm h3.cc div.current_price_amount_container, .footer-pricing div.current_price_coins_container, #current_price div.current_price_coins_container, body #cardsForm h3.cc div.current_price_coins_container {
+	float: right;
+	height: 100%;
+	text-align: right;
+	padding: 0 30px;
+	display: flex;
+	flex-flow: column-reverse nowrap;
+	justify-content: center
+}
+
+.footer-pricing div.current_price_amount_container:first-child, #current_price div.current_price_amount_container:first-child, body #cardsForm h3.cc div.current_price_amount_container:first-child, .footer-pricing div.current_price_coins_container:first-child, #current_price div.current_price_coins_container:first-child, body #cardsForm h3.cc div.current_price_coins_container:first-child {
+	border-left: solid 2px rgba(136, 136, 136, 0.1)
+}
+
+.footer-pricing div.current_price_amount_container span, #current_price div.current_price_amount_container span, body #cardsForm h3.cc div.current_price_amount_container span, .footer-pricing div.current_price_amount_container label, #current_price div.current_price_amount_container label, body #cardsForm h3.cc div.current_price_amount_container label, .footer-pricing div.current_price_amount_container strong, #current_price div.current_price_amount_container strong, body #cardsForm h3.cc div.current_price_amount_container strong, .footer-pricing div.current_price_coins_container span, #current_price div.current_price_coins_container span, body #cardsForm h3.cc div.current_price_coins_container span, .footer-pricing div.current_price_coins_container label, #current_price div.current_price_coins_container label, body #cardsForm h3.cc div.current_price_coins_container label, .footer-pricing div.current_price_coins_container strong, #current_price div.current_price_coins_container strong, body #cardsForm h3.cc div.current_price_coins_container strong {
+	display: block
+}
+
+.footer-pricing div.current_price_amount_container span, #current_price div.current_price_amount_container span, body #cardsForm h3.cc div.current_price_amount_container span, .footer-pricing div.current_price_coins_container span, #current_price div.current_price_coins_container span, body #cardsForm h3.cc div.current_price_coins_container span {
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #000
+}
+
+.footer-pricing div.current_price_amount_container strong, #current_price div.current_price_amount_container strong, body #cardsForm h3.cc div.current_price_amount_container strong, .footer-pricing div.current_price_amount_container label, #current_price div.current_price_amount_container label, body #cardsForm h3.cc div.current_price_amount_container label, .footer-pricing div.current_price_coins_container strong, #current_price div.current_price_coins_container strong, body #cardsForm h3.cc div.current_price_coins_container strong, .footer-pricing div.current_price_coins_container label, #current_price div.current_price_coins_container label, body #cardsForm h3.cc div.current_price_coins_container label {
+	color: rgba(136, 136, 136, 0.8);
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-transform: uppercase
+}
+
+.footer-menu, .paymentwall .menu2 {
+	position: fixed;
+	z-index: 102;
+	left: 220px;
+	margin: 0;
+	bottom: 54px
+}
+
+.footer-menu .use, .paymentwall .menu2 .use {
+	display: none
+}
+
+body .footer-menu .ie7>a, body .paymentwall .menu2 .ie7>a, .paymentwall body .menu2 .ie7>a {
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	padding: 0 10px;
+	display: inline-block;
+	height: 23px;
+	line-height: 23px;
+	width: auto
+}
+
+body .footer-menu .ie7>a>img, body .paymentwall .menu2 .ie7>a>img, .paymentwall body .menu2 .ie7>a>img {
+	display: none
+}
+
+body .footer-menu .ie7>a.flag, body .paymentwall .menu2 .ie7>a.flag, .paymentwall body .menu2 .ie7>a.flag {
+	width: 32px
+}
+
+body .footer-menu .ie7>a, body .paymentwall .menu2 .ie7>a, .paymentwall body .menu2 .ie7>a, body .footer-menu .ie7>a:hover, body .paymentwall .menu2 .ie7>a:hover, .paymentwall body .menu2 .ie7>a:hover, body .footer-menu .ie7>a:focus, body .paymentwall .menu2 .ie7>a:focus, .paymentwall body .menu2 .ie7>a:focus, body .footer-menu .ie7>a:active, body .paymentwall .menu2 .ie7>a:active, .paymentwall body .menu2 .ie7>a:active, body .footer-menu .ie7>a:visited, body .paymentwall .menu2 .ie7>a:visited, .paymentwall body .menu2 .ie7>a:visited {
+	color: #55b2ff
+}
+
+.footer-menu .crm-help-button, .paymentwall .menu2 .crm-help-button, .footer-menu .crm-help-button b, .paymentwall .menu2 .crm-help-button b {
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: transparent;
+	padding: 0;
+	border: 0;
+	line-height: 23px
+}
+
+.footer-popover, .menu2 .lang, .menu2 #currency_popup {
+	display: flex !important;
+	flex-flow: row nowrap;
+	position: absolute;
+	z-index: 1001;
+	top: auto;
+	right: auto;
+	bottom: 0;
+	left: auto;
+	width: 320px;
+	overflow: hidden;
+	border: solid 0;
+	background: #fff;
+	padding: 15px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 10px 50px rgba(0, 0, 0, 0.3);
+	transition: all 200ms ease-out;
+	transform: translateY(30px);
+	opacity: 0;
+	pointer-events: none
+}
+
+.footer-popover-reveal, .menu2 .flag.sel+.lang, .menu2 #currency_but.sel+.popup {
+	padding-top: 15px;
+	transform: none;
+	opacity: 1;
+	pointer-events: auto
+}
+
+.footer-popover-reveal .col, .menu2 .flag.sel+.lang .col, .menu2 #currency_but.sel+.popup .col, .footer-popover-reveal .currencies, .menu2 .flag.sel+.lang .currencies, .menu2 #currency_but.sel+.popup .currencies {
+	transform: none;
+	opacity: 1
+}
+
+.footer-popover-column, .menu2 .lang .col, .menu2 .lang .currencies, .menu2 #currency_popup .col, .menu2 #currency_popup .currencies {
+	opacity: 0;
+	transform: translateY(60px);
+	display: inline-block;
+	flex: 1;
+	border: 0;
+	background: transparent;
+	transition: opacity 600ms ease-out, transform 400ms ease-out
+}
+
+.footer-popover-column a, .menu2 .lang .col a, .menu2 .lang .currencies a, .menu2 #currency_popup .col a, .menu2 #currency_popup .currencies a {
+	font-family: "Averta";
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: transparent !important;
+	margin: 0;
+	border: 0;
+	color: #888;
+	position: relative;
+	z-index: 0
+}
+
+.footer-popover-column a:after, .menu2 .lang .col a:after, .menu2 .lang .currencies a:after, .menu2 #currency_popup .col a:after, .menu2 #currency_popup .currencies a:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	transition: all 150ms ease-in-out;
+	background: transparent;
+	border: solid 0px #fff;
+	box-shadow: none
+}
+
+.footer-popover-column a.sel:hover, .menu2 .lang .col a.sel:hover, .menu2 .lang .currencies a.sel:hover, .menu2 #currency_popup .col a.sel:hover, .menu2 #currency_popup .currencies a.sel:hover, .footer-popover-column a:hover, .menu2 .lang .col a:hover, .menu2 .lang .currencies a:hover, .menu2 #currency_popup .col a:hover, .menu2 #currency_popup .currencies a:hover {
+	color: #55b2ff;
+	background-color: transparent;
+	z-index: 1
+}
+
+.footer-popover-column a.sel:hover:after, .menu2 .lang .col a.sel:hover:after, .menu2 .lang .currencies a.sel:hover:after, .menu2 #currency_popup .col a.sel:hover:after, .menu2 #currency_popup .currencies a.sel:hover:after, .footer-popover-column a:hover:after, .menu2 .lang .col a:hover:after, .menu2 .lang .currencies a:hover:after, .menu2 #currency_popup .col a:hover:after, .menu2 #currency_popup .currencies a:hover:after {
+	top: -4px;
+	right: -4px;
+	bottom: -4px;
+	left: -4px;
+	/*border: solid 2px #55b2ff;*/
+	/*box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04), 0 5px 50px rgba(0, 0, 0, 0.08);*/
+	/*background: #FFFFFF;*/
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.02), 0 0 8px 0 rgba(0,0,0,0.04), 0 4px 3px 0 rgba(0,0,0,0.04), 0 8px 6px 0 rgba(0,0,0,0.04), 0 16px 12px 0 rgba(0,0,0,0.04), 0 32px 24px 0 rgba(0,0,0,0.04), 0 64px 48px 0 rgba(0,0,0,0.04), 0 128px 96px 0 rgba(0,0,0,0.04), 0 256px 174px 0 rgba(0,0,0,0.04);
+}
+
+.footer-popover-column a.sel, .menu2 .lang .col a.sel, .menu2 .lang .currencies a.sel, .menu2 #currency_popup .col a.sel, .menu2 #currency_popup .currencies a.sel, .footer-popover-column a.sel:active, .menu2 .lang .col a.sel:active, .menu2 .lang .currencies a.sel:active, .menu2 #currency_popup .col a.sel:active, .menu2 #currency_popup .currencies a.sel:active, .footer-popover-column a:active, .menu2 .lang .col a:active, .menu2 .lang .currencies a:active, .menu2 #currency_popup .col a:active, .menu2 #currency_popup .currencies a:active {
+	color: #fff !important;
+	background-color: transparent;
+	z-index: 2
+}
+
+.lang .footer-popover-column a.sel:before, .menu2 .lang .col a.sel:before, .menu2 .lang .currencies a.sel:before, .lang .menu2 #currency_popup .col a.sel:before, .menu2 #currency_popup .lang .col a.sel:before, .lang .menu2 #currency_popup .currencies a.sel:before, .menu2 #currency_popup .lang .currencies a.sel:before, .lang .footer-popover-column a.sel:active:before, .menu2 .lang .col a.sel:active:before, .menu2 .lang .currencies a.sel:active:before, .lang .menu2 #currency_popup .col a.sel:active:before, .menu2 #currency_popup .lang .col a.sel:active:before, .lang .menu2 #currency_popup .currencies a.sel:active:before, .menu2 #currency_popup .lang .currencies a.sel:active:before, .lang .footer-popover-column a:active:before, .menu2 .lang .col a:active:before, .menu2 .lang .currencies a:active:before, .lang .menu2 #currency_popup .col a:active:before, .menu2 #currency_popup .lang .col a:active:before, .lang .menu2 #currency_popup .currencies a:active:before, .menu2 #currency_popup .lang .currencies a:active:before {
+	content: "\f00c";
+	font-size: 12px;
+	line-height: 12px;
+	width: 12px;
+	position: absolute;
+	top: 50%;
+	left: 9px;
+	font-family: "FontAwesome";
+	color: #fff;
+	transform: translateY(-50%);
+	font-weight: normal
+}
+
+.footer-popover-column a.sel:after, .menu2 .lang .col a.sel:after, .menu2 .lang .currencies a.sel:after, .menu2 #currency_popup .col a.sel:after, .menu2 #currency_popup .currencies a.sel:after, .footer-popover-column a.sel:active:after, .menu2 .lang .col a.sel:active:after, .menu2 .lang .currencies a.sel:active:after, .menu2 #currency_popup .col a.sel:active:after, .menu2 #currency_popup .currencies a.sel:active:after, .footer-popover-column a:active:after, .menu2 .lang .col a:active:after, .menu2 .lang .currencies a:active:after, .menu2 #currency_popup .col a:active:after, .menu2 #currency_popup .currencies a:active:after {
+	top: -2px;
+	right: -2px;
+	bottom: -2px;
+	left: -2px;
+	background-color: #55b2ff;
+	border: solid 0 #55b2ff;
+	box-shadow: none;
+}
+
+.footer-popover-column-sibling, .menu2 .lang .col+.col, .menu2 #currency_popup .col+.col {
+	margin-left: 15px
+}
+
+.footer-popover-currencies, .menu2 .lang .currencies, .menu2 #currency_popup .currencies {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 0
+}
+
+.footer-popover-currencies a, .menu2 .lang .currencies a, .menu2 #currency_popup .currencies a {
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: rgba(136, 136, 136, 0.6);
+	width: 20%;
+	padding: 15px 0;
+	height: 60px
+}
+
+body .generic-button, body .submit-button, body .submit-button-container .button, .submit-button-container body .button, body .actions td.td_right .button, .actions td.td_right body .button, body #card_but.button .button, #card_but.button body .button, body #save_card_form #save_card1 .button, #save_card_form #save_card1 body .button, body .submit-button-container .button2, .submit-button-container body .button2, body .actions td.td_right .button2, .actions td.td_right body .button2, body #card_but.button .button2, #card_but.button body .button2, body #save_card_form #save_card1 .button2, #save_card_form #save_card1 body .button2 {
+	font-weight: bold !important;
+	text-transform: uppercase;
+	color: #fff;
+	border: 0 !important;
+	background: transparent !important;
+	box-shadow: none
+}
+
+body .generic-button, body .submit-button, body .submit-button-container .button, .submit-button-container body .button, body .actions td.td_right .button, .actions td.td_right body .button, body #card_but.button .button, #card_but.button body .button, body #save_card_form #save_card1 .button, #save_card_form #save_card1 body .button, body .submit-button-container .button2, .submit-button-container body .button2, body .actions td.td_right .button2, .actions td.td_right body .button2, body #card_but.button .button2, #card_but.button body .button2, body #save_card_form #save_card1 .button2, #save_card_form #save_card1 body .button2, body .generic-button span, body .submit-button span, body .submit-button-container .button span, .submit-button-container body .button span, body .actions td.td_right .button span, .actions td.td_right body .button span, body #card_but.button .button span, #card_but.button body .button span, body #save_card_form #save_card1 .button span, #save_card_form #save_card1 body .button span, body .submit-button-container .button2 span, .submit-button-container body .button2 span, body .actions td.td_right .button2 span, .actions td.td_right body .button2 span, body #card_but.button .button2 span, #card_but.button body .button2 span, body #save_card_form #save_card1 .button2 span, #save_card_form #save_card1 body .button2 span, body .generic-button:hover, body .submit-button:hover, body .submit-button-container .button:hover, .submit-button-container body .button:hover, body .actions td.td_right .button:hover, .actions td.td_right body .button:hover, body #card_but.button .button:hover, #card_but.button body .button:hover, body #save_card_form #save_card1 .button:hover, #save_card_form #save_card1 body .button:hover, body .submit-button-container .button2:hover, .submit-button-container body .button2:hover, body .actions td.td_right .button2:hover, .actions td.td_right body .button2:hover, body #card_but.button .button2:hover, #card_but.button body .button2:hover, body #save_card_form #save_card1 .button2:hover, #save_card_form #save_card1 body .button2:hover, body .generic-button:active, body .submit-button:active, body .submit-button-container .button:active, .submit-button-container body .button:active, body .actions td.td_right .button:active, .actions td.td_right body .button:active, body #card_but.button .button:active, #card_but.button body .button:active, body #save_card_form #save_card1 .button:active, #save_card_form #save_card1 body .button:active, body .submit-button-container .button2:active, .submit-button-container body .button2:active, body .actions td.td_right .button2:active, .actions td.td_right body .button2:active, body #card_but.button .button2:active, #card_but.button body .button2:active, body #save_card_form #save_card1 .button2:active, #save_card_form #save_card1 body .button2:active, body .generic-button:focus, body .submit-button:focus, body .submit-button-container .button:focus, .submit-button-container body .button:focus, body .actions td.td_right .button:focus, .actions td.td_right body .button:focus, body #card_but.button .button:focus, #card_but.button body .button:focus, body #save_card_form #save_card1 .button:focus, #save_card_form #save_card1 body .button:focus, body .submit-button-container .button2:focus, .submit-button-container body .button2:focus, body .actions td.td_right .button2:focus, .actions td.td_right body .button2:focus, body #card_but.button .button2:focus, #card_but.button body .button2:focus, body #save_card_form #save_card1 .button2:focus, #save_card_form #save_card1 body .button2:focus, body .generic-button:visited, body .submit-button:visited, body .submit-button-container .button:visited, .submit-button-container body .button:visited, body .actions td.td_right .button:visited, .actions td.td_right body .button:visited, body #card_but.button .button:visited, #card_but.button body .button:visited, body #save_card_form #save_card1 .button:visited, #save_card_form #save_card1 body .button:visited, body .submit-button-container .button2:visited, .submit-button-container body .button2:visited, body .actions td.td_right .button2:visited, .actions td.td_right body .button2:visited, body #card_but.button .button2:visited, #card_but.button body .button2:visited, body #save_card_form #save_card1 .button2:visited, #save_card_form #save_card1 body .button2:visited {
+	text-shadow: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: bold !important;
+	width: 200px;
+	max-width: 200px;
+	padding: 0 !important;
+	height: 60px;
+	line-height: 60px !important
+}
+
+body .generic-button, body .submit-button, body .submit-button-container .button, .submit-button-container body .button, body .actions td.td_right .button, .actions td.td_right body .button, body #card_but.button .button, #card_but.button body .button, body #save_card_form #save_card1 .button, #save_card_form #save_card1 body .button, body .submit-button-container .button2, .submit-button-container body .button2, body .actions td.td_right .button2, .actions td.td_right body .button2, body #card_but.button .button2, #card_but.button body .button2, body #save_card_form #save_card1 .button2, #save_card_form #save_card1 body .button2, body .generic-button:before, body .submit-button:before, body .submit-button-container .button:before, .submit-button-container body .button:before, body .actions td.td_right .button:before, .actions td.td_right body .button:before, body #card_but.button .button:before, #card_but.button body .button:before, body #save_card_form #save_card1 .button:before, #save_card_form #save_card1 body .button:before, body .submit-button-container .button2:before, .submit-button-container body .button2:before, body .actions td.td_right .button2:before, .actions td.td_right body .button2:before, body #card_but.button .button2:before, #card_but.button body .button2:before, body #save_card_form #save_card1 .button2:before, #save_card_form #save_card1 body .button2:before {
+	transition: all 150ms ease-in-out
+}
+
+body .generic-button:before, body .submit-button:before, body .submit-button-container .button:before, .submit-button-container body .button:before, body .actions td.td_right .button:before, .actions td.td_right body .button:before, body #card_but.button .button:before, #card_but.button body .button:before, body #save_card_form #save_card1 .button:before, #save_card_form #save_card1 body .button:before, body .submit-button-container .button2:before, .submit-button-container body .button2:before, body .actions td.td_right .button2:before, .actions td.td_right body .button2:before, body #card_but.button .button2:before, #card_but.button body .button2:before, body #save_card_form #save_card1 .button2:before, #save_card_form #save_card1 body .button2:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: calc(100% + 0px);
+	height: calc(100% + 0px);
+	background-color: #e77c31;
+	border: solid 0;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.02), 0 0 8px 0 rgba(0,0,0,0.04), 0 4px 3px 0 rgba(0,0,0,0.04);
+}
+
+body .generic-button:hover, body .submit-button:hover, body .submit-button-container .button:hover, .submit-button-container body .button:hover, body .actions td.td_right .button:hover, .actions td.td_right body .button:hover, body #card_but.button .button:hover, #card_but.button body .button:hover, body #save_card_form #save_card1 .button:hover, #save_card_form #save_card1 body .button:hover, body .submit-button-container .button2:hover, .submit-button-container body .button2:hover, body .actions td.td_right .button2:hover, .actions td.td_right body .button2:hover, body #card_but.button .button2:hover, #card_but.button body .button2:hover, body #save_card_form #save_card1 .button2:hover, #save_card_form #save_card1 body .button2:hover, body .generic-button:focus, body .submit-button:focus, body .submit-button-container .button:focus, .submit-button-container body .button:focus, body .actions td.td_right .button:focus, .actions td.td_right body .button:focus, body #card_but.button .button:focus, #card_but.button body .button:focus, body #save_card_form #save_card1 .button:focus, #save_card_form #save_card1 body .button:focus, body .submit-button-container .button2:focus, .submit-button-container body .button2:focus, body .actions td.td_right .button2:focus, .actions td.td_right body .button2:focus, body #card_but.button .button2:focus, #card_but.button body .button2:focus, body #save_card_form #save_card1 .button2:focus, #save_card_form #save_card1 body .button2:focus {
+	color: #fff
+}
+
+body .generic-button:hover:before, body .submit-button:hover:before, body .submit-button-container .button:hover:before, .submit-button-container body .button:hover:before, body .actions td.td_right .button:hover:before, .actions td.td_right body .button:hover:before, body #card_but.button .button:hover:before, #card_but.button body .button:hover:before, body #save_card_form #save_card1 .button:hover:before, #save_card_form #save_card1 body .button:hover:before, body .submit-button-container .button2:hover:before, .submit-button-container body .button2:hover:before, body .actions td.td_right .button2:hover:before, .actions td.td_right body .button2:hover:before, body #card_but.button .button2:hover:before, #card_but.button body .button2:hover:before, body #save_card_form #save_card1 .button2:hover:before, #save_card_form #save_card1 body .button2:hover:before, body .generic-button:focus:before, body .submit-button:focus:before, body .submit-button-container .button:focus:before, .submit-button-container body .button:focus:before, body .actions td.td_right .button:focus:before, .actions td.td_right body .button:focus:before, body #card_but.button .button:focus:before, #card_but.button body .button:focus:before, body #save_card_form #save_card1 .button:focus:before, #save_card_form #save_card1 body .button:focus:before, body .submit-button-container .button2:focus:before, .submit-button-container body .button2:focus:before, body .actions td.td_right .button2:focus:before, .actions td.td_right body .button2:focus:before, body #card_but.button .button2:focus:before, #card_but.button body .button2:focus:before, body #save_card_form #save_card1 .button2:focus:before, #save_card_form #save_card1 body .button2:focus:before {
+	top: -2px;
+	right: -2px;
+	bottom: -2px;
+	right: -2px;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	background-color: #ec965a;
+	border: solid 0;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.02), 0 0 8px 0 rgba(0,0,0,0.04), 0 4px 3px 0 rgba(0,0,0,0.04), 0 8px 6px 0 rgba(0,0,0,0.04), 0 16px 12px 0 rgba(0,0,0,0.04), 0 32px 24px 0 rgba(0,0,0,0.04), 0 64px 48px 0 rgba(0,0,0,0.04), 0 128px 96px 0 rgba(0,0,0,0.04);
+}
+
+body .generic-button:active, body .submit-button:active, body .submit-button-container .button:active, .submit-button-container body .button:active, body .actions td.td_right .button:active, .actions td.td_right body .button:active, body #card_but.button .button:active, #card_but.button body .button:active, body #save_card_form #save_card1 .button:active, #save_card_form #save_card1 body .button:active, body .submit-button-container .button2:active, .submit-button-container body .button2:active, body .actions td.td_right .button2:active, .actions td.td_right body .button2:active, body #card_but.button .button2:active, #card_but.button body .button2:active, body #save_card_form #save_card1 .button2:active, #save_card_form #save_card1 body .button2:active {
+	color: #fff
+}
+
+body .generic-button:active:before, body .submit-button:active:before, body .submit-button-container .button:active:before, .submit-button-container body .button:active:before, body .actions td.td_right .button:active:before, .actions td.td_right body .button:active:before, body #card_but.button .button:active:before, #card_but.button body .button:active:before, body #save_card_form #save_card1 .button:active:before, #save_card_form #save_card1 body .button:active:before, body .submit-button-container .button2:active:before, .submit-button-container body .button2:active:before, body .actions td.td_right .button2:active:before, .actions td.td_right body .button2:active:before, body #card_but.button .button2:active:before, #card_but.button body .button2:active:before, body #save_card_form #save_card1 .button2:active:before, #save_card_form #save_card1 body .button2:active:before {
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: calc(100% + 0px);
+	height: calc(100% + 0px);
+	background-color: #e77c31;
+	border: solid 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.02), 0 0 8px 0 rgba(0,0,0,0.04), 0 4px 3px 0 rgba(0,0,0,0.04);
+}
+
+body .submit-button, body .submit-button-container .button, .submit-button-container body .button, body .actions td.td_right .button, .actions td.td_right body .button, body #card_but.button .button, #card_but.button body .button, body #save_card_form #save_card1 .button, #save_card_form #save_card1 body .button, body .submit-button-container .button2, .submit-button-container body .button2, body .actions td.td_right .button2, .actions td.td_right body .button2, body #card_but.button .button2, #card_but.button body .button2, body #save_card_form #save_card1 .button2, #save_card_form #save_card1 body .button2 {
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
+
+.submit-button-container, .actions td.td_right, #card_but.button, #save_card_form #save_card1 {
+	position: fixed;
+	padding: 0;
+	z-index: 100;
+	top: auto;
+	right: 50px;
+	bottom: 20px;
+	left: auto;
+	width: 200px;
+	height: 60px
+}
+
+.submit-button-container .small, .actions td.td_right .small, #card_but.button .small, #save_card_form #save_card1 .small {
+	font-weight: normal;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	pointer-events: none;
+	color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+	text-transform: lowercase;
+	height: 24px;
+	line-height: 24px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card, #pay_methods>div>a, #ps_price>li>div, #cardsForm #selectcard>div, #save_card_form .save_holder .save .checkbox {
+	display: block;
+	position: absolute;
+	z-index: 0;
+	overflow: hidden;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	cursor: pointer;
+	color: rgba(136, 136, 136, 0.7);
+	top: 0px;
+	left: 0px;
+	width: calc(100% + 0px);
+	height: calc(100% + 0px);
+	background: #FFF;
+	border: 0;
+	padding: 10px;
+	transform: scale(1);
+	opacity: .64;
+	color: transparent !important;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 0 8px 0 rgba(0,0,0,0.08), 0 4px 3px 0 rgba(0,0,0,0.048);
+}
+
+.card, #pay_methods>div>a, #ps_price>li>div, #cardsForm #selectcard>div, #save_card_form .save_holder .save .checkbox, .card:before, #pay_methods>div>a:before, #ps_price>li>div:before, #cardsForm #selectcard>div:before, #save_card_form .save_holder .save .checkbox:before, .card:after, #pay_methods>div>a:after, #ps_price>li>div:after, #cardsForm #selectcard>div:after, #save_card_form .save_holder .save .checkbox:after {
+	transition: all 150ms ease-in-out
+}
+
+.card:before, #pay_methods>div>a:before, #ps_price>li>div:before, #cardsForm #selectcard>div:before, #save_card_form .save_holder .save .checkbox:before, .card:after, #pay_methods>div>a:after, #ps_price>li>div:after, #cardsForm #selectcard>div:after, #save_card_form .save_holder .save .checkbox:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+.card:before, #pay_methods>div>a:before, #ps_price>li>div:before, #cardsForm #selectcard>div:before, #save_card_form .save_holder .save .checkbox:before {
+	font-family: "FontAwesome";
+	font-size: 10px !important;
+	content: "\f00c";
+	text-align: center;
+	line-height: 20px;
+	top: 0;
+	right: auto;
+	bottom: auto;
+	left: 0;
+	width: 40px;
+	padding-left: 24px;
+	height: 100%;
+	transform-origin: left top;
+	background: #55b2ff;
+	color: #fff;
+	opacity: 0;
+	transform: skewX(-18deg)
+}
+
+.card:after, #pay_methods>div>a:after, #ps_price>li>div:after, #cardsForm #selectcard>div:after, #save_card_form .save_holder .save .checkbox:after {
+	right: 0;
+	bottom: 0;
+	border: solid 0px #fff
+}
+
+.card-hover, #pay_methods>div>a:hover, #pay_methods>div>a:focus, #pay_methods>div>a.sel:hover, #pay_methods>div>a.sel:focus, #pay_methods>div>a.pricepoint_over:hover, #ps_price>li>div:hover, #ps_price>li>div:focus, #ps_price>li>div.sel:hover, #ps_price>li>div.sel:focus, #ps_price>li>div.pricepoint_over:hover {
+	color: rgba(136, 136, 136, 0.6);
+	top: -4px;
+	/*left: -7px;*/
+	/*width: calc(100% + 14px);*/
+	/*height: calc(100% + 14px);*/
+	background: #FFF;
+	/*padding: 17px;*/
+	transform: scale(1);
+	opacity: 1;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.02), 0 0 8px 0 rgba(0,0,0,0.04), 0 4px 3px 0 rgba(0,0,0,0.04), 0 8px 6px 0 rgba(0,0,0,0.04), 0 16px 12px 0 rgba(0,0,0,0.04), 0 32px 24px 0 rgba(0,0,0,0.04), 0 64px 48px 0 rgba(0,0,0,0.04), 0 128px 96px 0 rgba(0,0,0,0.04);
+}
+
+.card-hover:before, #pay_methods>div>a:hover:before, #pay_methods>div>a:focus:before, #pay_methods>div>a.sel:hover:before, #pay_methods>div>a.sel:focus:before, #pay_methods>div>a.pricepoint_over:hover:before, #ps_price>li>div:hover:before, #ps_price>li>div:focus:before, #ps_price>li>div.sel:hover:before, #ps_price>li>div.sel:focus:before, #ps_price>li>div.pricepoint_over:hover:before {
+	opacity: 1;
+	transform: translateX(-20px) skewX(-18deg)
+}
+
+.card-hover:after, #pay_methods>div>a:hover:after, #pay_methods>div>a:focus:after, #pay_methods>div>a.sel:hover:after, #pay_methods>div>a.sel:focus:after, #pay_methods>div>a.pricepoint_over:hover:after, #ps_price>li>div:hover:after, #ps_price>li>div:focus:after, #ps_price>li>div.sel:hover:after, #ps_price>li>div.sel:focus:after, #ps_price>li>div.pricepoint_over:hover:after {
+	border: solid 2px #55b2ff
+}
+
+.card-selected, #pay_methods>div>a.sel, #pay_methods>div>a:active, #pay_methods>div>a.sel:active, #pay_methods>div>a.pricepoint_over, #pay_methods>div>a.pricepoint_over:active, #pay_methods>div>a.pricepoint_over:active:hover, #ps_price>li>div.sel, #ps_price>li>div:active, #ps_price>li>div.sel:active, #ps_price>li>div.pricepoint_over, #ps_price>li>div.pricepoint_over:active, #ps_price>li>div.pricepoint_over:active:hover {
+	color: #55b2ff;
+	top: 0px;
+	left: 0px;
+	width: calc(100% + 0px);
+	height: calc(100% + 0px);
+	background: #FFF;
+	transform: scale(1);
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 5px 26px rgba(0, 0, 0, 0.1);
+	opacity: 1
+}
+
+.card-selected:before, #pay_methods>div>a.sel:before, #pay_methods>div>a:active:before, #pay_methods>div>a.sel:active:before, #pay_methods>div>a.pricepoint_over:before, #pay_methods>div>a.pricepoint_over:active:before, #pay_methods>div>a.pricepoint_over:hover:active:before, #ps_price>li>div.sel:before, #ps_price>li>div:active:before, #ps_price>li>div.sel:active:before, #ps_price>li>div.pricepoint_over:before, #ps_price>li>div.pricepoint_over:active:before, #ps_price>li>div.pricepoint_over:hover:active:before {
+	opacity: 1;
+	transform: translateX(-20px) skewX(-18deg)
+}
+
+.card-selected:after, #pay_methods>div>a.sel:after, #pay_methods>div>a:active:after, #pay_methods>div>a.sel:active:after, #pay_methods>div>a.pricepoint_over:after, #pay_methods>div>a.pricepoint_over:active:after, #pay_methods>div>a.pricepoint_over:hover:active:after, #ps_price>li>div.sel:after, #ps_price>li>div:active:after, #ps_price>li>div.sel:active:after, #ps_price>li>div.pricepoint_over:after, #ps_price>li>div.pricepoint_over:active:after, #ps_price>li>div.pricepoint_over:hover:active:after {
+	border: solid 2px #55b2ff
+}
+
+.card-selected .price, #pay_methods>div>a.sel .price, #pay_methods>div>a:active .price, #pay_methods>div>a.pricepoint_over .price, #pay_methods>div>a.pricepoint_over:active:hover .price, #ps_price>li>div.sel .price, #ps_price>li>div:active .price, #ps_price>li>div.pricepoint_over .price, #ps_price>li>div.pricepoint_over:active:hover .price, .card-selected .vc strong, #pay_methods>div>a.sel .vc strong, #pay_methods>div>a:active .vc strong, #pay_methods>div>a.pricepoint_over .vc strong, #pay_methods>div>a.pricepoint_over:active:hover .vc strong, #ps_price>li>div.sel .vc strong, #ps_price>li>div:active .vc strong, #ps_price>li>div.pricepoint_over .vc strong, #ps_price>li>div.pricepoint_over:active:hover .vc strong, .card-selected .vc span, #pay_methods>div>a.sel .vc span, #pay_methods>div>a:active .vc span, #pay_methods>div>a.pricepoint_over .vc span, #pay_methods>div>a.pricepoint_over:active:hover .vc span, #ps_price>li>div.sel .vc span, #ps_price>li>div:active .vc span, #ps_price>li>div.pricepoint_over .vc span, #ps_price>li>div.pricepoint_over:active:hover .vc span {
+	color: #55b2ff
+}
+
+.card-simple, #cardsForm #selectcard>div, #save_card_form .save_holder .save .checkbox {
+	position: relative;
+	margin: 15px;
+	z-index: 0;
+	border-radius: 0;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 0 8px 0 rgba(0,0,0,0.08), 0 4px 3px 0 rgba(0,0,0,0.048);
+}
+
+.card-simple-hover, #cardsForm #selectcard>div:hover, #cardsForm #selectcard>div:focus, #cardsForm #selectcard>div.sel:hover, #cardsForm #selectcard>div.sel:focus, #save_card_form .save_holder .save .checkbox:hover, #save_card_form .save_holder .save .checkbox:focus {
+	color: rgba(136, 136, 136, 0.6);
+	background: #FFF;
+	padding: 17px;
+	margin: 8px;
+	transform: scale(1);
+	opacity: 1;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.02), 0 0 8px 0 rgba(0,0,0,0.04), 0 4px 3px 0 rgba(0,0,0,0.04), 0 8px 6px 0 rgba(0,0,0,0.04), 0 16px 12px 0 rgba(0,0,0,0.04), 0 32px 24px 0 rgba(0,0,0,0.04), 0 64px 48px 0 rgba(0,0,0,0.04), 0 128px 96px 0 rgba(0,0,0,0.04);
+}
+
+.card-simple-hover:before, #cardsForm #selectcard>div:hover:before, #cardsForm #selectcard>div:focus:before, #cardsForm #selectcard>div.sel:hover:before, #cardsForm #selectcard>div.sel:focus:before, #save_card_form .save_holder .save .checkbox:hover:before, #save_card_form .save_holder .save .checkbox:focus:before {
+	opacity: 1;
+	transform: translateX(-20px) skewX(-18deg)
+}
+
+.card-simple-hover:after, #cardsForm #selectcard>div:hover:after, #cardsForm #selectcard>div:focus:after, #cardsForm #selectcard>div.sel:hover:after, #cardsForm #selectcard>div.sel:focus:after, #save_card_form .save_holder .save .checkbox:hover:after, #save_card_form .save_holder .save .checkbox:focus:after {
+	border: solid 2px #55b2ff
+}
+
+.card-simple-selected, #cardsForm #selectcard>div.sel, #cardsForm #selectcard>div:active, #cardsForm #selectcard>div.sel:active, #save_card_form .save_holder .save .checkbox:active, #save_card_form .save_holder .save .checkbox.checked {
+	color: #55b2ff;
+	background: #FFF;
+	padding: 10px;
+	margin: 15px;
+	transform: scale(1);
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 5px 26px rgba(0, 0, 0, 0.1);
+	opacity: 1
+}
+
+.card-simple-selected:before, #cardsForm #selectcard>div.sel:before, #cardsForm #selectcard>div:active:before, #cardsForm #selectcard>div.sel:active:before, #save_card_form .save_holder .save .checkbox:active:before, #save_card_form .save_holder .save .checkbox.checked:before {
+	opacity: 1;
+	transform: translateX(-20px) skewX(-18deg)
+}
+
+.card-simple-selected:after, #cardsForm #selectcard>div.sel:after, #cardsForm #selectcard>div:active:after, #cardsForm #selectcard>div.sel:active:after, #save_card_form .save_holder .save .checkbox:active:after, #save_card_form .save_holder .save .checkbox.checked:after {
+	border: solid 2px #55b2ff
+}
+
+.card-icon, #pay_methods>div>a b, #ps_price>li>div b {
+	border-radius: 0;
+	border: transparent 0;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.card-wrapper, #pay_methods>div, #ps_price>li {
+	float: left;
+	height: 100%;
+	position: relative;
+	margin: 7.5px;
+	width: calc(25vw - 36.25px) !important;
+	z-index: 0
+}
+
+.card-wrapper:hover, #pay_methods>div:hover, #ps_price>li:hover {
+	z-index: 1
+}
+
+.card-wrapper:nth-child(4n-3), #pay_methods>div:nth-child(4n-3), #ps_price>li:nth-child(4n-3) {
+	margin-left: 50px
+}
+
+.method-card-wrapper, #pay_methods>div {
+	height: calc(50% - 52.5px)
+}
+
+.method-card-wrapper:nth-child(8n-7), #pay_methods>div:nth-child(8n-7) {
+	margin-top: 50px
+}
+
+.method-card-wrapper:nth-child(5), #pay_methods>div:nth-child(5) {
+	margin-bottom: 40px
+}
+
+.method-card-wrapper:nth-child(8n-6), #pay_methods>div:nth-child(8n-6) {
+	margin-top: 50px
+}
+
+.method-card-wrapper:nth-child(6), #pay_methods>div:nth-child(6) {
+	margin-bottom: 40px
+}
+
+.method-card-wrapper:nth-child(8n-5), #pay_methods>div:nth-child(8n-5) {
+	margin-top: 50px
+}
+
+.method-card-wrapper:nth-child(7), #pay_methods>div:nth-child(7) {
+	margin-bottom: 40px
+}
+
+.method-card-wrapper:nth-child(8n-4), #pay_methods>div:nth-child(8n-4) {
+	margin-top: 50px
+}
+
+.method-card-wrapper:nth-child(8), #pay_methods>div:nth-child(8) {
+	margin-bottom: 40px
+}
+
+.package-card-wrapper, #ps_price>li {
+	margin-right: 7.5px !important;
+	margin-left: 7.5px !important;
+	height: calc(100% - 90px);
+	margin-top: 50px;
+	margin-bottom: 40px
+}
+
+.package-card-wrapper .price_button, #ps_price>li .price_button {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	padding: 32px 16px 24px;
+}
+
+.package-card-wrapper .price_button .price, #ps_price>li .price_button .price, .package-card-wrapper .price_button .vc, #ps_price>li .price_button .vc, .package-card-wrapper .price_button .coins, #ps_price>li .price_button .coins, .package-card-wrapper .price_button .discount, #ps_price>li .price_button .discount {
+	display: block;
+	width: 100%;
+	color: black
+}
+
+.package-card-wrapper .price_button .vc, #ps_price>li .price_button .vc {
+	text-align: center;
+	position: relative;
+	/*top: 10px*/
+}
+
+.package-card-wrapper .price_button .vc strong, #ps_price>li .price_button .vc strong {
+	font-weight: light;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	letter-spacing: -0.02em
+}
+
+.package-card-wrapper .price_button .vc span, #ps_price>li .price_button .vc span {
+	padding-top: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #888;
+	display: none;
+}
+
+.package-card-wrapper .price_button .coins, #ps_price>li .price_button .coins {
+	position: relative;
+	width: 100%;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	flex: 1;
+}
+
+.package-card-wrapper .price_button .coins.c1, #ps_price>li .price_button .coins.c1 {
+	background-image:url("images/duelyst_diamonds_1.png")
+}
+
+.package-card-wrapper .price_button .coins.c2, #ps_price>li .price_button .coins.c2 {
+	background-image:url("images/duelyst_diamonds_2.png")
+}
+
+.package-card-wrapper .price_button .coins.c3, #ps_price>li .price_button .coins.c3 {
+	background-image:url("images/duelyst_diamonds_3.png")
+}
+
+.package-card-wrapper .price_button .coins.c4, #ps_price>li .price_button .coins.c4, .package-card-wrapper .price_button .coins.c5, #ps_price>li .price_button .coins.c5 {
+	background-image:url("images/duelyst_diamonds_4.png")
+}
+
+.package-card-wrapper .price_button .discount, #ps_price>li .price_button .discount, .package-card-wrapper .price_button .price, #ps_price>li .price_button .price {
+	line-height: 24px;
+	right: 0;
+	left: 0;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	font-weight: bold;
+	color: #888;
+}
+
+.package-card-wrapper .price_button .discount, #ps_price>li .price_button .discount {
+	bottom: 0;
+	font-weight: bold;
+	color: white;
+	background: #55b2ff;
+	position: absolute;
+}
+
+.package-card-wrapper .price_button .price, #ps_price>li .price_button .price {
+	color: #888;
+	order: 1;
+	bottom: 24px;
+	height: 32px;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 32px;
+}
+
+.package-card-wrapper .price_button .value, #ps_price>li .price_button .value, .package-card-wrapper .price_button .popular, #ps_price>li .price_button .popular {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #84bf41;
+	text-align: center;
+	display: block;
+	width: 100%;
+	padding: 10px
+}
+
+.package-card-wrapper .price_button .popular, #ps_price>li .price_button .popular {
+	color: #e73131
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes OVERLAY-FADEIN {
+	0% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+
+@keyframes MODAL-FADEIN {
+	0% {
+		opacity: 0;
+		transform: translateY(15%) translate(-50%, -50%)
+	}
+	100% {
+		opacity: 1;
+		transform: translate(-50%, -50%)
+	}
+}
+
+body .overlay, body .menu2 .flag.sel:before, .menu2 body .flag.sel:before, body .menu2 #currency_but.sel:before, .menu2 body #currency_but.sel:before, body #ps_form_popup_layer .close, #ps_form_popup_layer body .close, body #crm-fade {
+	content: "";
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 498;
+	opacity: 1;
+	background: linear-gradient(to bottom, rgba(136, 136, 136, 0.1), rgba(136, 136, 136, 0.1)), linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+	animation: OVERLAY-FADEIN 400ms 1 ease-in-out
+}
+
+body .modal-position, body #crm-root, body #ps_form_popup_layer, body .modal-position .in, body #crm-root .in, body #ps_form_popup_layer .in {
+	position: static;
+	height: 0 !important;
+	width: 0 !important;
+	background: transparent;
+	border: 0px;
+	box-shadow: none;
+	padding: 0;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	box-shadow: none;
+	border: 0
+}
+
+body .modal-container, body .modal-position #ps_form_popup_layer_content, body #crm-root #ps_form_popup_layer_content, body #ps_form_popup_layer #ps_form_popup_layer_content, body .modal-position .container, body #crm-root .container, body #ps_form_popup_layer .container {
+	position: fixed !important;
+	z-index: 500;
+	top: 50% !important;
+	left: 50% !important;
+	transform: translate(-50%, -50%);
+	padding: 0;
+	background: #fff;
+	border-width: 0;
+	border-radius: 0px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 5px 50px rgba(0, 0, 0, 0.3);
+	min-width: 320px;
+	max-width: 80%;
+	min-height: 200px;
+	max-height: 580px;
+	animation: MODAL-FADEIN 400ms 1 ease-in-out
+}
+
+body .modal-container .footer, body .modal-position #ps_form_popup_layer_content .footer, body #crm-root #ps_form_popup_layer_content .footer, body #ps_form_popup_layer #ps_form_popup_layer_content .footer, body .modal-position .container .footer, body #crm-root .container .footer, body #ps_form_popup_layer .container .footer {
+	font-weight: normal;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #888;
+	padding: 15px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between
+}
+
+body .modal-container .footer .u-pull-left, body .modal-position #ps_form_popup_layer_content .footer .u-pull-left, body #crm-root #ps_form_popup_layer_content .footer .u-pull-left, body #ps_form_popup_layer #ps_form_popup_layer_content .footer .u-pull-left, body .modal-position .container .footer .u-pull-left, body #crm-root .container .footer .u-pull-left, body #ps_form_popup_layer .container .footer .u-pull-left {
+	float: none
+}
+
+body .modal-container .footer .u-pull-right, body .modal-position #ps_form_popup_layer_content .footer .u-pull-right, body #crm-root #ps_form_popup_layer_content .footer .u-pull-right, body #ps_form_popup_layer #ps_form_popup_layer_content .footer .u-pull-right, body .modal-position .container .footer .u-pull-right, body #crm-root .container .footer .u-pull-right, body #ps_form_popup_layer .container .footer .u-pull-right {
+	float: none
+}
+
+body .modal-container .footer a, body .modal-position #ps_form_popup_layer_content .footer a, body #crm-root #ps_form_popup_layer_content .footer a, body #ps_form_popup_layer #ps_form_popup_layer_content .footer a, body .modal-position .container .footer a, body #crm-root .container .footer a, body #ps_form_popup_layer .container .footer a, body .modal-container .footer a:hover, body .modal-position #ps_form_popup_layer_content .footer a:hover, body #crm-root #ps_form_popup_layer_content .footer a:hover, body #ps_form_popup_layer #ps_form_popup_layer_content .footer a:hover, body .modal-position .container .footer a:hover, body #crm-root .container .footer a:hover, body #ps_form_popup_layer .container .footer a:hover, body .modal-container .footer a:focus, body .modal-position #ps_form_popup_layer_content .footer a:focus, body #crm-root #ps_form_popup_layer_content .footer a:focus, body #ps_form_popup_layer #ps_form_popup_layer_content .footer a:focus, body .modal-position .container .footer a:focus, body #crm-root .container .footer a:focus, body #ps_form_popup_layer .container .footer a:focus, body .modal-container .footer a:active, body .modal-position #ps_form_popup_layer_content .footer a:active, body #crm-root #ps_form_popup_layer_content .footer a:active, body #ps_form_popup_layer #ps_form_popup_layer_content .footer a:active, body .modal-position .container .footer a:active, body #crm-root .container .footer a:active, body #ps_form_popup_layer .container .footer a:active, body .modal-container .footer a:visited, body .modal-position #ps_form_popup_layer_content .footer a:visited, body #crm-root #ps_form_popup_layer_content .footer a:visited, body #ps_form_popup_layer #ps_form_popup_layer_content .footer a:visited, body .modal-position .container .footer a:visited, body #crm-root .container .footer a:visited, body #ps_form_popup_layer .container .footer a:visited {
+	color: #55b2ff;
+	font-weight: bold;
+	text-transform: uppercase
+}
+
+body .modal-iframe-container, body .modal-position #ps_form_popup_layer_content, body #crm-root #ps_form_popup_layer_content, body #ps_form_popup_layer #ps_form_popup_layer_content {
+	background: transparent;
+	box-shadow: none
+}
+
+body .modal-iframe-container #ps_content, body .modal-position #ps_form_popup_layer_content #ps_content, body #crm-root #ps_form_popup_layer_content #ps_content, body #ps_form_popup_layer #ps_form_popup_layer_content #ps_content, body .modal-iframe-container iframe, body .modal-position #ps_form_popup_layer_content iframe, body #crm-root #ps_form_popup_layer_content iframe, body #ps_form_popup_layer #ps_form_popup_layer_content iframe {
+	position: relative;
+	z-index: 501;
+	background: #fff;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 5px 50px rgba(0, 0, 0, 0.3);
+	min-width: 320px;
+	max-width: 100%;
+	min-height: 200px;
+	max-height: 580px
+}
+
+body .modal-iframe-container #ps_content[allowtransparency=true], body .modal-position #ps_form_popup_layer_content #ps_content[allowtransparency=true], body #crm-root #ps_form_popup_layer_content #ps_content[allowtransparency=true], body #ps_form_popup_layer #ps_form_popup_layer_content #ps_content[allowtransparency=true], body .modal-iframe-container iframe[allowtransparency=true], body .modal-position #ps_form_popup_layer_content iframe[allowtransparency=true], body #crm-root #ps_form_popup_layer_content iframe[allowtransparency=true], body #ps_form_popup_layer #ps_form_popup_layer_content iframe[allowtransparency=true] {
+	background: transparent;
+	box-shadow: none
+}
+
+body .modal-iframe-container #ps_content[name=paypald], body .modal-position #ps_form_popup_layer_content #ps_content[name=paypald], body #crm-root #ps_form_popup_layer_content #ps_content[name=paypald], body #ps_form_popup_layer #ps_form_popup_layer_content #ps_content[name=paypald], body .modal-iframe-container iframe[name=paypald], body .modal-position #ps_form_popup_layer_content iframe[name=paypald], body #crm-root #ps_form_popup_layer_content iframe[name=paypald], body #ps_form_popup_layer #ps_form_popup_layer_content iframe[name=paypald] {
+	height: 540px;
+	width: 320px
+}
+
+body .modal-iframe-container #ps_content[name=paypald], body .modal-position #ps_form_popup_layer_content #ps_content[name=paypald], body #crm-root #ps_form_popup_layer_content #ps_content[name=paypald], body #ps_form_popup_layer #ps_form_popup_layer_content #ps_content[name=paypald], body .modal-iframe-container iframe[name=paypald], body .modal-position #ps_form_popup_layer_content iframe[name=paypald], body #crm-root #ps_form_popup_layer_content iframe[name=paypald], body #ps_form_popup_layer #ps_form_popup_layer_content iframe[name=paypald] {
+	height: 550px
+}
+
+body .modal-iframe-container #ps_content, body .modal-position #ps_form_popup_layer_content #ps_content, body #crm-root #ps_form_popup_layer_content #ps_content, body #ps_form_popup_layer #ps_form_popup_layer_content #ps_content {
+	padding: 30px
+}
+
+@keyframes SPINNERSLIDE {
+	from {
+		opacity: 0;
+		transform: translateY(0%) skewX(-16.5deg)
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0%) scale(2) skewX(-16.5deg)
+	}
+}
+
+@keyframes SPINNERSLIDE-MAIN {
+	from {
+		opacity: 0;
+		transform: translate(-50%, -50%) translateY(0%) skewX(-16.5deg)
+	}
+	to {
+		opacity: 1;
+		transform: translate(-50%, -50%) translateY(0%) scale(2) skewX(-16.5deg)
+	}
+}
+
+body .spinner, body .modal-iframe-container iframe+form, body .modal-position #ps_form_popup_layer_content iframe+form, body #crm-root #ps_form_popup_layer_content iframe+form, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form, body #crm-spinner, body #ps_widget_preloader, body #ps_widget_preloader_widget, body .actions .preloader, .actions body .preloader {
+	position: absolute;
+	z-index: 499;
+	background-image: none;
+	padding: 0;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(50%, 50%);
+	background: #55b2ff !important;
+	animation: SPINNERSLIDE-MAIN 300ms 0s infinite ease-in-out alternate
+}
+
+body .spinner, body .modal-iframe-container iframe+form, body .modal-position #ps_form_popup_layer_content iframe+form, body #crm-root #ps_form_popup_layer_content iframe+form, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form, body #crm-spinner, body #ps_widget_preloader, body #ps_widget_preloader_widget, body .actions .preloader, .actions body .preloader, body .spinner:before, body .modal-iframe-container iframe+form:before, body .modal-position #ps_form_popup_layer_content iframe+form:before, body #crm-root #ps_form_popup_layer_content iframe+form:before, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form:before, body #crm-spinner:before, body #ps_widget_preloader:before, body #ps_widget_preloader_widget:before, body .actions .preloader:before, .actions body .preloader:before, body .spinner:after, body .modal-iframe-container iframe+form:after, body .modal-position #ps_form_popup_layer_content iframe+form:after, body #crm-root #ps_form_popup_layer_content iframe+form:after, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form:after, body #crm-spinner:after, body #ps_widget_preloader:after, body #ps_widget_preloader_widget:after, body .actions .preloader:after, .actions body .preloader:after {
+	display: block;
+	transform: skewX(-16.5deg);
+	height: 3px;
+	width: 10px
+}
+
+body .spinner:before, body .modal-iframe-container iframe+form:before, body .modal-position #ps_form_popup_layer_content iframe+form:before, body #crm-root #ps_form_popup_layer_content iframe+form:before, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form:before, body #crm-spinner:before, body #ps_widget_preloader:before, body #ps_widget_preloader_widget:before, body .actions .preloader:before, .actions body .preloader:before, body .spinner:after, body .modal-iframe-container iframe+form:after, body .modal-position #ps_form_popup_layer_content iframe+form:after, body #crm-root #ps_form_popup_layer_content iframe+form:after, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form:after, body #crm-spinner:after, body #ps_widget_preloader:after, body #ps_widget_preloader_widget:after, body .actions .preloader:after, .actions body .preloader:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+body .spinner:before, body .modal-iframe-container iframe+form:before, body .modal-position #ps_form_popup_layer_content iframe+form:before, body #crm-root #ps_form_popup_layer_content iframe+form:before, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form:before, body #crm-spinner:before, body #ps_widget_preloader:before, body #ps_widget_preloader_widget:before, body .actions .preloader:before, .actions body .preloader:before {
+	left: -125%;
+	background: #111645;
+	animation: SPINNERSLIDE 300ms -150ms infinite ease-in-out alternate
+}
+
+body .spinner:after, body .modal-iframe-container iframe+form:after, body .modal-position #ps_form_popup_layer_content iframe+form:after, body #crm-root #ps_form_popup_layer_content iframe+form:after, body #ps_form_popup_layer #ps_form_popup_layer_content iframe+form:after, body #crm-spinner:after, body #ps_widget_preloader:after, body #ps_widget_preloader_widget:after, body .actions .preloader:after, .actions body .preloader:after {
+	left: 125%;
+	background: #e77c31;
+	animation: SPINNERSLIDE 300ms -450ms infinite ease-in-out alternate
+}
+
+@keyframes SHAKE {
+	10%, 90% {
+		transform: translate3d(-1.5px, 0, 0)
+	}
+	20%, 80% {
+		transform: translate3d(3px, 0, 0)
+	}
+	30%, 50%, 70% {
+		transform: translate3d(-6px, 0, 0)
+	}
+	40%, 60% {
+		transform: translate3d(6px, 0, 0)
+	}
+}
+
+.form-field, #cardsForm #cards .inline {
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-size: 0
+}
+
+.form-field, #cardsForm #cards .inline, .form-field .title, #cardsForm #cards .inline .title, .form-field .field, #cardsForm #cards .inline .field, .form-field input, #cardsForm #cards .inline input {
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	display: block;
+	z-index: 0;
+	width: 100%;
+	height: 60px;
+	text-align: left
+}
+
+.form-field b, #cardsForm #cards .inline b {
+	display: none !important
+}
+
+.form-field .title, #cardsForm #cards .inline .title, .form-field .field, #cardsForm #cards .inline .field, .form-field input, #cardsForm #cards .inline input, .form-field b, #cardsForm #cards .inline b {
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+.form-field .title, #cardsForm #cards .inline .title, .form-field input, #cardsForm #cards .inline input {
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100% !important
+}
+
+.form-field .title, #cardsForm #cards .inline .title {
+	pointer-events: none;
+	font-weight: normal;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: rgba(136, 136, 136, 0.6);
+	text-transform: capitalize;
+	height: 36px;
+	line-height: 36px
+}
+
+.form-field input, #cardsForm #cards .inline input, .form-field .expr_delimiter, #cardsForm #cards .inline .expr_delimiter {
+	position: relative;
+	z-index: 100;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #000;
+	font-weight: normal;
+	border: solid 0;
+	border-radius: 0;
+	border-bottom: solid 2px rgba(136, 136, 136, 0.1);
+	background-color: transparent;
+	line-height: 30px;
+	padding-top: 24px;
+	padding-bottom: 6px;
+	float: none !important;
+	text-align: left !important;
+	-webkit-font-smoothing: subpixel-antialiased
+}
+
+.form-field input:focus, #cardsForm #cards .inline input:focus, .form-field .expr_delimiter:focus, #cardsForm #cards .inline .expr_delimiter:focus {
+	border-bottom: solid 4px #55b2ff;
+	padding-bottom: 4px;
+	color: #55b2ff
+}
+
+.form-field input.error, #cardsForm #cards .inline input.error, .form-field .expr_delimiter.error, #cardsForm #cards .inline .expr_delimiter.error {
+	color: #e73131;
+	border-color: #e73131;
+	animation: SHAKE 0.75s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+	transform: translate3d(0, 0, 0)
+}
+
+.form-field .showme, #cardsForm #cards .inline .showme {
+	overflow: hidden;
+	text-indent: -1000em;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%)
+}
+
+.form-field .showme, #cardsForm #cards .inline .showme, .form-field .showme:after, #cardsForm #cards .inline .showme:after {
+	position: absolute;
+	z-index: 200;
+	width: 24px;
+	height: 24px;
+	border-radius: 24px;
+	text-align: center;
+	line-height: 24px
+}
+
+.form-field .showme:after, #cardsForm #cards .inline .showme:after {
+	display: block;
+	font-family: 'FontAwesome';
+	color: #31dee7;
+	content: "\f059";
+	font-size: 20px;
+	text-indent: 0;
+	top: 0;
+	left: 0
+}
+
+.form-field .cvv, #cardsForm #cards .inline .cvv {
+	border: 0;
+	padding: 0;
+	background: transparent;
+	height: 59px;
+	border-radius: 6px;
+	overflow: hidden;
+	top: -80%;
+	right: -33px;
+	left: auto;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 5px 50px rgba(0, 0, 0, 0.3)
+}
+
+.form-field#inline_expiry .field, #cardsForm #cards #inline_expiry.inline .field {
+	display: flex;
+	flex-flow: row nowrap
+}
+
+.form-field#inline_expiry .field #expmonth_field, #cardsForm #cards #inline_expiry.inline .field #expmonth_field {
+	flex: 2
+}
+
+.form-field#inline_expiry .field .expr_delimiter, #cardsForm #cards #inline_expiry.inline .field .expr_delimiter {
+	color: rgba(136, 136, 136, 0.3) !important;
+	flex: 1
+}
+
+.form-field#inline_expiry .field #expyear_field, #cardsForm #cards #inline_expiry.inline .field #expyear_field {
+	flex: 4
+}
+
+.form-field#inline_expiry, #cardsForm #cards #inline_expiry.inline, .form-field#inline_cvv, #cardsForm #cards #inline_cvv.inline, .form-field#inline_zip, #cardsForm #cards #inline_zip.inline {
+	display: inline-block
+}
+
+.form-field#inline_expiry, #cardsForm #cards #inline_expiry.inline, .form-field#inline_cvv, #cardsForm #cards #inline_cvv.inline {
+	width: calc(30% - 15px);
+	margin-right: 15px
+}
+
+.form-field#inline_zip, #cardsForm #cards #inline_zip.inline {
+	width: 40%
+}
+
+*, *:before, *:after {
+	box-sizing: border-box
+}
+
+html, body {
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	background: #fff;
+	height: 100%;
+	width: 100%;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0
+}
+
+body #window-resizer-tooltip {
+	display: none !important
+}
+
+#ppage {
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 100px;
+	background: #F5F5F5 !important;
+}
+
+#subppage, #paymentwall2, #ps_payment_cnt, #ps_price_cnt, #ps_content, #ps_price_table_cnt, #ps_price_table_cnt .bx-wrapper, #ps_price.choose-package, #ps_price_form {
+	height: 100%
+}
+
+#ps_price_table_cnt .bx-wrapper {
+	max-width: 100% !important;
+	width: 100% !important;
+	position: relative
+}
+
+#ps_price_table_cnt .bx-wrapper .bx-viewport {
+	height: 100% !important
+}
+
+#ps_payment_cnt .iframecc {
+	position: relative;
+	z-index: 200;
+	width: 100%;
+	height: calc(100% + 100px)
+}
+
+body#ps_content {
+	background: rgba(225, 225, 225, 0.3) !important
+}
+
+#cardsForm {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 100px;
+	left: 0;
+	padding: 50px 35px 40px 0
+}
+
+#cardsForm .box_padding {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: flex-start
+}
+
+#cardsForm #selectcard {
+	position: relative;
+	width: calc(25vw + 50px) !important;
+	height: calc(100% + 40px + 50px + 100px) !important;
+	margin-top: -50px;
+	padding: 50px 35px 100px 50px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+	overflow: auto;
+}
+
+#cardsForm .box_padding:before {
+	content: "";
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 50px;
+	background:
+		linear-gradient(
+			to top,
+			transparent,
+			#F5F5F5
+		);
+}
+
+#cardsForm #selectcard>div {
+	/*width: calc(100% - 30px);
+	height: calc(50% - 22.5px);*/
+	display: flex;
+	flex: 1 0 50px;
+	/*min-height: 36px;*/
+	flex-flow: column nowrap;
+	justify-content: center;
+	text-align: center;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: bold;
+	letter-spacing: -.025em;
+	margin: 7.5px 0;
+	color: rgba(0, 0, 0, 0.8) !important;
+	order: 2;
+}
+
+#cardsForm #selectcard>div#use_new {
+	order: 1;
+}
+
+#cardsForm #selectcard>div:hover, #cardsForm #selectcard>div:focus, #cardsForm #selectcard>div.sel:hover, #cardsForm #selectcard>div.sel:focus {
+	/*width: calc(100% - 30px + 14px);
+	height: calc(50% - 22.5px + 7px)*/
+	padding: 10px;
+	top: -4px;
+	margin: 7.5px 0;
+}
+
+#cardsForm #selectcard>div.sel, #cardsForm #selectcard>div:active, #cardsForm #selectcard>div.sel:active {
+	color: #55b2ff !important;
+	/*width: calc(100% - 30px + 0px);
+	height: calc(50% - 22.5px + 0px)*/
+	margin: 7.5px 0;
+	padding: 10px;
+	top: 0;
+}
+
+#cardsForm #cards {
+	flex: 1;
+	font-size: 0;
+	padding: 0 50px;
+	align-self: center;
+}
+
+#cardsForm #errors.cc_response_error, #cardsForm #error_msg {
+	min-height: 32px;
+	position: fixed;
+	z-index: 1000;
+	left: 50px;
+	right: 50px;
+	top: 9px;
+	font-weight: bold;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #fff;
+	text-align: center;
+	background: #e73131;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 5px 50px rgba(0, 0, 0, 0.3);
+	padding: 10px;
+	outline: 0;
+	border: 0
+}
+
+#cardsForm #errors.cc_response_error br, #cardsForm #error_msg br {
+	display: inline;
+	content: '. ';
+	clear: none
+}
+
+#cardsForm #errors.cc_response_error br:before, #cardsForm #error_msg br:before {
+	content: '. '
+}
+
+#cardsForm .cards_logo {
+	position: fixed;
+	top: auto;
+	right: auto;
+	bottom: 20px;
+	left: 50px
+}
+
+body .actions, body .actions table {
+	width: calc(25vw + 50px) !important
+}
+
+body .actions {
+	display: flex;
+	flex-flow: row;
+	align-items: flex-end;
+	justify-content: flex-start;
+
+	background:
+	  linear-gradient(
+			to bottom,
+			transparent 0%,
+			#F5F5F5 50%
+		);
+}
+
+body .actions table {
+	/*height: 100%*/
+}
+
+body .actions td.td_left {
+	/*width: 300px;*/
+	/*vertical-align: bottom;
+	display: flex;
+	flex-flow: column-reverse nowrap*/
+}
+
+body#ps_content .data_in_success {
+	position: relative;
+	height: 100%;
+	padding: 50px 100px 140px 50px !important;
+	display: flex !important;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center
+}
+
+body#ps_content .data_in_success .success_icon {
+	background: transparent;
+	margin-right: 25px;
+	margin-top: -5px
+}
+
+body#ps_content .data_in_success .success_icon, body#ps_content .data_in_success .success_icon:after {
+	font-family: 'FontAwesome';
+	content: "\f058";
+	display: block;
+	font-size: 128px;
+	width: 150px !important;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	color: #84bf41
+}
+
+body#ps_content .data_in_success .success {
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #525252;
+	text-align: left
+}
+
+body#ps_content .data_in_success .success br {
+	display: inline-block;
+	content: '';
+	clear: none
+}
+
+body#ps_content .data_in_success .success br+br {
+	display: block;
+	height: .5em
+}
+
+body#ps_content .data_in_success .success strong {
+	font-weight: bold;
+	color: #363636
+}
+
+#save_card_form .save_holder .save_text {
+	text-transform: none;
+	font-family: "Averta", "Helvetica Neue", "Helvetica", "Arial";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	white-space: nowrap;
+	color: #888;
+	float: none;
+	padding: 0
+}
+
+#save_card_form .save_holder .save {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	text-align: left
+}
+
+#save_card_form .save_holder .save .checkbox {
+	width: 24px;
+	height: 24px
+}
+
+#save_card_form .save_holder .save .checkbox:active:before, #save_card_form .save_holder .save .checkbox.checked:before {
+	transform: none;
+	width: 100%;
+	padding: 0;
+	font-size: 16px !important;
+	line-height: 24px
+}
+
+
+
+
+
+
+

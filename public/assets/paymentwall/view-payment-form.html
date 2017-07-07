@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!-- saved from url=(0185)https://api.paymentwall.com/api/gateway/payment-form?key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd&refId=w121648100 -->
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+	<script type="text/javascript" src="./prototype.min.js"></script>
+	<script type="text/javascript" src="./sidjs.min.js"></script>
+	<script type="text/javascript" src="./cc_3dsecure.js"></script>
+	<link type="text/css" rel="stylesheet" href="./cc_compact.css">
+	<link type="text/css" rel="stylesheet" href="../custom.css">
+	<script type="text/javascript" src="./placeholder.js"></script>
+</head>
+
+<body id="ps_content" style="background:transparent">
+	<div class="data">
+		<div class="data_in" id="form">
+			<form method="post" id="cardsForm">
+				<h3 class="cc">Amount: <strong>50.00 USD</strong></h3>
+				<div class="cards_logo amex">VISA, MasterCard, AMEX, Discover, JCB</div>
+				<div class="box_padding">
+					<div id="errors" class="error cc_response_error" style="display:none;"></div>
+					<div id="cards">
+						<div class="error cc_response_error" id="error_msg" style="display:none;">Please check out highlighted fields.</div>
+						<div class="inline" id="inline_cardholder">
+							<div class="title">Card holder name:</div>
+							<div class="field"><input id="cardholder" name="name_on_card" type="text" value="" placeholder="First name Last name"></div><b class="clearb"></b></div>
+						<div
+						 class="inline" id="inline_cnumber">
+							<div class="title">Card number:</div>
+							<div class="field"><input name="cnumber" type="text" maxlength="16" value="" id="cnumber_field_id" placeholder="XXXX XXXX XXXX XXXX"></div>
+							<b
+							 class="clearb"></b>
+					</div>
+					<div class="inline" id="inline_expiry">
+						<div class="title">Expiration date:</div>
+						<div class="field"><input type="text" name="expMonth" id="expmonth_field" value="" style="width:25px; text-align:center;" maxlength="2"
+							 class="expr" placeholder="MM"><span class="expr_delimiter">&nbsp;/&nbsp;</span><input type="text" name="expYear" id="expyear_field"
+							 value="" style="width:25px; text-align:center;" maxlength="2" class="expr" placeholder="YY"></div><b class="clearb"></b></div>
+					<div
+					 class="inline" id="inline_cvv">
+						<div class="title">CVV2 (CVC):</div>
+						<div class="field small"><input id="cvv_id" name="cvv" type="text" maxlength="4" style="width:33px; float:left; text-align:center;" value=""
+							 placeholder="XXX"><a href="javascript:void(0); return false;" class="showme" id="cvv_link" tabindex="-1">What is it?</a>
+							<b
+							 class="clearb"></b>
+								<div id="cvv_div" style="display:none;" class="cvv"><img src="./cvv-cards2.png"></div>
+						</div><b class="clearb"></b></div>
+				<div id="inline_zip" class="inline">
+					<div class="title">Zip / Postal Code:</div>
+					<div style=" font-size:0;" class="field"><input type="text" maxlength="10" style="width:60px;" name="zip" value=""></div><b class="clearb"></b></div>
+		</div>
+		<div id="actions1" class="actions">
+			<table>
+				<tbody>
+					<tr>
+						<td colspan="2"></td>
+					</tr>
+					<tr>
+						<td class="td_left"><span>By clicking the button below you confirm to have accepted <a href="https://api.paymentwall.com/api/account/terms?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd" target="_blank">Terms of Service</a> and <a href="https://api.paymentwall.com/api/account/privacy-policy?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd" target="`_blank`">Privacy Policy</a></span></td>
+						<td
+						 class="td_right"><a href="javascript:void(0);" class="button pay " id="pay_button" onclick="return false;"><span>Buy</span></a>
+							<div
+							 class="preloader" id="ajaxloader" style="display:none;"></div>
+		</td>
+		</tr>
+		</tbody>
+		</table>
+	</div>
+	</div><input type="hidden" name="ref_id" value="w121648100"><input type="hidden" name="firstname" id="firstname_id" value="">
+	<input
+	 type="hidden" name="lastname" id="lastname_id" value=""><input type="hidden" name="uc_token" id="uc_token_id" value=""></form>
+		</div>
+		</div>
+		<script type="text/javascript">
+			var encryptForm = false; var formContainer = 'ps_content'; var secureNewWindow = false; var newWindowMessage = 'Please proceed in the new window to complete transaction'; var proceedTitle = 'Proceed'; var clientSideErrorMessages = null; var amexAllowed = 1;
+			Sid.js(['https://api.paymentwall.com/js/placeholder.js?1'], function () {
+				if (typeof inputPlaceholder === 'function') {
+					$$('[placeholder]').each(function (obj) { inputPlaceholder(obj); });
+				}
+			}, 'head');
+
+			if ($('country_select')) {
+				$('country_select').observe('change', function (event) {
+					var co_code = event.findElement().value;
+					new Ajax.Request('https://api.paymentwall.com/api/gateway/get-state?key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd', {
+						method: 'GET',
+						parameters: { co_code: co_code },
+						onSuccess: function (transport) {
+							var defaultOption = '';
+							defaultOption = 'Province / State';
+							if (transport.responseText == '[]') {
+								var html = '<input type="text" style="width:146px; top:34px; right:0;" name="state" class="textfield" placeholder="' + defaultOption + '" maxlength="40" ">'
+							} else {
+								var rsp = transport.responseText.evalJSON();
+								var html = '<select style="width:156px; top:34px; right:0;" class="textfield" name="state">';
+								html += '<option value="">' + defaultOption + '</option>'
+								$H(rsp).each(function (r) {
+									html += '<option value="' + r.key + '">' + r.value + '</option>';
+								});
+								html += '</select>';
+							}
+							$('state_select').update(html);
+							if (typeof inputPlaceholder === 'function') {
+								$$('[placeholder]').each(function (obj) { inputPlaceholder(obj); });
+							}
+						}
+					});
+				});
+			}
+
+			if ($('select_card')) {
+				$$('#select_card div').each(function (obj) {
+					if (obj.select('[name="uc_token"]').length == 1) {
+
+						obj.observe('click', function (e) {
+							$('select_card').select('.sel').each(function (o) { o.removeClassName('sel'); });
+							$('select_card').select('[type="radio"]').each(function (o) { o.removeAttribute('checked'); });
+							this.select('[type="radio"]').each(function (o) { o.setAttribute('checked', 1); });
+							this.addClassName('sel');
+						});
+					}
+				});
+			}
+
+			var currentOptionSelected = null;
+
+			var existing_card = function (obj) {
+				if (obj.id != 'use_new') {
+					obj.observe('click', function (e) {
+						if (currentOptionSelected != null) {
+							currentOptionSelected.className = "";
+						}
+						$('uc_token_id').value = obj.getAttribute('rel');
+						currentOptionSelected = obj;
+						obj.className = "sel";
+						$('use_new').className = "";
+						$('cards').style.display = "none";
+						if ($('token_cvv_div')) {
+							$('token_cvv_div').show();
+						}
+					});
+				}
+			}
+
+			$$('#selectcard div').each(existing_card);
+
+			var checkInput = function (Object, ObjectBlur, e) {
+				$('errors').hide();
+				var result = true;
+				ObjectBlur.removeClassName("error");
+				if (Object.value != '') {
+					if (!amexAllowed) {
+						var reg = /^3[4,7].{0,13}$/i;
+						if (reg.test(Object.value)) {
+							$('errors').update("This card type isn't supported");
+							$('errors').show();
+							if (e) {
+								e.stop();
+							}
+
+							ObjectBlur.addClassName("error");
+							ObjectBlur.select();
+
+							result = false;
+						}
+					}
+				}
+				return result;
+			}
+
+			if ($('cnumber_field_id')) {
+				Event.observe($('cnumber_field_id'), 'input', function (e) {
+					checkInput(this, this, e);
+				});
+				Event.observe($('cnumber_field_id'), 'blur', function (e) {
+					checkInput(this, this, e);
+				});
+			}
+
+
+			if ($('use_new')) {
+				$('use_new').observe('click', function (e) {
+					$('uc_token_id').value = "";
+					if (currentOptionSelected != null) {
+						currentOptionSelected.className = "";
+					}
+
+					this.className = "sel";
+					$('cards').style.display = "block";
+					if ($('token_cvv_div')) {
+						$('token_cvv_div').hide();
+					}
+				});
+			}
+
+			function setFirstnameLastname() {
+				var firstname = "";
+				var lastname = "";
+				if (!$('cardholder').value.empty()) {
+
+					var splitName = $('cardholder').value.strip().split(/\s+/i);
+					if (splitName.length == 1) {
+						firstname = splitName[0];
+						lastname = splitName[0];
+					} else {
+						for (var i = 0; i < splitName.length - 1; i++) {
+							firstname += splitName[i] + " ";
+						}
+						lastname = splitName[splitName.length - 1];
+					}
+				}
+				$('firstname_id').value = firstname;
+				$('lastname_id').value = lastname;
+			}
+
+			var listEx = $$('.expr');
+
+			listEx.each(function (el, index) {
+				if (index < listEx.length)
+					$(el).observe('keyup', function (e) {
+						if (e.keyCode == 8 && $(el).value.length == 0 && $(listEx[index - 1])) $(listEx[index - 1]).focus()
+						else if ($(el).value.length >= $(el).getAttribute('maxlength'))
+							if ($(listEx[index + 1])) $(listEx[index + 1]).focus();
+					});
+			});
+
+			var showModalWindowCCBusiness = false;
+
+
+
+			var isAllowedFasterPayStoreCard = false;
+			var userAccountLogged = false;
+			var formSent = false;
+			Event.observe($('pay_button'), 'click', function () {
+				if (showModalWindowCCBusiness) {
+					businessChecker.showModal(function (hideWindow) {
+						if (hideWindow) {
+							showModalWindowCCBusiness = false;
+							businessChecker.hideModal();
+							document.getElementById('pay_button').click();
+						}
+					});
+					return;
+				}
+
+				if (formSent == false) {
+					$('pay_button').hide();
+					if ($('ajaxloader')) $('ajaxloader').show();
+					if (false && isAllowedFasterPayStoreCard && !userAccountLogged) {
+						checkExistEmail();
+					} else {
+						//formSent = true;
+						/* setCardNumber();*/
+						proceedPayment();
+					}
+				}
+			});
+
+			function proceedPayment() {
+				//formSent = true;
+				/* setCardNumber();*/
+				setFirstnameLastname();
+				$$('input.error').each(function (obj) { obj.removeClassName("error"); });
+
+				if (encryptForm) {
+					encFormObject = new CcFormEncryption(publicKey, {
+						form_id: 'cardsForm',
+						card_number_field: 'cnumber_field_id',
+						exp_month_field: 'expmonth_field',
+						exp_year_field: 'expyear_field',
+						cvv_field: "cvv_id"
+					});
+					encFormObject.doFormEncryption();
+				}
+
+				new Ajax.Request('https://api.paymentwall.com/api/gateway/payment?key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd', {
+					method: 'POST',
+					parameters: $('cardsForm').serialize(),
+					onSuccess: function (transport) {
+						try {
+							var enableForm = true;
+							var rsp = transport.responseText.evalJSON();
+							if (rsp.status == 0) {
+								if (typeof rsp.html != 'undefined') {
+									$('ps_content').update(rsp.html);
+									return;
+								}
+
+								if (rsp.error.length > 1) {
+									var error = '';
+									rsp.error.each(function (e) {
+										error += e + '<br/>';
+									});
+								}
+								else {
+									var error = rsp.error;
+								}
+								$('errors').update(error);
+								$('errors').show();
+								if (rsp.errorFields instanceof Array) {
+									rsp.errorFields.each(function (e) {
+										switch (e) {
+											case 'firstname':
+											case 'lastname':
+												$('cardholder').addClassName("error");
+												break;
+											case 'exp':
+												$$('.expr').each(function (obj) { obj.addClassName("error"); });
+												break;
+											case 'cnumber':
+												$('cnumber_field_id').addClassName("error");
+												break;
+											case 'cvv':
+												$('cvv_id').addClassName("error");
+												if ($('token_cvv')) {
+													$('token_cvv').addClassName("error");
+												}
+												break;
+											case 'zip':
+												$('zip').addClassName("error");
+												break;
+											case 'phone':
+												$('phone').addClassName("error");
+												break;
+											case 'birthdate':
+												$('birth_date_day').addClassName("error");
+												$('birth_date_month').addClassName("error");
+												$('birth_date_year').addClassName("error");
+												break;
+											case 'cpf':
+												$('cpf').addClassName("error");
+												break;
+											case 'email':
+												$('email').addClassName("error");
+												break;
+										}
+									});
+								}
+
+							} else if (rsp.status == 2) {
+								showSecureForm(rsp.lookupData);
+								enableForm = false;
+							} else {
+								$('ps_content').update(rsp.html);
+							}
+							if (enableForm) {
+								if ($('ajaxloader')) $('ajaxloader').hide();
+								$('pay_button').show();
+								formSent = false;
+							}
+						} catch (Exc) {
+							if ($('ajaxloader')) $('ajaxloader').hide();
+							$('pay_button').show();
+							formSent = false;
+						}
+					}
+				});
+			}
+
+			function toggleCvv() {
+				$('cvv_div').toggle();
+				if ($('cvv_div').visible()) {
+					//$('cvv_div').style.top = ($('cvv_link').cumulativeOffset()[1] + $('cvv_link').getHeight() + 7) + 'px';
+					//$('cvv_div').style.left = '169px';
+				}
+			}
+			$('cvv_link').observe('mouseover', toggleCvv);
+			$('cvv_link').observe('mouseout', toggleCvv);
+
+			function checkValidNumericInput(event, maxLength) {
+				var kc = event.keyCode;
+				return (kc == 8
+					|| kc == 9
+					|| (kc > 36 && kc < 41)
+					|| ((kc > 47 && kc < 58) && this.value.length < maxLength))
+			}
+
+		</script>
+</body>
+
+</html>

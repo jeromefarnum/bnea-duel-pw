@@ -1,0 +1,1977 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(1066)https://api.paymentwall.com/api/ps?country_code=US&customer[birthday]=429408000&customer[country]=US&email=jeromefarnum%40gmail.com&evaluation=1&history[registration_date]=1413179374&key=413b0494b9fd9d6a790e8d9f5d308536&orderno=201707053089555&sign_version=3&source=wput-web-prod&uid=0449ffdd-228d-42da-c211-febd579e50ea&widget=p1_1&promo[0][discount]=0&promo[0][minimum_amount]=10&promo[0][minimum_amount_currency]=USD&promo[0][type]=percent_bonus&promo[1][discount]=4&promo[1][minimum_amount]=25&promo[1][minimum_amount_currency]=USD&promo[1][type]=percent_bonus&promo[2][discount]=4&promo[2][minimum_amount]=50&promo[2][minimum_amount_currency]=USD&promo[2][type]=percent_bonus&promo[3][discount]=6&promo[3][minimum_amount]=100&promo[3][minimum_amount_currency]=USD&promo[3][type]=percent_bonus&promo[4][discount]=6&promo[4][minimum_amount]=250&promo[4][minimum_amount_currency]=USD&promo[4][type]=percent_bonus&pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Paymentwall</title>
+	<link type="text/css" rel="stylesheet" href="./assets/paymentwall/lang.css">
+	<link type="text/css" rel="stylesheet" href="./assets/paymentwall/p1_1.css">
+	<link type="text/css" rel="stylesheet" href="./assets/paymentwall/ps.css">
+	<link type="text/css" rel="stylesheet" href="./assets/custom.css">
+</head>
+
+<body class="body_paymentwall body_lang_en body_country_us body_currency_USD">
+	<script type="text/javascript" src="./assets/paymentwall/prototype.min.js"></script>
+	<script type="text/javascript" src="./assets/paymentwall/sidjs.min.js"></script>
+	<script type="text/javascript" src="./assets/paymentwall/en.js"></script>
+	<script type="text/javascript" src="./assets/paymentwall/pswidget.js"></script>
+	<script type="text/javascript" src="./assets/paymentwall/uminfo.js"></script>
+	<div class="step step1" id="ps_step_1">
+		<div class="number">1.</div>
+		<div class="select">Select payment method</div>
+	</div>
+	<div class="step step2" id="ps_step_2">
+		<div class="number">2.</div>
+		<div class="select">Select package</div>
+	</div>
+	<div id="ps_widget_preloader" style="display: none;"></div>
+	<div id="ppage" class="paymentwall">
+		<div id="subppage">
+			<div class="menu2">
+				<div class="ie7">
+					<div class="use">
+						<div class="use_in" id="paymentSystemTitle">Use Credit card to buy Diamonds</div>
+					</div><a id="currency_but" href="javascript:void(0);" class="header_but currency"><b>USD</b></a>
+					<div class="popup" id="currency_popup"
+					 style="display:none;">
+						<div class="popup_in">
+							<div class="currencies"><a class="usd changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=1"
+								 rel="1"><b></b>USD</a><a class="eur changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=2"
+								 rel="2"><b></b>EUR</a><a class="gbp changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=3"
+								 rel="3"><b></b>GBP</a><a class="cad changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=4"
+								 rel="4"><b></b>CAD</a><a class="aud changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=5"
+								 rel="5"><b></b>AUD</a><a class="try changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=6"
+								 rel="6"><b></b>TRY</a><a class="ars changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=54"
+								 rel="54"><b></b>ARS</a><a class="bgn changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=45"
+								 rel="45"><b></b>BGN</a><a class="brl changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=44"
+								 rel="44"><b></b>BRL</a><a class="chf changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=13"
+								 rel="13"><b></b>CHF</a><a class="cny changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=39"
+								 rel="39"><b></b>CNY</a><a class="cop changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=17"
+								 rel="17"><b></b>COP</a><a class="czk changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=18"
+								 rel="18"><b></b>CZK</a><a class="dkk changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=9"
+								 rel="9"><b></b>DKK</a><a class="egp changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=20"
+								 rel="20"><b></b>EGP</a><a class="hkd changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=22"
+								 rel="22"><b></b>HKD</a><a class="idr changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=23"
+								 rel="23"><b></b>IDR</a><a class="ils changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=7"
+								 rel="7"><b></b>ILS</a><a class="inr changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=8"
+								 rel="8"><b></b>INR</a><a class="mxn changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=25"
+								 rel="25"><b></b>MXN</a><a class="myr changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=26"
+								 rel="26"><b></b>MYR</a><a class="nok changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=10"
+								 rel="10"><b></b>NOK</a><a class="nzd changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=40"
+								 rel="40"><b></b>NZD</a><a class="php changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=57"
+								 rel="57"><b></b>PHP</a><a class="pln changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=29"
+								 rel="29"><b></b>PLN</a><a class="rub changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=31"
+								 rel="31"><b></b>RUB</a><a class="sek changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=12"
+								 rel="12"><b></b>SEK</a><a class="sgd changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=33"
+								 rel="33"><b></b>SGD</a><a class="thb changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=35"
+								 rel="35"><b></b>THB</a><a class="twd changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=36"
+								 rel="36"><b></b>TWD</a><a class="uah changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=63"
+								 rel="63"><b></b>UAH</a><a class="vnd changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=37"
+								 rel="37"><b></b>VND</a><a class="zar changeCurrency" href="https://api.paymentwall.com/api/ps/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd&amp;user_currency=11"
+								 rel="11"><b></b>ZAR</a><b class="clearb"></b></div>
+						</div>
+					</div>
+					<script>
+						var currencyPopupContainerVisible = false;
+						$('currency_but').observe('click', function (e) {
+							e.stop();
+							if (currencyPopupContainerVisible) {
+								hideCurrencies();
+							} else {
+								showCurrencies();
+							}
+						});
+
+						function showCurrencies() {
+							if ($('lang') && $('lang').visible()) {
+								$('lang').hide();
+								$('flag_select_link').removeClassName('sel');
+							}
+							currencyPopupContainerVisible = true;
+							$('currency_popup').show();
+							$('currency_but').addClassName('sel');
+							showOverlay();
+						}
+
+						function hideCurrencies() {
+							currencyPopupContainerVisible = false;
+							$('currency_popup').hide();
+							$('currency_but').removeClassName('sel');
+							hideOverlay();
+						}
+					</script><a class="flag lang_en" id="flag_select_link" href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465#"
+					 onclick="return false;"><img src="./assets/paymentwall/spacer.gif" width="23" height="21"></a>
+					<div class="lang" id="lang"
+					 style="display:none;">
+						<div class="col"><a href="https://api.paymentwall.com/api/lang?lang=en&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_us sel" title="English">English</a><a href="https://api.paymentwall.com/api/lang?lang=fr&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_fr " title="French">Français </a><a href="https://api.paymentwall.com/api/lang?lang=de&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_de " title="German">Deutsch</a><a href="https://api.paymentwall.com/api/lang?lang=es&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_es " title="Spanish">Español</a><a href="https://api.paymentwall.com/api/lang?lang=it&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_it " title="Italian">Italiano</a><a href="https://api.paymentwall.com/api/lang?lang=pt_BR&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_pt_BR " title="Portuguese-BR">Brasileiro</a><a href="https://api.paymentwall.com/api/lang?lang=pt&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_pt " title="Portuguese">Português</a><a href="https://api.paymentwall.com/api/lang?lang=tr&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_tr " title="Turkish">Türkçe </a><a href="https://api.paymentwall.com/api/lang?lang=sv&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_sv " title="Swedish">Svenska</a><a href="https://api.paymentwall.com/api/lang?lang=ja&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_ja " title="Japanese">日本語</a><a href="https://api.paymentwall.com/api/lang?lang=fi&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_fi " title="Finnish">Suomi</a><a href="https://api.paymentwall.com/api/lang?lang=ru&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_ru " title="Russian">Русский</a><a href="https://api.paymentwall.com/api/lang?lang=uk&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_uk " title="Ukrainian">Українська</a><a href="https://api.paymentwall.com/api/lang?lang=pl&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_pl " title="Polish">Polski</a><a href="https://api.paymentwall.com/api/lang?lang=el&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_el " title="Greek">Ελληνικά</a><a href="https://api.paymentwall.com/api/lang?lang=zh_CN&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_zh_CN " title="Chinese Simplified">汉语</a><a href="https://api.paymentwall.com/api/lang?lang=zh_TW&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_zh_TW " title="Chinese Traditional">漢語</a></div>
+						<div class="col last"><a href="https://api.paymentwall.com/api/lang?lang=vi&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_vi " title="Vietnamese">tiếng Việt</a><a href="https://api.paymentwall.com/api/lang?lang=da&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_da " title="Danish">Danish</a><a href="https://api.paymentwall.com/api/lang?lang=ar&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_ar " title="Arabic">العربية</a><a href="https://api.paymentwall.com/api/lang?lang=hi&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_hi " title="Hindi">Hindi</a><a href="https://api.paymentwall.com/api/lang?lang=ko&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_ko " title="Korean">Korean </a><a href="https://api.paymentwall.com/api/lang?lang=th&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_th " title="Thai">ไทย</a><a href="https://api.paymentwall.com/api/lang?lang=hr&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_hr " title="Croatian">Hrvatski</a><a href="https://api.paymentwall.com/api/lang?lang=lt&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_lt " title="Lithuanian">Lietuvių</a><a href="https://api.paymentwall.com/api/lang?lang=sl&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_sl " title="Slovenian ">Slovenian</a><a href="https://api.paymentwall.com/api/lang?lang=cs&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_cs " title="Czech">Czech</a><a href="https://api.paymentwall.com/api/lang?lang=sr&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_sr " title="Serbian">Српски</a><a href="https://api.paymentwall.com/api/lang?lang=bg&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_bg " title="Bulgarian">Български</a><a href="https://api.paymentwall.com/api/lang?lang=nl&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_nl " title="Dutch">Nederlands</a><a href="https://api.paymentwall.com/api/lang?lang=sk&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_sk " title="Slovak">Slovak</a><a href="https://api.paymentwall.com/api/lang?lang=ro&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_ro " title="Romanian">Romana</a><a href="https://api.paymentwall.com/api/lang?lang=hu&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_hu " title="Hungarian">Hungarian</a><a href="https://api.paymentwall.com/api/lang?lang=no&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 class=" lang_no " title="Norwegian">Norsk</a></div>
+					</div><a class="crm-help-button missing_but" href="https://api.paymentwall.com/api/account/chose-problem/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"><b>Help</b></a>
+					<div
+					 class="account_div" id="account_toolbar"><a id="login_popup_account_but" onclick="account.accountToggle();" class="pw_button pw_button_balance" href="javascript:void(0);">
+			<span class="but_logo"></span>
+				<span class="but_account">My Account</span></a>
+						<div style="display: none;" id="login_popup_account_div" class="popup_account">
+							<a class="acc acc_signin" href="javascript:void(0);" onclick="loginForm.openLoginForm();">Log in</a>
+							<a class="acc acc_signup" href="javascript:void(0);" onclick="loginForm.openSignupForm();">Sign up!</a>
+
+							<a class="acc acc_cards" id="acc_cards" href="https://api.paymentwall.com/api/account/cards-v2?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd">My Cards</a>
+
+							<a class="crm-help-button acc acc_missing" href="https://api.paymentwall.com/users/account/payments" target="_blank">purchase history</a>
+
+
+
+							<a class="acc acc_faq" href="http://www.paymentwall.com/en/faq" target="_blank">FAQ</a>
+
+						</div>
+						<script type="text/javascript" src="./assets/paymentwall/account_button.js"></script>
+						<script>
+							var account = new AccountButton('login_popup');
+
+						</script>
+				</div><b class="clearb"></b></div>
+		</div>
+		<div id="paymentwall2">
+			<div class="maintabs" id="pay_methods_container"><a class="payarr payp" href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465#"
+				 id="ps_prev" style="display: none;">Prev</a>
+				<div class="alternate" id="pay_methods">
+					<div><a href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465#"
+						 rel="gateway" id="tab_gateway" class="pm_gateway  us pm2_cc sel"><b>Credit card</b>Credit/Debit Card</a></div>
+					<div><a href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465#"
+						 rel="paypal" id="tab_paypal" class="pm_paypal  us pm2_paypal"><b>PayPal</b>PayPal or Credit card</a></div>
+					<div><a href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465#"
+						 rel="subway" id="tab_subway" class="pm_subway  us pm2_subway"><b>Gift Card Subway</b>Gift Card Subway</a></div>
+					<div><a href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465#"
+						 rel="dollargeneral" id="tab_dollargeneral" class="pm_dollargeneral  us pm2_dollargeneral"><b>Gift Card Dollar General</b>Gift Card Dollar General</a></div>
+					<div><a href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465#"
+						 rel="paysafecard" id="tab_paysafecard" class="pm_paysafecard  us pm2_paysafecard"><b>Paysafecard</b>Prepaid card</a></div>
+					<div><a href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465#"
+						 rel="openbucks" id="tab_openbucks" class="pm_openbucks  us pm2_openbucks"><b>Openbucks</b>Pay with Gift Cards</a></div>
+					<b
+					 class="clearb"></b>
+				</div><a class="payarr payns" href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465#"
+				 id="ps_next" style="display: none;">Next</a></div>
+			<div class="bg">
+				<div class="popup overlay-bg" style="display: none;" id="ps_new_window_popup">
+					<div class="in"><a class="close" onclick="$(&#39;ps_new_window_popup&#39;).hide()" href="javascript:void(0);" style="display:none">Cancel</a>
+						<h1
+						 id="ps_price_msg"></h1>
+					</div>
+				</div>
+				<div class="popup2" id="ps_payment_cnt">
+					<div id="ps_price_cnt">
+						<div id="ps_content">
+							<div id="ps_price_table_cnt">
+								<div class="bx-wrapper" style="max-width: 670px;">
+									<div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 390px;">
+										<ul id="ps_price" class="clearfix choose-package" style="width: 715%; position: relative; transition-duration: 0s; transform: translate3d(-1433px, 0px, 0px);">
+											<li class="package bx-clone" style="float: left; list-style: none; position: relative; width: 160px; margin-right: 10px;"><input type="radio" style="display: none" value="4105231" name="p" id="price_4105231">
+												<div href="#" rel="price"
+												 id="price_4105231_" class="price_button">
+													<div class="price">US $25.00</div>
+													<div class="vc">
+														<div class="vc_in"><strong>13,000</strong><br><span class="vc_name">Diamonds</span></div>
+													</div>
+													<div class="coins c2"></div>
+													<div class="discount">12,500 + 500 Bonus</div>
+												</div>
+											</li>
+											<li class="package tag_popular selected bx-clone" style="float: left; list-style: none; position: relative; width: 160px; margin-right: 10px;"><input type="radio" style="display: none" value="4105232" name="p" checked="" id="price_4105232">
+												<div href="#"
+												 rel="price" id="price_4105232_" class="price_button pricepoint_over">
+													<div class="price">US $50.00</div>
+													<div class="vc">
+														<div class="vc_in"><strong>27,000</strong><br><span class="vc_name">Diamonds</span></div>
+													</div>
+													<div class="coins c3"></div>
+													<div class="discount">25,000 + 2,000 Bonus</div>
+													<div class="tag2 popular en">
+														<div>Most Popular</div>
+													</div>
+												</div>
+											</li>
+											<li class="package bx-clone" style="float: left; list-style: none; position: relative; width: 160px; margin-right: 10px;"><input type="radio" style="display: none" value="43261180" name="p" id="price_43261180">
+												<div href="#" rel="price"
+												 id="price_43261180_" class="price_button">
+													<div class="price">US $100.00</div>
+													<div class="vc">
+														<div class="vc_in"><strong>57,000</strong><br><span class="vc_name">Diamonds</span></div>
+													</div>
+													<div class="coins c4"></div>
+													<div class="discount">50,000 + 7,000 Bonus</div>
+												</div>
+											</li>
+											<li class="package tag_best bx-clone" style="float: left; list-style: none; position: relative; width: 160px; margin-right: 10px;"><input type="radio" style="display: none" value="50647908" name="p" id="price_50647908">
+												<div href="#" rel="price"
+												 id="price_50647908_" class="price_button">
+													<div class="price">US $250.00</div>
+													<div class="vc">
+														<div class="vc_in"><strong>150,000</strong><br><span class="vc_name">Diamonds</span></div>
+													</div>
+													<div class="coins c5"></div>
+													<div class="discount">125,000 + 25,000 Bonus</div>
+													<div class="tag2 value en">
+														<div>Best Value</div>
+													</div>
+												</div>
+											</li>
+											<li class="package" style="float: left; list-style: none; position: relative; width: 160px; margin-right: 10px;"><input type="radio" style="display: none" value="4105229" name="p" id="price_4105229">
+												<div href="#" rel="price"
+												 id="price_4105229_" class="price_button">
+													<div class="price">US $10.00</div>
+													<div class="vc">
+														<div class="vc_in"><strong>5,000</strong><br><span class="vc_name">Diamonds</span></div>
+													</div>
+													<div class="coins c1"></div>
+												</div>
+											</li>
+											<li class="package" style="float: left; list-style: none; position: relative; width: 160px; margin-right: 10px;"><input type="radio" style="display: none" value="4105231" name="p" id="price_4105231">
+												<div href="#" rel="price"
+												 id="price_4105231_" class="price_button">
+													<div class="price">US $25.00</div>
+													<div class="vc">
+														<div class="vc_in"><strong>13,000</strong><br><span class="vc_name">Diamonds</span></div>
+													</div>
+													<div class="coins c2"></div>
+													<div class="discount">12,500 + 500 Bonus</div>
+												</div>
+											</li>
+											<li class="package tag_popular selected" style="float: left; list-style: none; position: relative; width: 160px; margin-right: 10px;"><input type="radio" style="display: none" value="4105232" name="p" checked="" id="price_4105232">
+												<div href="#"
+												 rel="price" id="price_4105232_" class="price_button pricepoint_over">
+													<div class="price">US $50.00</div>
+													<div class="vc">
+														<div class="vc_in"><strong>27,000</strong><br><span class="vc_name">Diamonds</span></div>
+													</div>
+													<div class="coins c3"></div>
+													<div class="discount">25,000 + 2,000 Bonus</div>
+													<div class="tag2 popular en">
+														<div>Most Popular</div>
+													</div>
+												</div>
+											</li>
+											<li class="package" style="float: left; list-style: none; position: relative; width: 160px; margin-right: 10px;"><input type="radio" style="display: none" value="43261180" name="p" id="price_43261180">
+												<div href="#" rel="price"
+												 id="price_43261180_" class="price_button">
+													<div class="price">US $100.00</div>
+													<div class="vc">
+														<div class="vc_in"><strong>57,000</strong><br><span class="vc_name">Diamonds</span></div>
+													</div>
+													<div class="coins c4"></div>
+													<div class="discount">50,000 + 7,000 Bonus</div>
+												</div>
+											</li>
+											<li class="package tag_best" style="float: left; list-style: none; position: relative; width: 160px; margin-right: 10px;"><input type="radio" style="display: none" value="50647908" name="p" id="price_50647908">
+												<div href="#" rel="price"
+												 id="price_50647908_" class="price_button">
+													<div class="price">US $250.00</div>
+													<div class="vc">
+														<div class="vc_in"><strong>150,000</strong><br><span class="vc_name">Diamonds</span></div>
+													</div>
+													<div class="coins c5"></div>
+													<div class="discount">125,000 + 25,000 Bonus</div>
+													<div class="tag2 value en">
+														<div>Best Value</div>
+													</div>
+												</div>
+											</li>
+											<li class="package bx-clone" style="float: left; list-style: none; position: relative; width: 160px; margin-right: 10px;"><input type="radio" style="display: none" value="4105229" name="p" id="price_4105229">
+												<div href="#" rel="price"
+												 id="price_4105229_" class="price_button">
+													<div class="price">US $10.00</div>
+													<div class="vc">
+														<div class="vc_in"><strong>5,000</strong><br><span class="vc_name">Diamonds</span></div>
+													</div>
+													<div class="coins c1"></div>
+												</div>
+											</li>
+											<li class="package bx-clone" style="float: left; list-style: none; position: relative; width: 160px; margin-right: 10px;"><input type="radio" style="display: none" value="4105231" name="p" id="price_4105231">
+												<div href="#" rel="price"
+												 id="price_4105231_" class="price_button">
+													<div class="price">US $25.00</div>
+													<div class="vc">
+														<div class="vc_in"><strong>13,000</strong><br><span class="vc_name">Diamonds</span></div>
+													</div>
+													<div class="coins c2"></div>
+													<div class="discount">12,500 + 500 Bonus</div>
+												</div>
+											</li>
+											<li class="package tag_popular selected bx-clone" style="float: left; list-style: none; position: relative; width: 160px; margin-right: 10px;"><input type="radio" style="display: none" value="4105232" name="p" checked="" id="price_4105232">
+												<div href="#"
+												 rel="price" id="price_4105232_" class="price_button pricepoint_over">
+													<div class="price">US $50.00</div>
+													<div class="vc">
+														<div class="vc_in"><strong>27,000</strong><br><span class="vc_name">Diamonds</span></div>
+													</div>
+													<div class="coins c3"></div>
+													<div class="discount">25,000 + 2,000 Bonus</div>
+													<div class="tag2 popular en">
+														<div>Most Popular</div>
+													</div>
+												</div>
+											</li>
+											<li class="package bx-clone" style="float: left; list-style: none; position: relative; width: 160px; margin-right: 10px;"><input type="radio" style="display: none" value="43261180" name="p" id="price_43261180">
+												<div href="#" rel="price"
+												 id="price_43261180_" class="price_button">
+													<div class="price">US $100.00</div>
+													<div class="vc">
+														<div class="vc_in"><strong>57,000</strong><br><span class="vc_name">Diamonds</span></div>
+													</div>
+													<div class="coins c4"></div>
+													<div class="discount">50,000 + 7,000 Bonus</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div class="bx-controls bx-has-pager bx-has-controls-direction">
+										<div class="bx-pager bx-default-pager">
+											<div class="bx-pager-item"><a href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465"
+												 data-slide-index="0" class="bx-pager-link active">1</a></div>
+											<div class="bx-pager-item"><a href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465"
+												 data-slide-index="1" class="bx-pager-link">2</a></div>
+										</div>
+										<div class="bx-controls-direction"><a class="bx-prev" href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465">Prev</a>
+											<a
+											 class="bx-next" href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465">Next</a>
+										</div>
+									</div>
+								</div>
+								<div id="current_price">
+									<div class="current_price_amount_container"><span class="current_price_amount">US $50.00</span><label>Total</label></div>
+									<div class="current_price_coins_container"><span class="current_price_coins_container">27,000</span><label>Diamonds</label></div>
+								</div>
+							</div>
+							<div id="card_but" class="button"><a class="button but2 left" href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465#"
+								 id="ps_psb">Buy Diamonds</a><b class="clearb"></b></div><b class="clearb"></b></div>
+					</div><b class="clearb"></b></div>
+				<div class="footer">
+					<table align="center">
+						<tbody>
+							<tr>
+								<td style="padding-right:10px;"><a target="_blank" href="http://paymentwall.com/?refType=application&amp;refId=413b0494b9fd9d6a790e8d9f5d308536"><img width="91" height="19" alt="Paymentwall" src="./assets/paymentwall/logo_paymentwall_footer3.png"></a></td>
+								<td
+								 valign="bottom">© 2010-2017 Paymentwall. All rights reserved. <a href="https://www.paymentwall.com/en/privacypolicy" target="_blank"
+									 class="footer_privacy">Privacy Policy</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<link type="text/css" rel="stylesheet" href="./assets/paymentwall/new_widget.css">
+	<div id="ppage2">
+		<div style="display: none;" id="deactivate" class="deactivate"></div>
+	</div>
+	<div style="display: none; top: 100px;" id="login_popup" class="popup2_pop">
+		<div class="popup2_title_pop">
+			<div id="login_popup_title_mini">Log in</div><a class="close_pop" onclick="loginForm.close();" href="javascript:void(0);">Close</a></div>
+		<div class="popup2_in_pop">
+			<div id="login_popup_login" style="display:none;">
+				<div class="logo_popup_pop"><img src="./assets/paymentwall/logo_paymentwall6.png" alt="Paymentwall Inc."></div>
+				<div class="separator_pop separator2_pop"></div>
+				<form action="https://api.paymentwall.com/api/login/login/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+				 method="POST" id="login_popup_login_form" onsubmit="return loginForm.login();">
+					<div class="error" style="display: none;"></div>
+					<div class="inline_pop">
+						<div class="title_pop">Email:</div>
+						<div class="field_pop"><input name="login" type="text" maxlength="40" autocomplete="off"></div>
+					</div>
+					<div class="inline_pop">
+						<div class="title_pop">Password:</div>
+						<div class="field_pop"><input type="password" name="password" autocomplete="off" data-com.agilebits.onepassword.user-edited="yes"></div>
+					</div><b class="clearb"></b>
+					<div class="button_holder_pop" style="margin-top:20px;"><input name="input" type="submit" value="Log in" class="button_pop big" style="display: block;"></div>
+					<div class="already2_pop"><a href="javascript:void(0);" onclick="loginForm.showForgotPasswordForm()">Forgot password?</a>&nbsp; | &nbsp;<a href="javascript:void(0);"
+						 onclick="loginForm.showSignupForm()">Sign up</a></div>
+					<div class="fbconnect_holder_pop">
+						<div class="or_pop">or</div>
+						<div id="login_popup_skip_login"><a class="fbconnect_pop" id="fb_login_logout_button" href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465"><span>Connect with <strong>Facebook</strong></span></a></div>
+					</div>
+				</form>
+			</div>
+			<div id="login_popup_signup_quick" style="display:none;">
+				<div id="login_popup_signup_quick_step1" style="display: block;">
+					<div class="floatl_pop col1_pop">
+						<h3>Just enter your email and get <strong>Paymentwall account!</strong></h3>
+						<div class="form_pop login_pop">
+							<form id="login_popup_signup_form_quick" action="https://api.paymentwall.com/api/login/signup/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 method="post" onsubmit="return loginForm.signupQuick()">
+								<div class="error" style="display: none;"></div><input name="data[email]" type="text" class="textfield_pop" autocomplete="off"><input type="hidden" name="short_form[payment]"
+								 value="1"><input name="submit" type="submit" class="button_pop" value="Continue">
+								<p class="note">Please enter valid email, since temporary password will be sent to it.</p>
+							</form>
+						</div>
+					</div>
+					<div class="floatl_pop col2_pop">
+						<h3 class="login_pop">Log in</h3>
+						<div class="form_pop">
+							<form action="https://api.paymentwall.com/api/login/login/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+							 method="POST" id="login_popup_login_form_quick" onsubmit="return loginForm.loginQuick();">
+								<div class="error" style="display: none;"></div><label class="title_pop">Email:</label><input name="login" type="text" maxlength="40" class="textfield_pop"
+								 autocomplete="off"><label class="title_pop">Password:</label><input type="password" name="password" class="textfield_pop"
+								 autocomplete="off" data-com.agilebits.onepassword.user-edited="yes"><input name="input" type="submit" value="Log in"
+								 onclick="" class="button_pop" style="display: block;">
+								<p class="small_pop"><a href="javascript:void(0);" onclick="loginForm.showForgotPasswordForm(true)">Forgot password?</a></p>
+							</form>
+						</div>
+					</div><b class="clearb"></b>
+					<div class="fbconnect_holder_pop">
+						<div class="or_pop">or</div>
+						<div id="login_popup_skip_login"><a class="fbconnect_pop" id="fb_login_logout_button" href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465"><span class="fb_icon_pop"></span><span class="fb_text_pop">Connect with <strong>Facebook</strong></span></a></div>
+					</div>
+				</div>
+				<div id="login_popup_verify_account_form" style="display: none;" class="center_pop">
+					<div class="back2_pop"><a href="javascript:void(0);" onclick="loginForm.backToSignupFormQuick();">Back</a></div>
+					<p><img src="./assets/paymentwall/icon_email.png" width="92" height="55" alt="Email has been sent"></p>
+					<h3>Temporary password has been sent to <b id="login_popup_confirmation_email_value"></b></h3>
+					<p class="title2_pop">Enter password below:</p>
+					<p></p>
+					<form id="login_popup_short_login_form_quick" action="https://api.paymentwall.com/api/login/login/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+					 method="post" onsubmit="return loginForm.loginShort()">
+						<div class="error" style="display: none;"></div><input name="login" type="hidden" value=""><input name="password" type="password" class="textfield_pop" style="width:70px;"
+						 value="" autocomplete="off" data-com.agilebits.onepassword.user-edited="yes"><input name="short_form" type="hidden"
+						 value="1"><input name="hash" type="hidden" value=""><input name="input" type="submit" value="Done" class="button_pop"></form>
+					<p></p>
+					<div class="box_bottom_pop" style="font-size: 13px;"><span class="didnt_receive">Didn't receive an email?</span><span class="resent_successfully" style="display: none">The email has been resent</span>&nbsp;
+						<form
+						 id="login_popup_signup_form_quick_resend" action="https://api.paymentwall.com/api/login/resend/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+						 method="post"><input type="hidden" name="ua_id" value=""><input type="hidden" name="hash" value=""><a href="javascript:void(0);"
+							 onclick="loginForm.signupQuickResend()">Resend</a>.</form>
+					</div>
+				</div>
+			</div>
+			<div style="display:none;" id="login_popup_signup">
+				<form action="https://api.paymentwall.com/api/login/signup/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+				 method="POST" id="login_popup_signup_form" onsubmit="return loginForm.signup()">
+					<div class="error" style="display: none;"></div>
+					<div class="inline_pop">
+						<div class="title_pop">First name:</div>
+						<div class="field_pop"><input name="data[name]" type="text" maxlength="30" value="" id="loginform_first_name" autocomplete="off"></div>
+						<b
+						 class="clearb"></b>
+					</div>
+					<div class="inline_pop">
+						<div class="title_pop">Last name:</div>
+						<div class="field_pop"><input name="data[lastname]" type="text" value="" id="loginform_last_name" autocomplete="off"></div><b class="clearb"></b></div>
+					<div
+					 class="inline_pop">
+						<div class="title_pop">Email:</div>
+						<div class="field_pop"><input name="data[email]" type="text" value="" id="loginform_email" autocomplete="off"></div><b class="clearb"></b></div>
+			<div
+			 class="inline_pop">
+				<div class="title_pop">Password:</div>
+				<div class="field_pop"><input name="data[password]" type="password" autocomplete="off"></div><b class="clearb"></b></div>
+		<div class="inline_pop">
+			<div class="title_pop">Confirm Password:</div>
+			<div class="field_pop"><input name="data[password_confirm]" type="password" autocomplete="off"></div><b class="clearb"></b></div>
+		<div class="inline_pop">
+			<div class="title_pop">Sex:</div>
+			<div class="field_pop"><select name="data[sex]" type="text" style="width:100px;" id="loginform_sex"><option selected=""></option><option value="male">Male</option><option value="female">Female</option></select></div>
+			<b
+			 class="clearb"></b>
+		</div>
+		<div class="inline_pop">
+			<div class="title_pop">Birthdate:</div>
+			<div class="field_pop"><select name="data[birthdate_Month]" style="width:84px; margin-right:5px;">
+<option label="Month:" value="">Month:</option>
+<option label="Jan" value="01">Jan</option>
+<option label="Feb" value="02">Feb</option>
+<option label="Mar" value="03">Mar</option>
+<option label="Apr" value="04">Apr</option>
+<option label="May" value="05">May</option>
+<option label="Jun" value="06">Jun</option>
+<option label="Jul" value="07" selected="selected">Jul</option>
+<option label="Aug" value="08">Aug</option>
+<option label="Sep" value="09">Sep</option>
+<option label="Oct" value="10">Oct</option>
+<option label="Nov" value="11">Nov</option>
+<option label="Dec" value="12">Dec</option>
+</select>
+				<select name="data[birthdate_Day]" style="width:72px; margin-right:5px;">
+<option label="Day:" value="">Day:</option>
+<option label="01" value="01">01</option>
+<option label="02" value="02">02</option>
+<option label="03" value="03">03</option>
+<option label="04" value="04">04</option>
+<option label="05" value="05" selected="selected">05</option>
+<option label="06" value="06">06</option>
+<option label="07" value="07">07</option>
+<option label="08" value="08">08</option>
+<option label="09" value="09">09</option>
+<option label="10" value="10">10</option>
+<option label="11" value="11">11</option>
+<option label="12" value="12">12</option>
+<option label="13" value="13">13</option>
+<option label="14" value="14">14</option>
+<option label="15" value="15">15</option>
+<option label="16" value="16">16</option>
+<option label="17" value="17">17</option>
+<option label="18" value="18">18</option>
+<option label="19" value="19">19</option>
+<option label="20" value="20">20</option>
+<option label="21" value="21">21</option>
+<option label="22" value="22">22</option>
+<option label="23" value="23">23</option>
+<option label="24" value="24">24</option>
+<option label="25" value="25">25</option>
+<option label="26" value="26">26</option>
+<option label="27" value="27">27</option>
+<option label="28" value="28">28</option>
+<option label="29" value="29">29</option>
+<option label="30" value="30">30</option>
+<option label="31" value="31">31</option>
+</select>
+				<select name="data[birthdate_Year]" style="width:78px;">
+<option label="Year:" value="">Year:</option>
+<option label="2017" value="2017" selected="selected">2017</option>
+<option label="2016" value="2016">2016</option>
+<option label="2015" value="2015">2015</option>
+<option label="2014" value="2014">2014</option>
+<option label="2013" value="2013">2013</option>
+<option label="2012" value="2012">2012</option>
+<option label="2011" value="2011">2011</option>
+<option label="2010" value="2010">2010</option>
+<option label="2009" value="2009">2009</option>
+<option label="2008" value="2008">2008</option>
+<option label="2007" value="2007">2007</option>
+<option label="2006" value="2006">2006</option>
+<option label="2005" value="2005">2005</option>
+<option label="2004" value="2004">2004</option>
+<option label="2003" value="2003">2003</option>
+<option label="2002" value="2002">2002</option>
+<option label="2001" value="2001">2001</option>
+<option label="2000" value="2000">2000</option>
+<option label="1999" value="1999">1999</option>
+<option label="1998" value="1998">1998</option>
+<option label="1997" value="1997">1997</option>
+<option label="1996" value="1996">1996</option>
+<option label="1995" value="1995">1995</option>
+<option label="1994" value="1994">1994</option>
+<option label="1993" value="1993">1993</option>
+<option label="1992" value="1992">1992</option>
+<option label="1991" value="1991">1991</option>
+<option label="1990" value="1990">1990</option>
+<option label="1989" value="1989">1989</option>
+<option label="1988" value="1988">1988</option>
+<option label="1987" value="1987">1987</option>
+<option label="1986" value="1986">1986</option>
+<option label="1985" value="1985">1985</option>
+<option label="1984" value="1984">1984</option>
+<option label="1983" value="1983">1983</option>
+<option label="1982" value="1982">1982</option>
+<option label="1981" value="1981">1981</option>
+<option label="1980" value="1980">1980</option>
+<option label="1979" value="1979">1979</option>
+<option label="1978" value="1978">1978</option>
+<option label="1977" value="1977">1977</option>
+<option label="1976" value="1976">1976</option>
+<option label="1975" value="1975">1975</option>
+<option label="1974" value="1974">1974</option>
+<option label="1973" value="1973">1973</option>
+<option label="1972" value="1972">1972</option>
+<option label="1971" value="1971">1971</option>
+<option label="1970" value="1970">1970</option>
+<option label="1969" value="1969">1969</option>
+<option label="1968" value="1968">1968</option>
+<option label="1967" value="1967">1967</option>
+<option label="1966" value="1966">1966</option>
+<option label="1965" value="1965">1965</option>
+<option label="1964" value="1964">1964</option>
+<option label="1963" value="1963">1963</option>
+<option label="1962" value="1962">1962</option>
+<option label="1961" value="1961">1961</option>
+<option label="1960" value="1960">1960</option>
+<option label="1959" value="1959">1959</option>
+<option label="1958" value="1958">1958</option>
+<option label="1957" value="1957">1957</option>
+<option label="1956" value="1956">1956</option>
+<option label="1955" value="1955">1955</option>
+<option label="1954" value="1954">1954</option>
+<option label="1953" value="1953">1953</option>
+<option label="1952" value="1952">1952</option>
+<option label="1951" value="1951">1951</option>
+<option label="1950" value="1950">1950</option>
+<option label="1949" value="1949">1949</option>
+<option label="1948" value="1948">1948</option>
+<option label="1947" value="1947">1947</option>
+<option label="1946" value="1946">1946</option>
+<option label="1945" value="1945">1945</option>
+<option label="1944" value="1944">1944</option>
+<option label="1943" value="1943">1943</option>
+<option label="1942" value="1942">1942</option>
+<option label="1941" value="1941">1941</option>
+<option label="1940" value="1940">1940</option>
+<option label="1939" value="1939">1939</option>
+<option label="1938" value="1938">1938</option>
+<option label="1937" value="1937">1937</option>
+<option label="1936" value="1936">1936</option>
+<option label="1935" value="1935">1935</option>
+<option label="1934" value="1934">1934</option>
+<option label="1933" value="1933">1933</option>
+<option label="1932" value="1932">1932</option>
+<option label="1931" value="1931">1931</option>
+<option label="1930" value="1930">1930</option>
+<option label="1929" value="1929">1929</option>
+<option label="1928" value="1928">1928</option>
+<option label="1927" value="1927">1927</option>
+<option label="1926" value="1926">1926</option>
+<option label="1925" value="1925">1925</option>
+<option label="1924" value="1924">1924</option>
+<option label="1923" value="1923">1923</option>
+<option label="1922" value="1922">1922</option>
+<option label="1921" value="1921">1921</option>
+<option label="1920" value="1920">1920</option>
+<option label="1919" value="1919">1919</option>
+<option label="1918" value="1918">1918</option>
+<option label="1917" value="1917">1917</option>
+</select></div><b class="clearb"></b></div>
+		<div class="inline_pop">
+			<div class="title_pop">Country:</div>
+			<div class="field_pop"><select name="data[co_id]" type="text" style="width:244px;" id="loginform_co_id"><option value=""></option><option value="1">United States</option><option value="2">Canada</option><option value="3">Afghanistan</option><option value="4">Albania</option><option value="5">Algeria</option><option value="6">American Samoa</option><option value="7">Andorra</option><option value="8">Angola</option><option value="9">Anguilla</option><option value="10">Antigua and Barbuda</option><option value="11">Argentina</option><option value="12">Armenia</option><option value="233">Aruba</option><option value="14">Australia</option><option value="15">Austria</option><option value="16">Azerbaijan</option><option value="17">Bahamas</option><option value="18">Bahrain</option><option value="19">Bangladesh</option><option value="20">Barbados</option><option value="21">Belarus</option><option value="22">Belgium</option><option value="23">Belize</option><option value="24">Benin</option><option value="25">Bermuda</option><option value="26">Bhutan</option><option value="27">Bolivia</option><option value="28">Bosnia and Herzegovina</option><option value="29">Botswana</option><option value="30">Brazil</option><option value="31">British Indian Ocean Territory</option><option value="32">Brunei Darussalam</option><option value="33">Bulgaria</option><option value="34">Burkina Faso</option><option value="35">Burundi</option><option value="36">Cameroon</option><option value="37">Cambodia</option><option value="39">Cape Verde</option><option value="40">Cayman Islands</option><option value="41">Central African Republic</option><option value="42">Chad</option><option value="43">Chile</option><option value="44">China</option><option value="45">Colombia</option><option value="46">Comoros</option><option value="47">Congo</option><option value="48">Cook Islands</option><option value="49">Costa Rica</option><option value="50">Cote d'Ivoire</option><option value="51">Croatia</option><option value="52">Cuba</option><option value="53">Cyprus</option><option value="54">Czech Republic</option><option value="55">Denmark</option><option value="56">Djibouti</option><option value="57">Dominica</option><option value="58">Dominican Republic</option><option value="59">Ecuador</option><option value="60">Egypt</option><option value="61">El Salvador</option><option value="62">Equatorial Guinea</option><option value="63">Eritrea</option><option value="64">Estonia</option><option value="65">Ethiopia</option><option value="66">Falkland Islands</option><option value="67">Faroe Islands</option><option value="68">Federated States of Micronesia</option><option value="69">Fiji</option><option value="70">Finland</option><option value="71">France</option><option value="72">French Guiana</option><option value="73">French Polynesia</option><option value="74">Gabon</option><option value="75">Georgia</option><option value="76">Germany</option><option value="77">Ghana</option><option value="78">Gibraltar</option><option value="79">Greece</option><option value="80">Greenland</option><option value="81">Grenada</option><option value="82">Guadeloupe</option><option value="83">Guam</option><option value="84">Guatemala</option><option value="85">Guinea</option><option value="86">Guinea-Bissau</option><option value="87">Guyana</option><option value="88">Haiti</option><option value="89">Honduras</option><option value="90">Hong Kong</option><option value="91">Hungary</option><option value="92">Iceland</option><option value="93">India</option><option value="94">Indonesia</option><option value="95">Iran</option><option value="96">Iraq</option><option value="97">Ireland</option><option value="98">Isle of Man</option><option value="99">Israel</option><option value="100">Italy</option><option value="101">Jamaica</option><option value="102">Japan</option><option value="103">Jordan</option><option value="104">Kazakhstan</option><option value="105">Kenya</option><option value="106">Kiribati</option><option value="107">Korea (Peoples Republic of)</option><option value="108">Korea (Republic of)</option><option value="109">Kuwait</option><option value="110">Kyrgyzstan</option><option value="111">Laos</option><option value="112">Latvia</option><option value="113">Lebanon</option><option value="114">Lesotho</option><option value="115">Liberia</option><option value="116">Libya</option><option value="117">Liechtenstein</option><option value="118">Lithuania</option><option value="119">Luxembourg</option><option value="120">Macau</option><option value="121">Macedonia</option><option value="122">Madagascar</option><option value="123">Malawi</option><option value="124">Malaysia</option><option value="125">Maldives</option><option value="126">Mali</option><option value="127">Malta</option><option value="128">Marshall Islands</option><option value="129">Martinique</option><option value="130">Mauritius</option><option value="232">Mauritania</option><option value="131">Mayotte</option><option value="132">Mexico</option><option value="133">Moldova</option><option value="134">Monaco</option><option value="135">Mongolia</option><option value="136">Montenegro</option><option value="137">Montserrat</option><option value="138">Morocco</option><option value="139">Mozambique</option><option value="140">Myanmar</option><option value="141">Namibia</option><option value="142">Nauru</option><option value="143">Nepal</option><option value="144">Netherlands</option><option value="145">Netherlands Antilles</option><option value="146">New Caledonia</option><option value="147">New Zealand</option><option value="148">Nicaragua</option><option value="149">Niger</option><option value="150">Nigeria</option><option value="151">Niue</option><option value="152">Norfolk Island</option><option value="153">Northern Mariana Islands</option><option value="154">Norway</option><option value="155">Oman</option><option value="156">Pakistan</option><option value="157">Palau</option><option value="231">Palestinian Territory</option><option value="158">Panama</option><option value="159">Papua New Guinea</option><option value="160">Paraguay</option><option value="161">Peru</option><option value="162">Philippines</option><option value="163">Pitcairn</option><option value="164">Poland</option><option value="165">Portugal</option><option value="166">Puerto Rico</option><option value="167">Qatar</option><option value="168">Reunion</option><option value="169">Romania</option><option value="170">Russia</option><option value="171">Rwanda</option><option value="172">Saint Vincent and the Grenadines</option><option value="173">San Marino</option><option value="174">Sao Tome and Principe</option><option value="175">Saudi Arabia</option><option value="176">Senegal</option><option value="177">Serbia</option><option value="178">Seychelles</option><option value="179">Sierra Leone</option><option value="180">Singapore</option><option value="181">Slovakia</option><option value="182">Slovenia</option><option value="183">Solomon Islands</option><option value="184">Somalia</option><option value="185">South Africa</option><option value="186">South Georgia</option><option value="187">Spain</option><option value="188">Sri Lanka</option><option value="189">St. Kitts and Nevis</option><option value="190">St. Lucia</option><option value="191">St. Pierre and Miquelon</option><option value="192">Sudan</option><option value="193">Suriname</option><option value="194">Swaziland</option><option value="195">Sweden</option><option value="196">Switzerland</option><option value="197">Syrian Arab Republic</option><option value="198">Taiwan</option><option value="199">Tajikistan</option><option value="200">Tanzania</option><option value="201">Thailand</option><option value="202">Gambia</option><option value="203">Togo</option><option value="204">Tokelau</option><option value="205">Tonga</option><option value="206">Trinidad and Tobago</option><option value="207">Tunisia</option><option value="208">Turkey</option><option value="209">Turkmenistan</option><option value="210">Turks and Caicos Islands</option><option value="211">Tuvalu</option><option value="212">Uganda</option><option value="213">Ukraine</option><option value="214">United Arab Emirates</option><option value="215">United Kingdom</option><option value="216">Uruguay</option><option value="217">Uzbekistan</option><option value="218">Vanuatu</option><option value="219">Venezuela</option><option value="220">Vietnam</option><option value="221">Virgin Islands (U.K.)</option><option value="222">Virgin Islands (U.S.)</option><option value="223">Wallis and Futuna Islands</option><option value="224">Western Samoa</option><option value="225">Yemen</option><option value="227">Congo The Democratic Republic of the</option><option value="228">Zambia</option><option value="229">Zimbabwe</option><option value="230">Western Sahara</option><option value="13">Saint Helena</option><option value="234">Kosovo</option><option value="235">Curacao</option></select></div>
+			<b
+			 class="clearb"></b>
+		</div>
+		<p class="small_pop">By clicking the button below you confirm to have accepted <a target="_blank" href="http://www.paymentwall.com/en/terms">Terms of Service</a>			and <a target="_blank" href="http://www.paymentwall.com/en/privacypolicy">Privacy Policy</a></p>
+		<div class="button_holder_pop"><input name="input" type="button" value="Sign up" onclick="loginForm.signup()" class="button_pop big"> </div><a href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465#"
+		 onclick="loginForm.showLoginForm()" class="already_pop">Already a registered user?</a>
+		<div><b class="clearb"></b></div><input type="hidden" name="data[foreign_id]" value="" id="loginform_uid"><input type="hidden"
+		 value="1" id="checkbox" name="data[terms]"></form>
+		<div id="login_popup_signup_email_confirm" style="display:none;" class="form">
+			<div id="confirm" style="text-align: center; display: block; ">
+				<div class="success_icon_pop"></div>
+				<div class="success_pop">You have successfully registered with Paymentwall!</div>
+				<div class="separator_pop separator2_pop"></div>
+				<p>You will receive an email with verification link shortly. Please follow the link to verify your email.</p><br><a href="javascript:void(0);"
+				 onclick="loginForm.reloadPage()" class="mid_pop button_pop">Continue</a><br><br></div><b class="clearb"></b></div>
+	</div>
+	<div class="center_pop" id="login_popup_forgot_password" style="display:none;">
+		<div class="logo_popup_pop"><img src="./assets/paymentwall/logo_paymentwall6.png" alt="Paymentwall Inc."></div>
+		<div class="separator_pop separator2_pop"></div>
+		<div class="back2_pop"><a href="javascript:void(0);" onclick="loginForm.backToLoginForm()">« Back</a></div>
+		<h3>Password Reminder</h3>
+		<p class="title2_pop">Enter email address you registered with, and we'll send you link to reset your password.</p>
+		<form onsubmit="loginForm.forgotPassword();return false;"
+		 action="https://api.paymentwall.com/api/account/forgot-password/?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+		 method="POST" id="login_popup_forgot_password_form">
+			<div class="error" style="display: none;"></div>
+			<p><input name="email" type="text" class="textfield_pop" style="width:200px;" value="Email" onfocus="javascript:if(this.value==&#39;Email&#39;) {this.value=&#39;&#39;;}"
+				 onblur="javascript:if(this.value==&#39;&#39;) {this.value=&#39;Email&#39;}" autocomplete="off">&nbsp;<input name="input"
+				 onclick="loginForm.forgotPassword()" type="button" value="Submit" class="button_pop"></p>
+		</form>
+	</div>
+	<div id="login_popup_email_hash" class="center_pop" style="display:none;">
+		<div class="back2_pop"><a href="https://api.paymentwall.com/api/ps?country_code=US&amp;customer[birthday]=429408000&amp;customer[country]=US&amp;email=jeromefarnum%40gmail.com&amp;evaluation=1&amp;history[registration_date]=1413179374&amp;key=413b0494b9fd9d6a790e8d9f5d308536&amp;orderno=201707053089555&amp;sign_version=3&amp;source=wput-web-prod&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;widget=p1_1&amp;promo[0][discount]=0&amp;promo[0][minimum_amount]=10&amp;promo[0][minimum_amount_currency]=USD&amp;promo[0][type]=percent_bonus&amp;promo[1][discount]=4&amp;promo[1][minimum_amount]=25&amp;promo[1][minimum_amount_currency]=USD&amp;promo[1][type]=percent_bonus&amp;promo[2][discount]=4&amp;promo[2][minimum_amount]=50&amp;promo[2][minimum_amount_currency]=USD&amp;promo[2][type]=percent_bonus&amp;promo[3][discount]=6&amp;promo[3][minimum_amount]=100&amp;promo[3][minimum_amount_currency]=USD&amp;promo[3][type]=percent_bonus&amp;promo[4][discount]=6&amp;promo[4][minimum_amount]=250&amp;promo[4][minimum_amount_currency]=USD&amp;promo[4][type]=percent_bonus&amp;pingback_url=https%3a%2f%2fbilling.bnea.io%2fbilling%2fnotification%2fpaymentwall&amp;sign=08ea21ea4433cec4ba4e9a91de6f562013959cbbe00acaa00bcdf5bc93779465#"
+			 onclick="loginForm.backToLoginForm()">Back to login</a></div>
+		<div id="login_popup_email_hash_form">
+			<div class="error" style="display: none"></div>
+			<h3>Password Reminder</h3>
+			<p class="title2_pop">The link to reset your password has been sent to<br><i id="login_popup_remind_password_email_value"></i>.<br>Please check
+				your email.</p>
+			<p><img src="./assets/paymentwall/icon_email.png" width="92" height="55" alt="Email has been sent"></p>
+			<div class="box_bottom_pop"
+			 style="font-size: 13px;"><span class="didnt_receive">Didn't receive an email?</span><span class="resent_successfully" style="display: none">The email has been resent</span>&nbsp;
+				<a
+				 href="javascript:void(0);" onclick="loginForm.forgotPassword(true, this)">Resend</a>.</div>
+		</div>
+	</div>
+	<div id="login_popup_reset_pass" style="display:none;">
+		<div id="login_popup_reset_passwords_container">
+			<form onsubmit="loginForm.resetPassword();return false;" action="https://api.paymentwall.com/api/reset-password/reset-password"
+			 method="POST" id="login_popup_reset_pass_form">
+				<div class="error" style="display: none;"></div>
+				<div>
+					<h3>Please enter your new password</h3>
+					<p class="small_pop">Password should be not less than 6 symbols.</p>
+					<div class="error" style="display: none;"></div>
+					<div class="inline_pop">
+						<div class="title_pop">New Password:</div>
+						<div class="field_pop"><input type="password" class="textfield_pop" name="data[new_password]" id="login_popup-new_password" autocomplete="off"></div>
+						<b
+						 class="clearb"></b>
+					</div>
+					<div class="inline_pop">
+						<div class="title_pop">Confirm Password:</div>
+						<div class="field_pop"><input type="password" class="textfield_pop" name="data[new_password_repeat]" id="login_popup-new_password_repeat"
+							 autocomplete="off"></div><b class="clearb"></b></div>
+					<p><input type="button" onclick="loginForm.resetPassword()" class="button_pop" value="Save password" name="input"></p>
+					<input
+					 type="hidden" name="data[userhash_password_check]" id="login_popup_userhash_password_check"><input type="hidden" name="data[hash_password_check]" id="login_popup_hash_password_check"></div>
+			</form>
+		</div>
+		<div id="login_popup_passwords_changed" style="display:none;">
+			<h1>You password has been changed. Please try to log in.</h1>
+		</div>
+	</div>
+	</div>
+	</div>
+	<script language="javascript" type="text/javascript" src="./assets/paymentwall/loginform_v2.js"></script>
+	<script>
+							var loginFormsFactory = new LoginFormsFactory(); loginForm = loginFormsFactory.factory('login_popup', 'ppage', 'deactivate', 'key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd', false, 0, 0); loginForm.closeWindow = true;
+							if ($$('.fbconnect_pop')) {
+								$$('.fbconnect_pop').each(function (el) {
+									el.observe('click', function (e) {
+										e.stop();
+										var left = screen.width / 2 - 500;
+										var top = screen.height / 2 - 300;
+										window.open(this.href, 'Paymentwall', 'scrollbars=yes,resizable=yes,location=yes,width=1000,height=600,screenX=' + left + ',screenY=' + top + ',left=' + left + ',top=' + top);
+									});
+								});
+							}
+
+	</script>
+	<script src="./assets/paymentwall/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="./assets/paymentwall/jquery.bxslider.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var bxSettings = {
+			minSlides: 4,
+			maxSlides: 4,
+			slideWidth: 160,
+			slideMargin: 10,
+			infiniteLoop: 1,
+			moveSlides: 4,
+			pager: 1,
+			speed: 500,
+			onSliderLoad: function () { paymentSystems.listenRows('bx') }
+		};
+
+		jQuery.noConflict();
+
+		var PaymentSystemsBandai = Class.create(PaymentSystemsHorizontalPricepoints, {
+			afterUpdatePricePoints: function ($super, system) {
+				$super(system);
+
+				var ref = this;
+
+				if ($('ps_price_table_cnt').select('.bx-wrapper').length == 0) {
+					jQuery(function addCarousel() {
+						if (ref.bxCarousel) {
+							ref.bxCarousel.destroySlider();
+						}
+						ref.bxCarousel = jQuery('#ps_price').bxSlider(bxSettings);
+
+						// this has to be used due to cloning in infinite loop
+						// otherwise 1 element is unchecked
+						jQuery('.price_button').on('click', function () {
+							jQuery('.price_button').removeClass('pricepoint_over');
+							jQuery(this).addClass('pricepoint_over');
+						});
+
+						paymentSystems.listenRows();
+
+						if (paymentSystems.getCheckedPrice() == null) {
+							$(ref.priceId).select('input').each(function (e) {
+								if (e.getAttribute('checked') === '') {
+									e.checked = true;
+								}
+							});
+						}
+					});
+				}
+			},
+			listenRows: function ($super, calledBy) {
+				if (calledBy == 'bx') {
+					$super();
+				}
+				// skipping default call, only calling listen rows if the slider is ready
+				else { }
+			},
+			afterCheckPrice: function ($super, priceId) {
+				$super(priceId);
+				this.showCurrentPriceBandai();
+			},
+			afterOpen: function ($super, event) {
+				$super(event);
+				this.showCurrentPriceBandai();
+				if ($('ps_step_2')) {
+					$('ps_step_2').show();
+				}
+			},
+			showContent: function ($super, content) {
+				$super(content);
+				if ($('ps_step_2')) {
+					$('ps_step_2').hide();
+				}
+			},
+			showCurrentPriceBandai: function () {
+				var price = this.getPriceData(this.getPrice());
+
+				var h = '<div class="current_price_amount_container">';
+				h += '<span class="current_price_amount">' + price['price'] + '</span>';
+				h += '<label>Total</label>';
+				h += '</div>';
+				h += '<div class="current_price_coins_container">';
+				h += '<span class="current_price_coins_container">' + price['virtual_currency'] + '</span>';
+				h += '<label>' + this.currency + '</label>';
+				h += '</div>';
+
+				if (!$('current_price')) {
+					$('ps_price_table_cnt').insert({ bottom: '<div id="current_price"></div>' });
+				}
+
+				$('current_price').update(h);
+			}
+		});
+
+		var PaymentSystemsFactory = Class.create({
+			factory: function (container, opt) {
+				return new PaymentSystemsBandai(container, opt);
+			}
+		});
+	</script>
+	<script type="text/javascript">
+		var BaseUrl = 'https://api.paymentwall.com/'; var BaseUrlThirdparty = 'https://wallapi.com/'; var ControllersUrl = 'https://api.paymentwall.com/api/'; var UrlParams = 'key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd'; var Language = 'en';
+	</script>
+	<script type="text/javascript">
+		if ($('flag_select_link')) {
+			$('flag_select_link').observe('click', function (e) {
+				e.stop();
+				$('lang').toggle();
+				this.toggleClassName('sel');
+				this.blur();
+				if ($('currency_popup') && $('lang').visible()) {
+					hideCurrencies();
+				}
+			});
+		}
+		var paymentSystemPrices = { "paypal": [{ "id": 350, "price": "US $10.00", "virtual_currency": "5,000", "promo": "", "tag": "", "cu_code": "USD", "amount": "10.00", "ap_discount_type": "", "virtual_currency_int": "5000" }, { "id": 1624, "price": "US $25.00", "virtual_currency": "13,000", "promo": "", "tag": "", "cu_code": "USD", "comment": "12,500 + 500 Bonus", "amount": "25.00", "ap_discount_type": "", "virtual_currency_int": "13000" }, { "id": 1626, "price": "US $50.00", "virtual_currency": "27,000", "promo": "", "tag": "popular", "cu_code": "USD", "comment": "25,000 + 2,000 Bonus", "default": 1, "amount": "50.00", "ap_discount_type": "", "virtual_currency_int": "27000" }, { "id": 1628, "price": "US $100.00", "virtual_currency": "57,000", "promo": "", "tag": "", "cu_code": "USD", "comment": "50,000 + 7,000 Bonus", "amount": "100.00", "ap_discount_type": "", "virtual_currency_int": "57000" }, { "id": 50647724, "price": "US $250.00", "virtual_currency": "150,000", "promo": "", "tag": "best", "cu_code": "USD", "comment": "125,000 + 25,000 Bonus", "amount": "250.00", "ap_discount_type": "", "virtual_currency_int": "150000" }], "subway": [{ "id": 9980734, "price": "US $10.00", "virtual_currency": "5,000", "promo": "", "tag": "", "cu_code": "USD", "amount": "10.00", "ap_discount_type": "", "virtual_currency_int": "5000" }, { "id": 9980736, "price": "US $25.00", "virtual_currency": "13,000", "promo": "", "tag": "", "cu_code": "USD", "comment": "12,500 + 500 Bonus", "amount": "25.00", "ap_discount_type": "", "virtual_currency_int": "13000" }, { "id": 9980737, "price": "US $50.00", "virtual_currency": "27,000", "promo": "", "tag": "popular", "cu_code": "USD", "comment": "25,000 + 2,000 Bonus", "default": 1, "amount": "50.00", "ap_discount_type": "", "virtual_currency_int": "27000" }, { "id": 34425370, "price": "US $100.00", "virtual_currency": "57,000", "promo": "", "tag": "", "cu_code": "USD", "comment": "50,000 + 7,000 Bonus", "amount": "100.00", "ap_discount_type": "", "virtual_currency_int": "57000" }, { "id": 50648049, "price": "US $250.00", "virtual_currency": "150,000", "promo": "", "tag": "best", "cu_code": "USD", "comment": "125,000 + 25,000 Bonus", "amount": "250.00", "ap_discount_type": "", "virtual_currency_int": "150000" }], "openbucks": [{ "id": 8490534, "price": "US $10.00", "virtual_currency": "5,000", "promo": "", "tag": "", "cu_code": "USD", "amount": "10.00", "ap_discount_type": "", "virtual_currency_int": "5000" }, { "id": 8490536, "price": "US $25.00", "virtual_currency": "13,000", "promo": "", "tag": "", "cu_code": "USD", "comment": "12,500 + 500 Bonus", "amount": "25.00", "ap_discount_type": "", "virtual_currency_int": "13000" }, { "id": 8490538, "price": "US $50.00", "virtual_currency": "27,000", "promo": "", "tag": "popular", "cu_code": "USD", "comment": "25,000 + 2,000 Bonus", "default": 1, "amount": "50.00", "ap_discount_type": "", "virtual_currency_int": "27000" }], "gateway": [{ "id": 4105229, "price": "US $10.00", "virtual_currency": "5,000", "promo": "", "tag": "", "cu_code": "USD", "amount": "10.00", "ap_discount_type": "", "virtual_currency_int": "5000" }, { "id": 4105231, "price": "US $25.00", "virtual_currency": "13,000", "promo": "", "tag": "", "cu_code": "USD", "comment": "12,500 + 500 Bonus", "amount": "25.00", "ap_discount_type": "", "virtual_currency_int": "13000" }, { "id": 4105232, "price": "US $50.00", "virtual_currency": "27,000", "promo": "", "tag": "popular", "cu_code": "USD", "comment": "25,000 + 2,000 Bonus", "default": 1, "amount": "50.00", "ap_discount_type": "", "virtual_currency_int": "27000" }, { "id": 43261180, "price": "US $100.00", "virtual_currency": "57,000", "promo": "", "tag": "", "cu_code": "USD", "comment": "50,000 + 7,000 Bonus", "amount": "100.00", "ap_discount_type": "", "virtual_currency_int": "57000" }, { "id": 50647908, "price": "US $250.00", "virtual_currency": "150,000", "promo": "", "tag": "best", "cu_code": "USD", "comment": "125,000 + 25,000 Bonus", "amount": "250.00", "ap_discount_type": "", "virtual_currency_int": "150000" }], "paysafecard": [{ "id": 6531, "price": "US $10.00", "virtual_currency": "5,000", "promo": "", "tag": "", "cu_code": "USD", "amount": "10.00", "ap_discount_type": "", "virtual_currency_int": "5000" }, { "id": 6528, "price": "US $25.00", "virtual_currency": "13,000", "promo": "", "tag": "", "cu_code": "USD", "comment": "12,500 + 500 Bonus", "amount": "25.00", "ap_discount_type": "", "virtual_currency_int": "13000" }, { "id": 34424106, "price": "US $50.00", "virtual_currency": "27,000", "promo": "", "tag": "popular", "cu_code": "USD", "comment": "25,000 + 2,000 Bonus", "default": 1, "amount": "50.00", "ap_discount_type": "", "virtual_currency_int": "27000" }, { "id": 34425076, "price": "US $100.00", "virtual_currency": "57,000", "promo": "", "tag": "", "cu_code": "USD", "comment": "50,000 + 7,000 Bonus", "amount": "100.00", "ap_discount_type": "", "virtual_currency_int": "57000" }, { "id": 50648015, "price": "US $250.00", "virtual_currency": "150,000", "promo": "", "tag": "best", "cu_code": "USD", "comment": "125,000 + 25,000 Bonus", "amount": "250.00", "ap_discount_type": "", "virtual_currency_int": "150000" }], "dollargeneral": [{ "id": 9980724, "price": "US $10.00", "virtual_currency": "5,000", "promo": "", "tag": "", "cu_code": "USD", "amount": "10.00", "ap_discount_type": "", "virtual_currency_int": "5000" }, { "id": 9980726, "price": "US $25.00", "virtual_currency": "13,000", "promo": "", "tag": "", "cu_code": "USD", "comment": "12,500 + 500 Bonus", "amount": "25.00", "ap_discount_type": "", "virtual_currency_int": "13000" }, { "id": 9980727, "price": "US $50.00", "virtual_currency": "27,000", "promo": "", "tag": "popular", "cu_code": "USD", "comment": "25,000 + 2,000 Bonus", "default": 1, "amount": "50.00", "ap_discount_type": "", "virtual_currency_int": "27000" }, { "id": 34425368, "price": "US $100.00", "virtual_currency": "57,000", "promo": "", "tag": "", "cu_code": "USD", "comment": "50,000 + 7,000 Bonus", "amount": "100.00", "ap_discount_type": "", "virtual_currency_int": "57000" }, { "id": 50648047, "price": "US $250.00", "virtual_currency": "150,000", "promo": "", "tag": "best", "cu_code": "USD", "comment": "125,000 + 25,000 Bonus", "amount": "250.00", "ap_discount_type": "", "virtual_currency_int": "150000" }] }; var skey = '477a774021cc605ec82569e00c8b09dd'; var hasDrm = ''; var isGatewayReplicasInCountriesEnabled = false; var paymentSystemsRecurringMessagesSets = {}; var paymentSystemsList = { "gateway": { "ps_name": "Credit card", "ps_type": 1, "name": "Credit card", "editable": 1 }, "paypal": { "ps_name": "PayPal", "ps_type": 1, "name": "PayPal", "new_window": false, "editable": 1 }, "subway": { "ps_name": "Gift Card Subway", "ps_type": 2, "name": "Gift Card Subway", "new_window": true, "editable": 1 }, "dollargeneral": { "ps_name": "Gift Card Dollar General", "ps_type": 2, "name": "Gift Card Dollar General", "new_window": true, "editable": 1 }, "paysafecard": { "ps_name": "Paysafecard", "ps_type": 2, "name": "Paysafecard", "editable": 1 }, "openbucks": { "ps_name": "Openbucks", "ps_type": 2, "name": "Openbucks", "new_window": true, "editable": 1 } }; var paymentSystemsFactory = new PaymentSystemsFactory(); var paymentSystems = paymentSystemsFactory.factory('pay_methods', { visible: 8, countryCode: 'us', currency: 'Diamonds', system: 'gateway', prices: paymentSystemPrices, total: 6, titles: { "cc_placeholders": { "cnumber": "XXXX XXXX XXXX XXXX", "exp_month": "MM", "exp_year": "YY", "cvv": "XXX" } }, paymentSystems: paymentSystemsList, isRecentPaymentCheckActive: 1, isTransactionVerificationFlowActive: 1, showIframePsInPopupLayer: { "not": ["cc", "cc3", "cceuro", "directpay", "ccbrazil", "ccsmart", "ccbrazilhipercard", "gateway"] }, errors: { wrongEmail: 'Please enter a valid email address' }, pricesView: 'horizontalPricepoints' });
+		document.observe('dom:loaded', function (e) {
+			if ($('ps_widget_preloader')) {
+				$('ps_widget_preloader').hide()
+			}
+		});
+	</script>
+	<script type="text/javascript">
+						var umInfo = new UMInfo();
+						document.observe('dom:loaded', function (e) {
+							setTimeout("umInfo.submitInfo()", 1000);
+							paymentSystems.addOnSelectPriceListener(function (event) { umInfo.onSelectPrice(event) });
+						});
+
+	</script>
+
+	<div style="position: absolute; top: 1px; left: 1px">
+		<object id="umidsfw" name="umidsfw" type="application/x-shockwave-flash" data="./assets/paymentwall/UMID.swf.download" width="1"
+		 height="1">
+		<param name="movie" value="https://api.paymentwall.com/swf/UMID.swf">
+		<param name="wmode" value="transparent">
+		<embed src="https://api.paymentwall.com/swf/UMID.swf" width="1" height="1">
+	</object>
+
+		<noscript>
+			&lt;img src="https://api.paymentwall.com/api/usermachineinfo/submit?key=413b0494b9fd9d6a790e8d9f5d308536&amp;uid=0449ffdd-228d-42da-c211-febd579e50ea&amp;skey=477a774021cc605ec82569e00c8b09dd"
+			width="1" height="1" /&gt;
+		</noscript>
+	</div>
+	<script id="crm-stage-blank" type="text/template">
+		<div class="container container-xs" style="height: 300px">
+			<div class="container-inner">
+				<div class="heading heading-trouble"></div>
+				<div class="footer">
+					<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+					<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+						 target="_blank">Privacy Policy</a></div>
+				</div>
+			</div>
+		</div>
+	</script>
+	<script id="crm-stage-init" type="text/template">
+		<div class="container container-xs">
+			<div class="container-inner">
+				<div class="heading heading-trouble"><span class="icon crm-sprite"></span><button class="btn btn-close crm-close-modal"></button>
+					<h2>Need help?</h2>
+					<p class="heading-description">Select one of the topics below so we can quickly answer your question</p>
+				</div>
+				<div class="select-container"><a href="#" class="select-item crm-set-stage" rel="next" data-stage="STAGE_BLOCKED_TRANSACTION" id="crm-blocked-transaction-item">Payment on hold?</a>
+					<a
+					 href="#" class="select-item crm-set-stage" rel="next" data-stage="STAGE_MISSING_GOODS">Did not receive your good or service?</a><a href="#" class="select-item crm-set-stage" rel="next" data-stage="STAGE_NEW_PAYMENT_OPTION_REQUEST">Favorite payment option not available?</a>
+						<a
+						 href="#" class="select-item crm-set-stage" rel="next" data-stage="STAGE_RECURRING_PAYMENTS" id="crm-recurring-payments-item">Subscriptions</a><a href="#" class="select-item crm-set-stage" rel="next" data-stage="STAGE_OTHER_PROBLEM_CHECK">Any other questions?</a>
+							<% if (typeof modalCreditCardListCF != 'undefined' && modalCreditCardListCF) { %><a href="#" class="select-item crm-set-stage" rel="next" data-stage="STAGE_CC_LIST">My Cards</a>
+								<% } %>
+				</div>
+				<div class="heading heading-curious"><span class="icon crm-sprite"></span>
+					<h2>Learn more</h2>
+					<p class="heading-description">Check out more information at our <a href="https://www.paymentwall.com/en/faq" target="_blank" class="u-underline">support center</a></p>
+				</div>
+				<div id="crm-init-previous_inquiries-container" class="u-center-text"><a href="#" class="crm-set-stage" rel="next" data-stage="STAGE_TICKETS_LIST">Previous inquiries</a></div>
+				<div class="footer">
+					<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+					<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+						 target="_blank">Privacy Policy</a></div>
+				</div>
+			</div>
+		</div>
+	</script>
+	<script id="crm-stage-missing_goods" type="text/template">
+		<div class="container container-xl">
+			<div class="container-inner">
+				<div class="heading"><button class="btn btn-close crm-close-modal"></button>
+					<h2>Missing Order</h2>
+					<p class="heading-description">
+						<% if (list.length) { %>Please let us know the payment attempt you need help with
+							<% } else { %>We haven't found any payments done yet. Please upload the receipt with a confirmation of your payment.
+								<% } %>
+					</p>
+				</div>
+				<% if (list.length) { %>
+					<form id="missing-goods-form" action="https://api.paymentwall.com/api/crm/missing-goods-proceed?key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd"
+					 target="missingGoodsKeyHole" method="post">
+						<table class="table-history">
+							<thead>
+								<tr>
+									<th></th>
+									<th>Payment Date</th>
+									<th>Reference Number</th>
+									<th>Payment System</th>
+									<th>Amount</th>
+								</tr>
+							</thead>
+							<tbody>
+								<% _.each(list, function(transaction) { %>
+									<tr style="cursor: pointer;">
+										<td>
+											<div class="custom-radio-input">
+												<input type="radio" name="transaction" value="<%= transaction.id %>" class="crm-sprite" id="transaction-<%= transaction.id %>">
+												<label for="transaction-<%= transaction.id %>" class="crm-sprite"></label>
+											</div>
+										</td>
+										<td>
+											<%= transaction.payment_date %>
+										</td>
+										<td>
+											<%= transaction.reference_number %>
+										</td>
+										<td>
+											<%= transaction.payment_system_translated %>
+										</td>
+										<td>
+											<%= transaction.amount %>
+										</td>
+									</tr>
+									<% }); %>
+							</tbody>
+						</table><a href="#" class="crm-set-stage" rel="next" data-stage="STAGE_MISSING_PAYMENT" style="margin-top: -30px">Can't find my payment</a>
+						<div
+						 class="u-group">
+							<div class="u-pull-right">Total:
+								<%= total_count %>
+							</div>
+							<%= pagination %>
+			</div><a href="#" class="btn-prev btn-medium crm-set-stage" rel="prev">Back</a><button type="submit" class="btn-next btn-medium"
+			 style="display: none;">Next</button></form>
+			<iframe class="hidden" id="missingGoodsKeyHole" name="missingGoodsKeyHole"
+			 src="about:blank"></iframe>
+			<% } else { %><a href="#" class="crm-set-stage" rel="next" data-stage="STAGE_MISSING_PAYMENT" style="margin-top: -30px">Click here to upload documents</a>
+				<% } %>
+					<div class="footer">
+						<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+						<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+							 target="_blank">Privacy Policy</a></div>
+					</div>
+		</div>
+		</div>
+	</script>
+	<script>
+		document.observe('submit', function (event) {
+			var target = event.findElement('#missing-goods-form');
+			if (target) {
+				if (target.transaction.value == '') {
+					event.stop();
+				} else {
+					$('crm-root').fire('crm:toggle-spinner', { toggle: true });
+				}
+			}
+		});
+
+		document.observe('click', function (event) {
+			var target = event.findElement('#missing-goods-form tbody tr');
+			if (target) {
+				target.select('input[type=radio]').each(function (e) {
+					e.checked = 'checked';
+				});
+
+				$('missing-goods-form').select('button[type="submit"]').each(function (btn) {
+					btn.show();
+				});
+			}
+		});
+	</script>
+	<script id="crm-stage-missing_payment" type="text/template">
+		<div class="container container-xl">
+			<div class="container-inner">
+				<div class="heading"><button class="btn btn-close crm-close-modal"></button>
+					<h2>Missing Order</h2>
+					<p class="heading-description" id="crm-missing_payment-no-payments" style="display: none">We haven't found any payments yet. Please upload your receipt so that we can locate your transaction.</p>
+					<p class="heading-description"
+					 id="crm-missing_payment-send-receipt" style="display: none">Please attach your receipt below so we can locate your transaction.</p>
+				</div>
+				<form id="crm-missing_payment-inquiry-add-form" action="https://api.paymentwall.com/api/crm/inquiry-add?key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd"
+				 target="blockedTransactionKeyHole" method="post" enctype="multipart/form-data"><input type="hidden" name="data[ticket]" value="" /><input type="hidden" name="data[problem]" value="not_receive_vc"
+					/>
+					<table class="table-attachments">
+						<tr class="user-receipt">
+							<th><span class="icon crm-sprite"></span><b>Receipt</b></th>
+							<td>
+								<div class="custom-file-input"><label for="crm-missing_payment-user-receipt">Securely upload file</label><input type="file" name="attachment_1"
+									 accept="image/*" id="crm-missing_payment-user-receipt">
+									<div id="crm-missing_payment-user-receipt-filename" class="filename"></div><button type="button" class="btn-close" style="display: none"></div></td></tr><tr><th colspan="2" style="font-weight: normal; font-size: 11px; color: grey">png, jpg or gif image less than 5MB</th></tr></table><div class="form-group" id="crm-missing_payment-user-email-container"><p style="margin-bottom: 10px">Enter your email:</p><input type="email" name="data[email]" id="crm-missing_payment-user-email" placeholder="Email" class="u-half" value=""/></div><div id="inquiry-errors" style="color: red; display: none"></div><a href="#" class="crm-set-stage" rel="next" data-stage="STAGE_OTHER_PROBLEM" data-params='{"problem": "not_receive_vc"}'>Don't have a receipt? Message us here</a><br clear="both"/><br/><a href="#" class="btn-prev btn-medium crm-set-stage" rel="prev">Back</a><button type="submit" class="btn-next btn-large">Submit</button></form>
+				<iframe
+				 class="hidden" id="blockedTransactionKeyHole" name="blockedTransactionKeyHole" src="about:blank"></iframe>
+					<div class="footer">
+						<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+						<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+							 target="_blank">Privacy Policy</a></div>
+					</div>
+					</div>
+			</div>
+	</script>
+	<script>
+		var target;
+		var basename = function (path) {
+			return path.replace('C:\\fakepath\\', ''); // added by some browsers
+		};
+		var EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i;
+
+		document.observe('change', function (event) {
+			if (target = event.findElement('#crm-missing_payment-user-receipt')) {
+				var filename = $('crm-missing_payment-user-receipt-filename');
+				filename.innerHTML = basename(target.value);
+				filename.up().select('.btn-close').first().show();
+			}
+		});
+
+		document.observe('submit', function (event) {
+			if (target = event.findElement('#crm-missing_payment-inquiry-add-form')) {
+				var errorbox = $('inquiry-errors');
+				if (basename($F('crm-missing_payment-user-receipt')) == '') {
+					event.stop();
+					errorbox.innerHTML = 'Please attach receipt';
+					errorbox.show();
+				} else if ($F('crm-missing_payment-user-email') == '' || !EMAIL_REGEXP.test($F('crm-missing_payment-user-email'))) {
+					event.stop();
+					errorbox.innerHTML = 'Enter your email';
+					errorbox.show();
+				} else {
+					$('crm-root').fire('crm:toggle-spinner', { toggle: true });
+				}
+			}
+		});
+	</script>
+	<script id="crm-stage-blocked_transaction" type="text/template">
+		<div class="container container-xl">
+			<div class="container-inner">
+				<div class="heading"><button class="btn btn-close crm-close-modal"></button>
+					<h2>Your payment is on hold</h2>
+					<p class="heading-description">Some of your past payments have been placed on hold</p>
+				</div>
+				<table class="table-history">
+					<thead>
+						<tr>
+							<th>Payment Date</th>
+							<th>Reference Number</th>
+							<th>Payment System</th>
+							<th>Amount</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<%= blocked_transaction.payment_date %>
+							</td>
+							<td>
+								<%= blocked_transaction.reference_number %>
+							</td>
+							<td>
+								<%= blocked_transaction.payment_system %>
+							</td>
+							<td>
+								<%= blocked_transaction.amount %>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<form id="crm-blocked_transaction-inquiry-add-form" action="https://api.paymentwall.com/api/crm/inquiry-add?key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd"
+				 target="blockedTransactionKeyHole" method="post" enctype="multipart/form-data"><input type="hidden" name="data[ticket]" value="" /><input type="hidden" name="data[problem]" value="blocked_transaction"
+					/>
+					<table class="table-attachments">
+						<tr class="user-id">
+							<th><span class="icon crm-sprite"></span><b>Photo ID</b></th>
+							<td>
+								<div class="custom-file-input"><label for="crm-blocked_transaction-user-id">Securely upload file</label><input type="file" name="attachment_0" accept="image/*"
+									 id="crm-blocked_transaction-user-id">
+									<div id="crm-blocked_transaction-user-id-filename" class="filename"></div><button type="button" class="btn-close" style="display: none"></div></td></tr><tr class="user-receipt"><th><span class="icon crm-sprite"></span><b>Receipt</b></th><td><div class="custom-file-input"><label for="crm-blocked_transaction-user-receipt">Securely upload file</label><input type="file" name="attachment_1" accept="image/*" id="crm-blocked_transaction-user-receipt"><div id="crm-blocked_transaction-user-receipt-filename" class="filename"></div><button type="button" class="btn-close" style="display: none"></div></td></tr><tr><th colspan="2" style="font-weight: normal; font-size: 11px; color: grey">png, jpg or gif image less than 5MB</th></tr></table><div class="form-group" id="crm-blocked_transaction-email-container"><p style="margin-bottom: 10px">Enter your email to get updates with details:</p><input type="email" id="crm-blocked_transaction-email" name="data[email]" placeholder="Email" class="u-half" value=""/></div><div id="inquiry-errors" style="color: red; display: none"></div><a href="#" class="btn-prev btn-medium crm-set-stage" rel="prev">Back</a><button type="submit" class="btn-next btn-large">Verify Payment</button></form>
+				<iframe
+				 class="hidden" id="blockedTransactionKeyHole" name="blockedTransactionKeyHole" src="about:blank"></iframe>
+					<div class="footer">
+						<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+						<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+							 target="_blank">Privacy Policy</a></div>
+					</div>
+					</div>
+			</div>
+	</script>
+	<script>
+		var target;
+		var basename = function (path) {
+			return path.replace('C:\\fakepath\\', ''); // added by some browsers
+		};
+		var EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i;
+
+		document.observe('change', function (event) {
+			var filename,
+				target;
+
+			if (target = event.findElement('#crm-blocked_transaction-user-id')) {
+				filename = $('crm-blocked_transaction-user-id-filename');
+			}
+			else if (target = event.findElement('#crm-blocked_transaction-user-receipt')) {
+				filename = $('crm-blocked_transaction-user-receipt-filename');
+			}
+
+			if (!!filename) {
+				filename.innerHTML = basename(target.value);
+				filename.up().select('.btn-close').first().show();
+			}
+		});
+
+		document.observe('submit', function (event) {
+			if (target = event.findElement('#crm-blocked_transaction-inquiry-add-form')) {
+				var errorbox = $('inquiry-errors');
+				if (basename($F('crm-blocked_transaction-user-id')) + basename($F('crm-blocked_transaction-user-receipt')) == '') {
+					event.stop();
+					errorbox.innerHTML = 'Please make sure all documents are uploaded';
+					errorbox.show();
+				} else if ($F('crm-blocked_transaction-email') == '' || !EMAIL_REGEXP.test($F('crm-blocked_transaction-email'))) {
+					event.stop();
+					errorbox.innerHTML = 'Enter your email';
+					errorbox.show();
+				} else {
+					$('crm-root').fire('crm:toggle-spinner', { toggle: true });
+				}
+			}
+		});
+	</script>
+	<script id="crm-stage-blocked_ps" type="text/template">
+		<div class="container container-xl">
+			<div class="container-inner">
+				<div class="heading"><button class="btn btn-close crm-close-modal"></button>
+					<h2>Payment system was blocked for you</h2>
+					<p class="heading-description">The verification process we have in place is to combat fraudulent activity and to make sure there are no problems. We
+						apologize for all the inconvenience this may have caused.</p>
+				</div>
+				<form id="crm-blocked_ps-inquiry-add-form" action="https://api.paymentwall.com/api/crm/inquiry-add?key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd"
+				 target="blockedPsKeyHole" method="post" enctype="multipart/form-data"><input type="hidden" name="data[ticket]" value="" /><input type="hidden" name="data[problem]" value="ps_blocked" /><input
+					 type="hidden" name="data[ps_id]" value="<%= ps_id %>" />
+					<p>To verify your account, please provide us with the following documents:</p>
+					<table class="table-attachments">
+						<tr>
+							<th><span class="icon crm-sprite"></span><b>Account statement</b></th>
+							<td>
+								<div class="custom-file-input"><label for="crm-blocked_ps-account-statement">Securely upload file</label><input type="file" name="attachment_0"
+									 accept="image/*" id="crm-blocked_ps-account-statement">
+									<div id="crm-blocked_ps-account-statement-filename" class="filename"></div><button type="button" class="btn-close" style="display: none"></div></td></tr><tr><th colspan="2" style="font-weight: normal; font-size: 11px; color: grey">png, jpg or gif image less than 5MB</th></tr></table><div class="form-group" id="crm-blocked_ps-email-container"><p style="margin-bottom: 10px">Enter your email to get updates with details:</p><input type="email" id="crm-blocked_ps-email" name="data[email]" placeholder="Email" class="u-half" value=""/></div><div id="inquiry-errors" style="color: red; display: none"></div><button type="submit" class="btn-next btn-large">Verify Account</button></form>
+				<iframe
+				 class="hidden" id="blockedPsKeyHole" name="blockedPsKeyHole" src="about:blank"></iframe>
+					<div class="footer">
+						<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+						<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+							 target="_blank">Privacy Policy</a></div>
+					</div>
+					</div>
+			</div>
+	</script>
+	<script>
+		var please_make_sure_all_documents_are_uploaded = 'Please make sure all documents are uploaded'; var enter_your_email = 'Enter your email';
+	</script>
+	<script>
+		(function () {
+			var target;
+			var basename = function (path) {
+				return path.replace('C:\\fakepath\\', ''); // added by some browsers
+			};
+			var EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i;
+
+			document.observe('change', function (event) {
+				var filename,
+					target;
+
+				if (target = event.findElement('#crm-blocked_ps-account-statement')) {
+					filename = $('crm-blocked_ps-account-statement-filename');
+				}
+
+				if (!!filename) {
+					filename.innerHTML = basename(target.value);
+					filename.up().select('.btn-close').first().show();
+				}
+			});
+
+			document.observe('submit', function (event) {
+				if (target = event.findElement('#crm-blocked_ps-inquiry-add-form')) {
+					var errorbox = $('inquiry-errors');
+					if (basename($F('crm-blocked_ps-account-statement')) == '') {
+						event.stop();
+						errorbox.innerHTML = please_make_sure_all_documents_are_uploaded;
+						errorbox.show();
+					} else if ($F('crm-blocked_ps-email') == '' || !EMAIL_REGEXP.test($F('crm-blocked_ps-email'))) {
+						event.stop();
+						errorbox.innerHTML = enter_your_email;
+						errorbox.show();
+					} else {
+						$('crm-root').fire('crm:toggle-spinner', { toggle: true });
+					}
+				}
+			});
+		}());
+	</script>
+	<script id="crm-stage-thank_you" type="text/template">
+		<div class="container container-xs">
+			<div class="container-inner">
+				<div class="u-center-text"><span class="icon-thank-you crm-sprite"></span><br/>
+					<p><b>Thank you for submitting your information. <br/>We will contact you shortly.</b></p>
+				</div><a href="#" class="btn-next btn-medium u-center u-no-postfix crm-close-modal">Close</a>
+				<div class="footer">
+					<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+					<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+						 target="_blank">Privacy Policy</a></div>
+				</div>
+			</div>
+		</div>
+	</script>
+	<script id="crm-stage-tickets_list" type="text/template">
+		<div class="container container-xl">
+			<div class="container-inner">
+				<div class="heading"><button class="btn btn-close crm-close-modal"></button>
+					<h2>Inquiries</h2>
+					<p class="heading-description"></p>
+				</div>
+				<table class="table-history">
+					<thead>
+						<tr>
+							<th>Inquiry #</th>
+							<th>Date</th>
+							<th>Transaction</th>
+							<th>Status</th>
+						</tr>
+					</thead>
+					<tbody>
+						<% _.each(list, function(ticket) { %>
+							<tr>
+								<td>
+									<a href="#" class="crm-set-stage" rel="next" data-stage="STAGE_TICKET_DETAILS" data-params='{"ticket": "<%= ticket.id %>"}'>
+										<%= ticket.id %>
+									</a>
+								</td>
+								<td>
+									<%= ticket.open_date %>
+								</td>
+								<td>
+									<%= ticket.transaction %>
+								</td>
+								<td>
+									<%= ticket.status_translated %>
+								</td>
+							</tr>
+							<% }); %>
+					</tbody>
+				</table>
+				<div class="u-group">
+					<div class="u-pull-right">Total:
+						<%= total_count %>
+					</div>
+					<%= pagination %>
+				</div><a href="#" class="btn-prev btn-medium crm-set-stage" rel="prev">Back</a>
+				<div class="footer">
+					<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+					<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+						 target="_blank">Privacy Policy</a></div>
+				</div>
+			</div>
+		</div>
+	</script>
+	<script id="crm-stage-ticket_details" type="text/template">
+		<div class="container container-l">
+			<div class="heading heading-chat"><span class="icon crm-sprite"></span><button class="btn-close crm-close-modal"></button>
+				<h2>Inquiry #
+					<%= ticket.id %>
+				</h2>
+				<p class="heading-description">Status:
+					<%= ticket.status_translated %>
+				</p>
+			</div>
+			<form id="message-add-form" action="https://api.paymentwall.com/api/crm/message-add?key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd"
+			 target="ticketDetailsKeyHole" method="post" enctype="multipart/form-data"><input type="hidden" name="ticket" value="<%= ticket.id %>" />
+				<div class="chat-container">
+					<div class="chat-body" id="crm-chat-body">
+						<% _.each(messages, function(message) { %>
+							<div class="chat-message">
+								<div class="chat-message-heading">
+									<div class="chat-message-userpic crm-sprite"><img src="" alt="" class="chat-message-user-avatar" width="36" height="36"></div>
+									<div class="chat-message-user-name">
+										<% if (message.author == 'paymentwall') {
+										%> Paymentwall
+											<%
+									}
+									else {
+										%> You
+												<%
+									} %>
+									</div>
+									<div class="chat-message-time">
+										<%= message.time %>
+									</div>
+								</div>
+								<% if (message.attachment) { %>
+									<div class="chat-message-text"><a href="https://api.paymentwall.com/api/crm/get-attachment?id=<%= message.id %>&amp;key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd">Attachment #<%= message.number %></a></div>
+									<% } else { %>
+										<div class="chat-message-text">
+											<%- message.text %>
+										</div>
+										<% } %>
+							</div>
+							<% }); %>
+					</div>
+					<div class="chat-footer">
+						<div class="form-group"><textarea name="data[message]" id="crm-message-text" placeholder="Type your message..."></textarea></div>
+						<div class="custom-file-input"><label for="crm-ticket_details-attachment">Attach a file</label>
+							<div id="crm-ticket_details-filename" class="filename"></div><input type="file" name="attachment_0" accept="image/*" id="crm-ticket_details-attachment"><button type="button"
+							 class="btn-close" style="display: none"></div><div id="message-errors" style="color: red; display: none"></div><br clear="both"/><a href="#" class="btn-prev btn-x-large crm-set-stage" rel="next" data-stage="STAGE_INIT">I have another question</a><button type="submit" class="btn-next btn-small">Send</button></div>
+					</div>
+			</form>
+			<iframe class="hidden" id="ticketDetailsKeyHole" name="ticketDetailsKeyHole" src="about:blank"></iframe>
+			<div class="footer">
+				<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+				<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+					 target="_blank">Privacy Policy</a></div>
+			</div>
+			</div>
+	</script>
+	<script>
+		var target;
+		document.observe('change', function (event) {
+			if (target = event.findElement('#crm-ticket_details-attachment')) {
+				var filename = $('crm-ticket_details-filename');
+				filename.innerHTML = target.value.replace('C:\\fakepath\\', '');  // added by some browsers
+				filename.up().select('.btn-close').first().show();
+			}
+		});
+		document.observe('keypress', function (event) {
+			if (target = event.findElement('#crm-message-text')) {
+				if (event.ctrlKey && (event.keyCode == 10 || event.keyCode == 13)) {
+					$('message-add-form').submit();
+				}
+			}
+		});
+		document.observe('submit', function (event) {
+			if (target = event.findElement('#message-add-form')) {
+				$('crm-root').fire('crm:toggle-spinner', { toggle: true });
+			}
+		});
+	</script>
+	<script id="crm-stage-failed_pingback" type="text/template">
+		<div class="container container-l">
+			<div class="container-inner">
+				<div class="heading"><button class="btn btn-close crm-close-modal"></button>
+					<h2>Notice</h2>
+				</div>
+				<p>Your payment was successful and we are working closely with the website to ensure your credits are delivered to you within
+					72 hours.</p>
+				<p>If you do not receive your credits within the 72 hours, your payment will be refunded</p>
+				<div><a href="#" class="pull-left crm-set-stage" rel="next" data-stage="STAGE_INIT">I have another question</a><button class="btn-next btn-medium crm-close-modal">Close</button></div>
+				<div
+				 class="footer">
+					<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+					<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+						 target="_blank">Privacy Policy</a></div>
+			</div>
+		</div>
+		</div>
+	</script>
+	<script id="crm-stage-other_problem" type="text/template">
+		<div class="container container-xs">
+			<div class="container-inner">
+				<div class="heading"><button class="btn btn-close crm-close-modal"></button>
+					<h2 id="crm-other_problem-title-basic">Any other questions?</h2>
+					<h2 id="crm-other_problem-title-missing-good" style="display: none">Missing Order</h2>
+					<p class="heading-description">Please submit your question below so we can help you.</p>
+				</div>
+				<form id="crm-other_problem-inquiry-add-form" action="https://api.paymentwall.com/api/crm/inquiry-add?key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd"
+				 target="otherProblemKeyHole" method="post"><input type="hidden" name="data[ticket]" value="" /><input type="hidden" name="data[transaction]" value="<% if (typeof transaction != 'undefined') { %><%= transaction %><% } %>"
+					/><input type="hidden" name="data[problem]" value="<% if (typeof problem != 'undefined') { %><%= problem %><% } else { %>other<% } %>"
+					/>
+					<div class="form-group" id="crm-other_problem-email-container"><input type="email" id="crm-other_problem-email" name="data[email]" value="" placeholder="Enter your email"></div>
+					<div
+					 class="form-group"><textarea name="data[message]"></textarea></div>
+			<div id="inquiry-errors" style="color: red; display: none"></div><a href="#" class="btn-prev btn-medium crm-set-stage" rel="prev">Back</a><button type="submit" class="btn-next btn-medium">Submit</button></form>
+			<iframe
+			 class="hidden" id="otherProblemKeyHole" name="otherProblemKeyHole" src="about:blank"></iframe>
+				<div class="footer">
+					<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+					<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+						 target="_blank">Privacy Policy</a></div>
+				</div>
+		</div>
+		</div>
+	</script>
+	<script>
+		var target;
+		var EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i;
+
+		document.observe('submit', function (event) {
+			if (target = event.findElement('#crm-other_problem-inquiry-add-form')) {
+				var errorbox = $('inquiry-errors');
+				if ($F('crm-other_problem-email') == '' || !EMAIL_REGEXP.test($F('crm-other_problem-email'))) {
+					event.stop();
+					errorbox.innerHTML = 'Enter your email';
+					errorbox.show();
+				}
+			}
+		});
+	</script>
+	<script id="crm-stage-other_problem_check" type="text/template">
+		<div class="container container-xs">
+			<div class="container-inner">
+				<div class="heading"><button class="btn btn-close crm-close-modal"></button>
+					<h2 id="crm-other_problem-title-basic">You have pending inquiry</h2>
+				</div>
+				<p>Currently we are already working on your request.<br/>Please do not create duplicate requests.</p>
+				<p><a href="#" class="crm-set-stage" rel="next" data-stage="STAGE_TICKETS_LIST">Go to Inquiries list</a></p><a href="#"
+				 class="btn-prev btn-medium crm-set-stage" rel="prev">Back</a><button class="btn-next btn-medium crm-close-modal">Close</button>
+				<div
+				 class="footer">
+					<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+					<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+						 target="_blank">Privacy Policy</a></div>
+			</div>
+		</div>
+		</div>
+	</script>
+	<script id="crm-stage-new_payment_option_request" type="text/template">
+		<div class="container container-l">
+			<div class="container-inner">
+				<div class="heading"><button class="btn btn-close crm-close-modal"></button>
+					<h2>New Payment Option</h2>
+					<p class="heading-description">Please enter the payment option you would like to see activated on this site in the field below.</p>
+				</div>
+				<form id="ps-method-unavailable-request-form" method="post" action="https://api.paymentwall.com/api/payment-ticket/save-payment-method-unavailable?key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd"><input type="hidden" name="requested[ws_id]" value="752447556" /><input type="hidden" name="requested[co_id]" value="1"
+					/>
+					<div class="form-group"><input name="requested[ps_name_requested]" type="text" value="" placeholder="Payment option" /></div>
+					<div class="form-group"
+					 id="crm-new_payment_option_request-email-container">
+						<p style="margin-bottom: 10px">Enter your email:</p><input id="crm-new_payment_option_request-email" name="data[email]" type="email" value="" placeholder="Your email"
+						/></div>
+					<div id="ps-option-request-errors" style="color: red; display: none"></div><a href="#" class="btn-prev btn-medium crm-set-stage" rel="prev">Back</a><button type="submit" class="btn-next btn-medium">Submit</button></form>
+				<div
+				 class="footer">
+					<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+					<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+						 target="_blank">Privacy Policy</a></div>
+			</div>
+		</div>
+		</div>
+	</script>
+	<script>
+		var target;
+		var EMAIL_REGEXP = /^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i;
+
+		document.observe('submit', function (event) {
+			if (target = event.findElement('#ps-method-unavailable-request-form')) {
+				event.stop();
+
+				var errorbox = $('ps-option-request-errors');
+
+				if ($F('crm-new_payment_option_request-email') == '' || !EMAIL_REGEXP.test($F('crm-new_payment_option_request-email'))) {
+					errorbox.innerHTML = 'Enter your email';
+					errorbox.show();
+				} else {
+					errorbox.hide();
+					new Ajax.Request(target.action, {
+						method: 'post',
+						asynchronous: false,
+						parameters: target.serialize(),
+						onSuccess: function (response) {
+							if (response.responseJSON.result == 1) {
+								$('crm-root').fire('crm:show', { stage: 'thank_you' });
+							}
+							else if (response.responseJSON.error) {
+								errorbox.innerHTML = response.responseJSON.error.join('<br/>');
+								errorbox.show();
+							}
+						}
+					});
+				}
+			}
+		})
+	</script>
+	<script id="crm-stage-recurring_payments" type="text/template">
+		<div class="container container-xl">
+			<div class="container-inner">
+				<div class="heading"><button class="btn btn-close crm-close-modal"></button>
+					<h2>Subscriptions</h2>
+					<% if (list.length == 0) { %>
+						<p class="heading-description">You don't have any active subscriptions.</p>
+						<% } %>
+				</div>
+				<% if (list.length) { %>
+					<table class="table-history">
+						<thead>
+							<tr>
+								<th>Project</th>
+								<th>Amount</th>
+								<th>Subscription Plan</th>
+								<th>Status</th>
+								<th>Actions</th>
+							</tr>
+						</thead>
+						<tbody>
+							<% _.each(list, function(subscription) { %>
+								<tr id="urp-<%= subscription.urp_id %>">
+									<td>
+										<%- subscription.a_public_name %>
+									</td>
+									<td>
+										<%- subscription.ag_amount_formatted %>
+									</td>
+									<td>
+										<%- subscription.cl_user_commission %>
+									</td>
+									<td>
+										<% if (subscription.urp_active) { %>Active
+											<% } %>
+									</td>
+									<td><a class="urp-cancel" data-id="<%= subscription.urp_id %>" href="#">Cancel</a></td>
+								</tr>
+								<% }); %>
+						</tbody>
+					</table>
+					<div class="u-group">
+						<div class="u-pull-right">Total:
+							<%= total_count %>
+						</div>
+						<%= pagination %>
+					</div>
+					<form id="cancel-urp-form" action="https://api.paymentwall.com/api/crm/cancel-recurrent-payment?key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd"
+					 method="post" target="recurringPaymentsKeyHole" class="hidden"><input type="hidden" name="id" value="" /></form>
+					<iframe class="hidden" id="recurringPaymentsKeyHole" name="recurringPaymentsKeyHole"
+					 src="about:blank"></iframe>
+					<% } %><a href="#" class="btn-prev btn-medium crm-set-stage" rel="prev">Back</a><button type="submit" class="btn-next btn-medium"
+						 style="display: none;">Next</button>
+						<div class="footer">
+							<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+							<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+								 target="_blank">Privacy Policy</a></div>
+						</div>
+			</div>
+		</div>
+	</script>
+	<script>
+		document.observe('dom:loaded', function () {
+			$('crm-root').observe('crm:recurring-payment-cancellation', function (event) {
+				var tr = $('urp-' + event.memo.id);
+				if (event.memo.cancelled) {
+					tr.update('<td colspan="5">You have successfully canceled your subscription.</td>');
+				} else {
+					tr.update('<td colspan="5">We have accepted your request and it will be processed shortly.</td>');
+				}
+			});
+		});
+
+		document.observe('click', function (event) {
+			var target = event.findElement('.urp-cancel');
+			if (target) {
+				event.stop();
+
+				var form = $('cancel-urp-form'),
+					hidden = form.select('[name=id]').first();
+
+				hidden.value = target.readAttribute('data-id');
+				form.submit();
+			}
+		});
+	</script>
+	<script id="crm-stage-ukash_risk_upload" type="text/template">
+		<div class="container container-xl">
+			<div class="container-inner">
+				<div class="heading"></div>
+				<h2>According to the regulatory requirements we are obliged to verify your identity before we allow you to continue using
+					this payment option</h2>
+				<p class="heading-description">To make sure we can safely process your payment, please securely provide us the documents below:</p>
+				<form id="crm-ukash_risk_upload-inquiry-add-form"
+				 action="https://api.paymentwall.com/api/crm/inquiry-add?key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd"
+				 target="ukashRiskUploadKeyHole" method="post" enctype="multipart/form-data"><input type="hidden" id="crm-ukash_risk_upload-ps-id" name="data[ps_id]" value="" /><input type="hidden" name="data[problem]"
+					 value="ps_blocked" /><input type="hidden" name="stage" value="thank_you" />
+					<table class="table-attachments">
+						<tr class="user-id">
+							<th><b>Copy of buyer's ID</b><span class="u-tooltip"><span class="u-tooltip-icon"></span><span class="u-tooltip-text">Government issued ID including passport, drivers license, or any other valid government ID</span></span>
+							</th>
+							<td>
+								<div class="custom-file-input"><label for="crm-ukash_risk_upload-user-id">Securely upload file</label><input type="file" name="attachment_0" accept="image/*"
+									 id="crm-ukash_risk_upload-user-id">
+									<div id="crm-ukash_risk_upload-user-id-filename" class="filename">
+										</span>
+									</div>
+							</td>
+						</tr>
+						<tr class="user-receipt">
+							<th><b>Copy of documented proof of your physical address (e.g. utility bill or similar)</b></th>
+							<td>
+								<div class="custom-file-input"><label for="crm-ukash_risk_upload-user-receipt">Securely upload file</label><input type="file" name="attachment_1"
+									 accept="image/*" id="crm-ukash_risk_upload-user-receipt">
+									<div id="crm-ukash_risk_upload-user-receipt-filename" class="filename">
+										</span>
+									</div>
+							</td>
+						</tr>
+						<tr>
+							<th colspan="2" style="font-weight: normal; font-size: 11px; color: grey">png, jpg or gif image less than 5MB</th>
+						</tr>
+					</table>
+					<div class="form-group" id="crm-ukash_risk_upload-email-container">
+						<p style="display: block; float: left; width: 33%; margin-right: 5%; margin-bottom: 10px">Enter your email to get updates with details:</p><input type="email" id="crm-ukash_risk_upload-email" name="data[email]"
+						 placeholder="Email" class="u-half" value="" style="display: block; float: left" /></div>
+					<p>Providing us fake documents/details may lead to us banning your account</p>
+					<div id="inquiry-errors" style="color: red; display: none"></div><button type="submit" class="btn-next btn-large u-center" style="margin-bottom: 30px;">Verify Payment</button></form>
+				<iframe
+				 class="hidden" id="ukashRiskUploadKeyHole" name="ukashRiskUploadKeyHole" src="about:blank"></iframe>
+					<div class="readmore"><a href="https://www.paymentwall.com/en/faq/payment-verification/196" target="_blank">Learn more about Paymentwall's Verification Process</a></div>
+					<div class="footer">
+						<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+						<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+							 target="_blank">Privacy Policy</a></div>
+					</div>
+					</div>
+					</div>
+	</script>
+	<script>
+		var error_check_documents = 'Please make sure all documents are uploaded'; var error_enter_email = 'Enter your email';
+	</script>
+	<script>
+		var target;
+		var basename = function (path) {
+			return path.replace('C:\\fakepath\\', ''); // added by some browsers
+		};
+
+		document.observe('change', function (event) {
+			if (target = event.findElement('#crm-ukash_risk_upload-user-id')) {
+				$('crm-ukash_risk_upload-user-id-filename').innerHTML = basename(target.value);
+			}
+
+			if (target = event.findElement('#crm-ukash_risk_upload-user-receipt')) {
+				$('crm-ukash_risk_upload-user-receipt-filename').innerHTML = basename(target.value);
+			}
+		});
+
+		document.observe('submit', function (event) {
+			if (target = event.findElement('#crm-ukash_risk_upload-inquiry-add-form')) {
+				var errorbox = $('inquiry-errors');
+				var showErrorBox = false;
+
+				if (basename($F('crm-ukash_risk_upload-user-id')) + basename($F('crm-ukash_risk_upload-user-receipt')) == '') {
+					showErrorBox = true;
+					errorbox.innerHTML = error_check_documents;
+				} else if ($F('crm-ukash_risk_upload-email') == '') {
+					showErrorBox = true;
+					errorbox.innerHTML = error_enter_email;
+				}
+				else {
+					$('crm-root').fire('crm:toggle-spinner', { toggle: true });
+				}
+
+				if (showErrorBox) {
+					event.stop();
+					errorbox.show();
+				}
+			}
+		});
+	</script>
+
+	<div id="crm-container">
+		<div id="crm-root"></div>
+		<div id="crm-spinner" style="display: none">
+			<div id="crm-spinner-content"><img id="crm-spinner-img" src="./assets/paymentwall/preloader.gif" alt="Please wait.."><br>Please wait</div>
+		</div>
+	</div>
+	<div id="crm-fade" style="display: none;"></div>
+	<link rel="stylesheet" href="./assets/paymentwall/css">
+	<link rel="stylesheet" href="./assets/paymentwall/font-awesome.css">
+	<link rel="stylesheet" href="./assets/paymentwall/crm.css">
+	<!--[if lt IE 9]><link rel="stylesheet" href="https://api.paymentwall.com/css/widgets/crm/ie8.css?1"/><![endif]-->
+	<script>
+		window.crm_in_new_window = parseInt('');
+	</script>
+	<script src="./assets/paymentwall/underscore-1.8.3.min.js"></script>
+	<script src="./assets/paymentwall/crm_v2.js"></script>
+	<script id="crm-stage-cc_business" type="text/template">
+		<div class="container container-xs">
+			<div class="container-inner">
+				<div class="heading">
+					<h2 class="step-1">Business verification process</h2>
+				</div>
+				<p>It appears that you are attempting to pay with a card category "Business"<br/> please provide the</p>
+				<form id="cc_business-form"
+				 method="post" action="" onsubmit="return false;"><input type="hidden" name="data[ws_id]" value="752447556" />
+					<div class="form-group"><label>Name of the Business company:</label><input name="data[business_name]" type="text" value="" placeholder="Name of the Business company"
+						/></div>
+					<div class="form-group">
+						<p style="margin-bottom: 10px">Address of the Business company:</p><input name="data[business_address]" type="text" value="" placeholder="Address of the Business company"
+						/></div>
+					<div class="form-group">
+						<p style="margin-bottom: 10px">Phone number of the Business company:</p><input name="data[phone]" type="text" value="" placeholder="Phone number of the Business company"
+						/></div>
+					<div class="form-group">
+						<p style="margin-bottom: 10px">Tell us what is the business purpose of the purchase you are making:</p><input name="data[purpose]" type="text" value=""
+						 placeholder="What is the business purpose of the purchase you are making" /></div>
+					<div id="ps-option-request-errors"
+					 style="color: red; display: none"></div><a href="#" class="btn-prev btn-medium" id="close-cc_business-window">Back</a><button type="submit" class="btn-next btn-medium">Submit</button></form>
+				<div
+				 class="readmore"><a href="https://www.paymentwall.com/en/faq/payment-verification/196" target="_blank">Learn more about Paymentwall's Verification Process</a></div>
+			<div class="footer">
+				<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+				<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+					 target="_blank">Privacy Policy</a></div>
+			</div>
+		</div>
+		</div>
+	</script>
+
+
+	<script id="crm-stage-risk_verification" type="text/template">
+		<div class="container container-xs">
+			<div class="container-inner">
+				<div class="heading">
+					<h2 class="step-1">Processing Transaction</h2>
+					<h2 class="step-2">We are still verifying your transaction</h2>
+				</div>
+				<div class="progress-bar">
+					<div id="crm-risk_verification-progress"></div>
+				</div>
+				<p class="progress-text step-1">This transaction is currently being processed and may take a moment, please be patient</p>
+				<p class="progress-text step-2">Verification in Process...</p>
+				<p class="step-2">We are performing our final verification step to approve your transaction.</p>
+				<div class="readmore"><a href="https://www.paymentwall.com/en/faq/payment-verification/196" target="_blank">Learn more about Paymentwall's Verification Process</a></div>
+				<div class="footer">
+					<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+					<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+						 target="_blank">Privacy Policy</a></div>
+				</div>
+			</div>
+		</div>
+	</script>
+	<script id="crm-stage-risk_upload" type="text/template">
+		<div class="container container-xl">
+			<div class="container-inner">
+				<h2>To verify your payment, please provide us with your payment details</h2>
+				<p class="heading-description">Paymentwall's verification process helps prevent fraudulent activity to protect you from online fraud. To make sure we
+					can safely process your payment, please securely provide us the details below:</p>
+				<form id="crm-risk_upload-inquiry-add-form"
+				 action="https://api.paymentwall.com/api/crm/inquiry-add?key=413b0494b9fd9d6a790e8d9f5d308536&uid=0449ffdd-228d-42da-c211-febd579e50ea&skey=477a774021cc605ec82569e00c8b09dd"
+				 target="riskUploadKeyHole" method="post" enctype="multipart/form-data"><input type="hidden" name="data[ticket]" value="" /><input type="hidden" name="data[problem]" value="blocked_transaction"
+					/><input type="hidden" name="data[source]" value="transaction_verification" /><input type="hidden" name="stage" value="risk_verification"
+					/>
+					<table class="table-attachments">
+						<tr class="user-id">
+							<th><b>Copy of buyer's ID</b><span class="u-tooltip"><span class="u-tooltip-icon"></span><span class="u-tooltip-text">Government issued ID including passport, drivers license, or any other valid government ID</span></span>
+							</th>
+							<td>
+								<div class="custom-file-input"><label for="crm-risk_upload-user-id">Securely upload file</label><input type="file" name="attachment_0" accept="image/*"
+									 id="crm-risk_upload-user-id">
+									<div id="crm-risk_upload-user-id-filename" class="filename">
+										</span>
+									</div>
+							</td>
+						</tr>
+						<tr class="user-receipt">
+							<th><b>Copy of your Payment Receipt</b></th>
+							<td>
+								<div class="custom-file-input"><label for="crm-risk_upload-user-receipt">Securely upload file</label><input type="file" name="attachment_1" accept="image/*"
+									 id="crm-risk_upload-user-receipt">
+									<div id="crm-risk_upload-user-receipt-filename" class="filename">
+										</span>
+									</div>
+							</td>
+						</tr>
+						<tr>
+							<th colspan="2" style="font-weight: normal; font-size: 11px; color: grey">png, jpg or gif image less than 5MB</th>
+						</tr>
+					</table>
+					<div class="form-group" id="crm-risk_upload-email-container">
+						<p style="display: block; float: left; width: 33%; margin-right: 5%; margin-bottom: 10px">Enter your email address to be updated through the verification process:</p><input type="email" id="crm-risk_upload-email"
+						 name="data[email]" placeholder="Email" class="u-half" value="" style="display: block; float: left" /></div>
+					<p>Providing us fake documents/details may lead to us banning your account</p>
+					<div id="inquiry-errors" style="color: red; display: none"></div><button type="submit" class="btn-next btn-large u-center" style="margin-bottom: 30px;">Verify Payment</button></form>
+				<iframe
+				 class="hidden" id="riskUploadKeyHole" name="riskUploadKeyHole" src="about:blank"></iframe>
+					<div class="readmore"><a href="https://www.paymentwall.com/en/faq/payment-verification/196" target="_blank">Learn more about Paymentwall's Verification Process</a></div>
+					<div class="footer">
+						<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+						<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+							 target="_blank">Privacy Policy</a></div>
+					</div>
+					</div>
+					</div>
+	</script>
+	<script>
+		var error_check_documents = 'Please make sure all documents are uploaded'; var error_enter_email = 'Enter your email';
+	</script>
+	<script>
+		var target;
+		var basename = function (path) {
+			return path.replace('C:\\fakepath\\', ''); // added by some browsers
+		};
+
+		document.observe('change', function (event) {
+			if (target = event.findElement('#crm-risk_upload-user-id')) {
+				$('crm-risk_upload-user-id-filename').innerHTML = basename(target.value);
+			}
+
+			if (target = event.findElement('#crm-risk_upload-user-receipt')) {
+				$('crm-risk_upload-user-receipt-filename').innerHTML = basename(target.value);
+			}
+		});
+
+		document.observe('submit', function (event) {
+			if (target = event.findElement('#crm-risk_upload-inquiry-add-form')) {
+				var errorbox = $('inquiry-errors');
+				var showErrorBox = false;
+
+				if (basename($F('crm-risk_upload-user-id')) + basename($F('crm-risk_upload-user-receipt')) == '') {
+					showErrorBox = true;
+					errorbox.innerHTML = error_check_documents;
+				} else if ($F('crm-risk_upload-email') == '') {
+					showErrorBox = true;
+					errorbox.innerHTML = error_enter_email;
+				}
+				else {
+					$('crm-root').fire('crm:toggle-spinner', { toggle: true });
+				}
+
+				if (showErrorBox) {
+					event.stop();
+					errorbox.show();
+				}
+			}
+		});
+	</script>
+	<script id="crm-stage-risk_declined" type="text/template">
+		<div class="container container-xs">
+			<div class="container-inner">
+				<div class="heading"><button class="btn btn-close crm-close-modal"></button></div><img src="https://api.paymentwall.com/images/widgets/crm/transaction-fail.png"
+				 alt="Your transaction could not be approved" width="118" height="118" class="u-center">
+				<h2 class="u-center-text">Your transaction could not be approved</h2>
+				<p class="heading-description u-center-text">Please <a href="#" class="crm-help-button">contact us</a> so we can work with you in verifying your transaction.</p>
+				<div
+				 class="readmore"><a href="https://www.paymentwall.com/en/faq/payment-verification/196" target="_blank">Learn more about Paymentwall's Verification Process</a></div>
+			<div class="footer">
+				<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+				<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+					 target="_blank">Privacy Policy</a></div>
+			</div>
+		</div>
+		</div>
+	</script>
+	<script id="crm-stage-risk_not_approved" type="text/template">
+		<div class="container container-xs">
+			<div class="container-inner">
+				<div class="heading"><button class="btn btn-close crm-close-modal"></button></div>
+				<h2 class="u-center-text">Insufficient funds</h2>
+				<p class="heading-description u-center-text">Looks like you have insufficient funds to complete the payment.</p>
+				<div class="readmore"><a href="https://www.paymentwall.com/en/faq/payment-verification/196" target="_blank">Learn more about Paymentwall's Verification Process</a></div>
+				<div class="footer">
+					<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+					<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+						 target="_blank">Privacy Policy</a></div>
+				</div>
+			</div>
+		</div>
+	</script>
+	<script id="crm-stage-cc_list_load" type="text/template">
+		<div class="container container-xs" style="height: 300px">
+			<div class="container-inner">
+				<div class="heading heading-trouble"></div>
+				<div class="footer">
+					<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+					<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+						 target="_blank">Privacy Policy</a></div>
+				</div>
+			</div>
+		</div>
+	</script>
+	<script id="crm-stage-cc_list" type="text/template">
+		<div class="container container-xs">
+			<div class="container-inner">
+				<div class="heading"><button class="btn btn-close crm-close-modal"></button>
+					<h2 class="step-1">Saved Card list</h2>
+				</div><br/>
+				<% if (list.length) { %>
+					<table id="card_table" class="table-history">
+						<% _.each(list, function(card) { %>
+							<tr id="card_<%= card.uc_id %>">
+								<td>**** **** ****
+									<%= card.uc_card %>
+								</td>
+								<td class="small">
+									<a href="javascript:void(0);" class="cc-delete-js" data-id="<%= card.uc_id %>">
+                                            Remove
+                                        </a>
+								</td>
+							</tr>
+							<% }); %>
+					</table>
+					<% } %>
+						<h2 id="empty_card_list" style="text-align: center;<% if (list.length) { %> display:none;  <% } %>">You don't have any stored cards.</h2><a href="#" class="btn-prev btn-medium crm-set-stage" rel="next" data-stage="STAGE_INIT">Back</a>
+						<div
+						 class="footer">
+							<div class="u-pull-left"><a href="https://www.paymentwall.com/en/faq" target="_blank">SUPPORT</a></div>
+							<div class="u-pull-right"><a href="https://www.paymentwall.com/en/terms" target="_blank">Terms of Service</a> | <a href="https://www.paymentwall.com/en/privacypolicy"
+								 target="_blank">Privacy Policy</a></div>
+			</div>
+		</div>
+		</div>
+	</script>
+
+
+
+
+	<script type="text/javascript" data-css="" data-widget="p1" data-baseurl="https://api.paymentwall.com/" src="./assets/paymentwall/cc-list.js"></script>
+	<script type="text/javascript">
+		window.modalCreditCardListCF = true;
+	</script>
+	<script src="./assets/paymentwall/fasterpay.min.js"></script><input type="hidden" value="0" id="handleRefreshWidget"></body>
+
+</html>

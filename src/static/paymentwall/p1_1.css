@@ -1,0 +1,1005 @@
+/* Body
+*******************************************************************/
+html {height:100%; margin:0; padding:0; border:0;}
+body {position:relative; border:0; margin:0; font-family:Arial; background:#FFFFFF;}
+#ppage {position:relative;min-width:600px;}
+
+form {padding:0; margin:0;}
+textarea, select, input {border:1px solid #DEDEDE; text-align:left; margin:0; font:normal 13px Arial; background:#F1F1F1; color:#666; padding:3px;}
+a.button, input.button {background:#637bad; border:1px solid #29447e; font-weight:bold; color:#FFF; cursor:pointer; text-align:center; padding:3px 10px;}
+a.button:hover, input.button:hover {background:#506898; color:#FFF; text-decoration:none;}
+.clearb {display:block; clear:both; font-size:0; line-height:0; margin:0; padding:0; height:0;}
+.rel {position:relative;}
+a {outline:none; color:#3B5998; text-decoration:none;}
+a:hover {outline:none; color:#3B5998; text-decoration:underline;}
+.floatl {float:left;}
+.floatr {float:right;}
+h1 {font:normal 18px Arial; margin:0 0 10px 0; color:#000;}
+h1.titles {font-size:15px;color:#000000;}
+h1 a, h1 a:hover {font:normal 18px Arial;}
+h1 b {font-style:italic;}
+h3 {font:bold 14px Arial; margin-top:0; color:#333;}
+h2, h2 a, h2 a:hover {font-size:13px;}
+img {border:none;}
+
+/* PAYMENTWALL*/
+.paymentwall {position:relative; padding:0; border:4px solid #CCCCCC; background:#FFFFFF;}
+.paymentwall .bg {z-index:3; background: none repeat scroll 0 0 #FFFFFF; padding:0 20px 20px;}
+.paymentwall .bg.one {}
+
+/* OFFERWALL */
+
+.offerwall { position:relative; overflow:hidden; min-height:600px;}
+.offerwall_class {width:100%;border:1px solid #CCCCCC; border-bottom-width:0px; margin-top:15px;}
+.offerwall_class .offer_over th, .offerwall_class .offer_over td {background:#EDF2F4;}
+.offerwall_class th {text-align:left; font:normal 11px Arial;  color:#666666; background:#FFFFFF; border-bottom:1px solid #CCCCCC; width:75%; padding:8px 10px 8px 0;}
+.offerwall_class td {font-size:11px; text-align:center; background:#EDF2F4; border-bottom:1px solid #CCCCCC; padding:10px;}
+.offerwall_class h2{margin:0; padding:0px;}
+.offerwall_class p {margin:2px 0;	text-align:justify;}
+/*a.offer_creative,object.offer_creative{display:block; position:relative; float:left; padding-left:23px; margin-right:10px; overflow:hidden;}*/
+.offer_creative {display:block; position:relative; float:left; padding-left:23px; margin-right:10px; overflow:hidden; height:80px; width:80px;}
+.offer_creative img {width:80px;}
+.offer_creative.nocreative {padding:0; width:18px;}
+.box_offer .offer_creative {height:auto; width:auto;}
+.box_offer .offer_creative img {width:100px;}
+
+.descr {padding:0; overflow:hidden;}
+.descr.survey h2 a {font-size:18px;}
+.descr.survey p {font-size:14px;/* color:#333;*/}
+.descr_video {margin-left:160px; position:relative;}
+.tellmore {padding:3px 0;color:#666666;}
+.tellmore strong {color:#000000;}
+.tellmore ul {margin:0 0 0 15px; padding:0;}
+.offer_over .tellmore {color:#2F920D;}
+.small {font-size:11px; color:#666666;}
+.small a, .small a:hover {font-size:11px; }
+
+/* LABELS */
+.type2 {position:absolute; z-index:3; top:0; left:0; display:block; text-indent:-2000em; width:18px; background-image:url(https://api.paymentwall.com/images/icons.png?5);}
+.type2.free {background-position: 0 -49px; height:45px;}
+.type2.task {background-position: -31px -49px; height:47px;}
+.type2.percent {background-position: -62px -49px; height:25px;}
+.type2.survey {background-position: -93px -49px; height:65px;}
+.type2.deal {background-position: -124px -49px; height:45px;}
+.type2.magazine {background-position: -155px -49px; height:80px;}
+
+/* PATH AND SHOW ALL BUTTON */
+.path {margin-top:10px;}
+.path h1 { color:#CCCCCC;  font-size:16px; margin-bottom:9px;}
+.path a, .path a:hover {font:normal 16px Arial;color:#3B5998;}
+.path span {color:#000000; font-size:16px;font-weight:bold;}
+
+/* TRUST SEALS */
+a.seal {display:block; margin:5px 0 0 0; text-indent:-2000em; background-image:url(https://api.paymentwall.com/images/seals.png);}
+.seal.truste {background-position: 0 0; width:58px; height:19px; }
+.seal.bbbonline {background-position: 0 -22px; width:53px; height:19px; }
+.seal.geotrust {background-position: 0 -44px; width:79px; height:19px; }
+.seal.thawte {background-position: 0 -66px; width:73px; height:19px; }
+.seal.verisign {background-position: 0 -88px; width:64px; height:19px; }
+.seal.ratepoint {background-position: 0 -110px; width:80px; height:19px; }
+.seal.trustbuild {background-position: 0 -132px; width:84px; height:19px; }
+.seal.trustguard {background-position: 0 -154px; width:83px; height:19px; }
+.seal.webguard {background-position: 0 -176px; width:104px; height:19px; }
+.seal.godaddy {background-position: 0 -198px; width:80px; height:19px; }
+.seal.etrust {background-position: 0 -220px; width:62px; height:19px; }
+.seal.mcafee {background-position: 0 -242px; width:51px; height:19px; }
+.seal.comodo {background-position: 0 -264px; width:74px; height:19px; }
+.seal.bizrate {background-position: 0 -286px; width:67px; height:19px; }
+.seal.trustwave {background-position: 0 -308px; width:88px; height:19px; }
+.seal.networksolutions {background-position: 0 -330px; width:116px; height:19px; }
+
+/* MENU */
+.menu2 {background:#C5DAE8;  padding:2px 10px 0 7px; position:relative;z-index:5;}
+.paymentwall .menu2 {margin-bottom:15px;}
+.menu2.combo { z-index:2;} 
+.bg.one .menu2 {margin-top:15px;}
+.menu2 a, .menu2 a:hover {font-size:12px;}
+.ie7 {/* FOR IE7 */ position:static; width:100%;}
+
+.use {float:left; font:bold 15px Arial; color:#333333; padding:3px 20px 3px 10px;}
+
+a.more {color:#3B5998;display:block; float:left; margin:1px 15px 0 5px; padding:4px 20px 0 7px; height:22px; background:url(https://api.paymentwall.com/images/arr.png) no-repeat right 9px;}
+a.more:hover {color:#3B5998}
+a.more.sel {background:#FFF url(https://api.paymentwall.com/images/arr_s.png) no-repeat right 9px;}
+.menu_link {float:left; display:block; margin:3px 15px 0 10px; background:url(https://api.paymentwall.com/images/icons.png?5) no-repeat 0px -144px; padding:2px 0 1px 15px; font-size:12px; } 
+
+.search {float:left; padding:2px 0 0 7px;}
+.search input.textfield {background:#FFF; outline:none; border-width:0px; padding:3px 5px 4px 5px; margin:0; font-size:12px; width:100px;}
+.search input.searchbut {background:#3b5997 url(https://api.paymentwall.com/images/icons.png?5) no-repeat -229px -149px; outline:none; border-width:0px;  width:21px; height:21px;  padding:0; margin:0 0 0 3px; font-size:12px; cursor:pointer;}
+.search input.searchbut:hover {background-color:#26427b;}
+
+a.missing {float:right; font:bold 13px Arial; background:#66CC00; border:1px solid #52a400; color:#FFFFFF; padding:1px 7px; margin:3px 0 0 0;}
+a.missing:hover {font:bold 13px Arial; color:#FFFFFF;}
+a.ps_back_button {float:left; font:bold 13px Arial; background:#66CC00; border:1px solid #52a400; color:#FFFFFF; padding:1px 7px; margin:3px 0 0 0;}
+a.ps_back_button:hover {font:bold 13px Arial; color:#FFFFFF;}
+
+.menu2.big a.missing_but { border-radius: 10px 10px 10px 10px; margin: 2px 0 5px 10px;}
+.menu2.big a.missing_but b { border-radius: 10px 10px 10px 10px; font: bold 15px/33px Arial;  padding: 0 10px;}
+a.missing_but { background: -moz-linear-gradient(center top , #4B4B4B, #1D1D1D) repeat scroll 0 0 transparent;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4b4b4b', endColorstr='#1d1d1d'); background: -webkit-gradient(linear, left top, left bottom, from(#4b4b4b), to(#1d1d1d)); border: 1px solid #222222; border-radius: 5px 5px 5px 5px; color: #FFD200; float: right; margin: 2px 0 0 10px; white-space: nowrap;}
+a.missing_but b {border-bottom: 1px solid #555555; border-radius: 5px 5px 5px 5px; border-top: 1px solid #999999; display: block; font: bold 13px/18px Arial; padding: 0 10px; text-transform: uppercase;}
+.menu2.big a.pw_button {background: url(https://api.paymentwall.com/images/account_enlarged.png) no-repeat scroll right -50px transparent; font: bold 15px Arial; height: 37px; padding: 0 27px 0 0;}
+.menu2.big a.pw_button span {background: url(https://api.paymentwall.com/images/account_enlarged.png) no-repeat scroll 0 0 transparent; height: 27px; padding: 10px 0 0 170px;}
+.menu2.big .popup_account { top: 36px;}
+.menu2.big a.pw_button.sel { background-position: right -150px;}
+.menu2.big a.pw_button.sel span { background-position: 0 -100px;}
+.menu2.big .flag {  margin: 8px 0 0 6px;}
+.menu2.big .lang { top: 46px;}
+.menu2.big .use { padding: 11px 20px 3px 10px;}
+
+/* TABS */
+.tabs {position:relative; width:100%; height:25px; z-index:1;}
+.tabs .tabs_overflow {overflow:hidden; height:25px;}
+.tabs .tabs_overflow:after {content: ''; display: block; clear:both}
+.tabs a {color:#3B5998;display:block; float:left; background:#FFFFFF; font-size:12px; padding:5px 7px 0 7px; height:19px; border:1px solid #C5DAE8; border-top-width:0; border-right-width:0; white-space:nowrap;}
+.tabs a:hover {color:#3B5998;background-color:#EBF7FF; text-decoration:none;}
+.tabs a.cur {background:#EBF7FF; font-weight:bold; color:#000000; }
+.tabs a.cur:hover {color:#000000; text-decoration:none;}
+.tabs a.free {background-image:url(https://api.paymentwall.com/images/icons.png?5); background-repeat: no-repeat; background-position: 7px -166px;width:45px;text-indent:-2000px;}
+.tabs a.bookmarks {background-image:url(https://api.paymentwall.com/images/icons.png?5); background-repeat: no-repeat; background-position:-223px  -26px;}
+.tabs a.bookmarks.thereis {background-position:-223px -96px;}
+.tabs a.trash {background-image:url(https://api.paymentwall.com/images/icons.png?5); background-repeat: no-repeat; background-position:-223px -71px;width:17px;text-indent:-2000px;}
+.tabs a.trash.thereis {background-position:-223px -120px; border-right:1px solid #C5DAE8;}
+.tabs a.last {border-right:1px solid #C5DAE8;}
+
+/* CATEGORIES */
+.cats {position:absolute; z-index:100; top:29px; left:0; right:0; border:3px solid #D1E2ED; border-top-width:0px; background:#FFFFFF; padding:15px 15px 25px 15px; }
+.cats .in {position:relative; z-index:101;}
+.cats h3 {color:#333333;}
+.cats a.close {z-index:162; top:-7px; right:-7px; background:url(https://api.paymentwall.com/images/icons.png?5) no-repeat -231px -5px; width:14px; height:14px; text-indent: -2000em; margin:0; padding:0; border-width:0;}
+.cats a.close:hover {background:url(https://api.paymentwall.com/images/icons.png?5) no-repeat -252px -5px; margin:0; padding:0; border-width:0;}
+.cats ul {display:block; float:left; list-style-type:none; margin:0; padding:0 10px 0 0; width:31%; color:#666; font-size:11px;}
+.cats ul.last {padding:0;}
+.cats ul li {margin-bottom:7px;}
+.cats ul a {float:none; padding:0; margin:3px 0; border-width:0px; background-color:#FFFFFF; font:normal 13px Arial; color:#3B5998;}
+.cats ul a:hover {font:normal 13px Arial; color:#3B5998; text-decoration:underline; background-color:#FFFFFF;}
+
+.cats a.type {padding:2px 0 2px 25px; background-repeat:no-repeat; display:block;}
+.type.purchase {background-image:url(https://api.paymentwall.com/images/type_purchase.png);}
+.type.survey {background-image:url(https://api.paymentwall.com/images/type_survey.png);}
+.type.subscribe {background-image:url(https://api.paymentwall.com/images/type_subscribe.png);}
+.type.mobile {background-image:url(https://api.paymentwall.com/images/type_mobile.png);}
+.type.video {background-image:url(https://api.paymentwall.com/images/type_video.png);}
+.type.deposit {background-image:url(https://api.paymentwall.com/images/type_deposit.png);}
+.type.donation {background-image:url(https://api.paymentwall.com/images/type_donation.png);}
+.type.download {background-image:url(https://api.paymentwall.com/images/type_download.png);}
+.type.contract {background-image:url(https://api.paymentwall.com/images/type_contract.png);}
+.type.install {background-image:url(https://api.paymentwall.com/images/type_install.png);}
+.type.signup {background-image:url(https://api.paymentwall.com/images/type_signup.png);}
+.type.promo {background-image:url(https://api.paymentwall.com/images/type_promo.png);}
+.type.trial {background-image:url(https://api.paymentwall.com/images/type_trial.png);}
+.type.approval {background-image:url(https://api.paymentwall.com/images/type_approval.png);}
+.type.lead {background-image:url(https://api.paymentwall.com/images/type_lead.png);}
+
+/* NOTIFICATION */
+a.notify {float:right; font:bold 14px Arial; color:#FFF; background:url(https://api.paymentwall.com/images/icons.png?5) no-repeat -231px -30px; width:27px; height:22px; margin:0; padding:3px 0 0 0; margin:2px 0 0 15px;  text-align:center; border:none;}
+a.notify:hover {font:bold 14px Arial; color:#FFF;}
+.notification {position:absolute; z-index:100; top:29px; width:300px; right:0; background:#333; padding:15px 20px; font:normal 13px Arial;color:#999;}
+.notification h3 {color:#FFF;}
+.notification .notsec  {border-bottom:1px dotted #666; padding:10px 0 10px 24px; color:#EDEDED; }
+.notification .notsec.rate {background:url(https://api.paymentwall.com/images/notify_rate.png) no-repeat 0 6px;}
+.notification .notsec.inquirywait {background:url(https://api.paymentwall.com/images/notify_inquirywait.png) no-repeat 0 6px;}
+.notification .notsec.news {background:url(https://api.paymentwall.com/images/notify_news.png) no-repeat 0 6px;}
+.notification .notsec.collected {background:url(https://api.paymentwall.com/images/notify_collected.png) no-repeat 0 6px;}
+.notification div#last {border-bottom:none;}
+.notification span {display:block; font-size:11px; padding:2px 0 7px 0; color:#bababa;}
+.notification .stars {float:none; right:0; margin:0 0 7px 0;}
+.notification .stars:after {content: ''; display:block; clear:both;}
+.notification .button {display:block; float:left; font-weight:normal; padding:3px 10px;}
+
+/* LANGUAGE */
+.flag {float:right; width:23px; height:27px; border:none; margin:0 0 0 6px; background: url(https://api.paymentwall.com/images/flags.png?9) no-repeat 10px 0; text-indent: -2000em;}
+.lang {position:absolute; z-index:100; top:29px; right:0; border:3px solid #D1E2ED; border-top:0px solid #FFF; background:#FFFFFF; font:normal 12px Arial;}
+.lang .col {float:left; border-right:1px solid #c5dae8; width:140px}
+.lang .col.last {border:none;}
+.lang a#last {border-bottom:none;}
+.lang a {display:block; float:none; padding:5px 10px 5px 30px; margin:0; border:none; background-image: url(https://api.paymentwall.com/images/flags.png?9) ; background-repeat:no-repeat; font:normal 12px Arial; color:#3B5998;}
+.lang a:hover {font:normal 12px Arial; background-color:#ebf7ff; color:#3B5998; text-decoration:none;}
+
+/* CURRENCY */
+#currency_popup {top:29px; width:100%; left:0; right:0; padding: 0;}
+.currencies {padding:10px 9px 9px 10px;}
+.currencies a { font:normal 14px/16px Arial; display:block; float:left; background-color:#252525; margin:0 1px 1px 0; color:#888; width:60px; padding:9px 0 0 0; height:41px; text-align:center;}
+.currencies a:hover {background:#000; color:#FFF; text-decoration:none; font:normal 14px/16px Arial;}
+.currencies a.sel {background:#FFd200; color:#000; }
+.currencies a b  {display:block; width:16px; height:11px; margin:0 0 7px 22px; background:url(https://api.paymentwall.com/images/currencies.png) no-repeat;}
+a.currency, a.currency:hover {width:44px; float: right; font: normal 14px/22px Arial; text-align:center; margin:0 0 0 6px;}
+
+/* CURRENCY IN MENU */
+a.ars b {background-position:-12px -4px;}
+a.aud b {background-position:-12px -44px;}
+a.bgn b {background-position:-12px -84px;}
+a.brl b {background-position:-12px -124px;}
+a.cad b {background-position:-12px -164px;}
+a.chf b {background-position:-12px -204px;}
+a.cny b {background-position:-12px -244px;}
+a.cop b {background-position:-12px -284px;}
+a.czk b {background-position:-12px -324px;}
+
+a.dkk b {background-position:-52px -4px;}
+a.egp b {background-position:-52px -44px;}
+a.eur b {background-position:-52px -84px;}
+a.gbp b {background-position:-52px -124px;}
+a.hkd b {background-position:-52px -164px;}
+a.idr b {background-position:-52px -204px;}
+a.ils b {background-position:-52px -244px;}
+a.inr b {background-position:-52px -284px;}
+a.mxn b {background-position:-52px -324px;}
+
+a.myr b {background-position:-92px -4px;}
+a.nok b {background-position:-92px -44px;}
+a.nzd b {background-position:-92px -84px;}
+a.php b {background-position:-92px -124px;}
+a.pln b {background-position:-92px -164px;}
+a.rub b {background-position:-92px -204px;}
+a.sek b {background-position:-92px -244px;}
+a.sgd b {background-position:-92px -284px;}
+a.thb b {background-position:-92px -324px;}
+
+a.try b {background-position:-132px -4px;}
+a.twd b {background-position:-132px -44px;}
+a.uah b {background-position:-132px -84px;}
+a.usd b {background-position:-132px -124px;}
+a.vnd b {background-position:-132px -164px;}
+a.zar b {background-position:-132px -204px;}
+
+.widget_country_select{float:right; border-top:0px solid #FFF; background:#FFF; font:normal 12px Arial;}
+.widget_country_select select{text-align:left; margin:0; font:normal 13px Arial; background:#F1F1F1; color:#666; padding:1px;width:140px;}
+/* TOOLTIP */
+#theToolTip{position: absolute; left: -300px; width: 150px; background:url(https://api.paymentwall.com/images/tip_bg2.png); padding: 10px; z-index: 100; font-size:11px; color:#FFF; font-weight:normal; line-height:normal; border-radius:5px; -webkit-border-radius:5px;}
+#ToolTipPointer{position:absolute; left: -300px; z-index: 101; display: none;}
+#theToolTip b {font:bold 14px Arial; color:#000;}
+#theToolTip p {margin:0; color:#900; font-weight:bold;}
+#theToolTip span {text-align:center; display:block;}
+
+
+/* Offerwall button
+*******************************************************************/
+a.but {display:block; cursor:pointer;
+	background:#869CD5;
+	color:#FFFFFF;
+	margin:0 0 3px 0; padding:2px;
+	border-radius:4px;	 -webkit-border-radius:4px; 
+}
+a.but.percentage span, a.but.percentage:hover span {font-size:13px; white-space:normal;}
+a.but:hover {background:#6F87C4; color:#FFFFFF; text-decoration:none;}
+a.but span {display:block; background:#3B5997; padding:3px 7px; font:normal 16px Arial; text-align:center; border-radius:2px;	 -webkit-border-radius:2px; }
+a.but:hover span {background:#26427B;}
+a.but b {display:block; font:normal 11px Arial; text-align:center; padding:2px 5px;  margin:0;}
+
+/* RATINGS */
+.holder {margin:6px auto 0 auto; font-size:11px;}
+.popup .stars {right:0; float:none;}
+.stars {padding:0 0 5px 0; position: relative; right: 50%; float: right; color:#666;}
+.stars div {position: relative; z-index: 1; right: -50%;}
+.stars span {display:block; float:left; font-size:11px; padding:1px 0 0 3px;}
+.stars.stars2 { float:none; padding-top:7px;}
+.stars a, .stars b {display:block; float:left; width:17px; height:16px; padding:0; background:url(https://api.paymentwall.com/images/icons.png?5) no-repeat;}
+.stars .st1 {background-position:-99px -4px;}
+.stars .st2 {background-position:-116px -4px;}
+.stars .st3 {background-position:-133px -4px;}
+.stars .st4 {background-position:-150px -4px;}
+
+.right {float:right; padding:4px 0 0 0;}
+.right:after {content: ''; display:block; clear:both;}
+a.com_i {color:#3B5998;font-size:11px; padding:4px 4px 4px 18px; background:url(https://api.paymentwall.com/images/icons.png?5) no-repeat -231px -208px;}
+a.com_i:hover {color:#3B5998;}
+span.howmany {font-size:11px; padding:4px 4px 4px 18px; background:url(https://api.paymentwall.com/images/icons.png?5)  no-repeat -231px -178px; color:#666666; cursor:default; }
+a.remove {background: url(https://api.paymentwall.com/images/icons.png?5)  no-repeat -254px -75px; font-size:11px; padding:2px 0 0 0;}
+a.remove:hover {background-position: -254px -99px;}
+a.remove.untrash {background-position: -254px -124px;}
+a.remove.untrash:hover {background-position: -254px -75px;}
+
+/* PAGINATION */
+.paging {padding:15px 0 0 0; position: relative;right: 50%;float: right;}
+.paging div {position: relative;z-index: 1;right: -50%;}
+.paging a {background:#FFF; display:block; float:left; margin-right:3px; padding:1px 4px;  text-align:center; font-size:12px; white-space:nowrap; border:1px solid #c5dae8;}
+.paging a:hover {background:#ebf7ff; font-size:12px; text-decoration:none;}
+.paging a.cur {background:#e6f0f6; font-weight:bold; color:#000;}
+.paging b {font-weight:normal; float:left; display:block; padding:2px 10px;}
+
+.review .paging a {background:#EBF7FF;border:1px solid #C5DAE8;color:#3B5998;}
+.review .paging a:hover {color:#3B5998;background:#EBF7FF;}
+.review .paging a.cur {background:#E6F0F6; color:#000000;}
+
+.prev {color:#3B5998;position:absolute; top:15px; left:0;}
+.next {color:#3B5998;position:absolute; top:15px; right:0;}
+.prev:hover, .next:hover {color:#3B5998;}
+
+.ten_px {font-size: 11px; color:#999;}
+
+/* POPUP */
+.deactivate {position:absolute; z-index:149; top:0; left:0; right:0; bottom:0; }
+.fade {position:absolute; z-index:149; background:#FFFFFF; filter:alpha(opacity=75); opacity: 0.75; -moz-opacity:0.75; width:100%; top:98px; bottom:0;/* height: expression(document.compatMode=='CSS1Compat'? document.documentElement.clientHeight -98 +'px' : body.clientHeight -98 +'px');*/}
+.fadein {position:absolute; overflow:auto; top:0px; bottom:0; /*height: expression(document.compatMode=='CSS1Compat'? document.documentElement.clientHeight -98 +'px' : body.clientHeight -98 +'px');*/ padding:0; margin:0;}
+.popup {position:absolute; z-index:150; top:103px; left:5%; right:5%; width:auto;  background:url(https://api.paymentwall.com/images/spacer_black.png) repeat; padding:8px;}
+.paymentwall .popup {top:130px;}
+.popup .in {background:#FFF; border:1px solid #999; padding:20px; position:relative; font:normal 13px Arial; color:#333;}
+.close {display:block; position:absolute; z-index:2; background:url(https://api.paymentwall.com/images/icons.png?5) no-repeat -231px -5px; width:14px; height:14px; top:8px; right:8px; text-indent: -2000em; cursor:pointer;}
+.close:hover {background:url(https://api.paymentwall.com/images/icons.png?5) no-repeat -252px -5px;}
+.popup .close {z-index:152}
+.popup .in h3 {font-size:18px; margin:1em 0;}
+.paymentwall .popup2 h3, .paymentwall .popup2 .explain-text {font-size:18px; margin:1em 0;}
+/*.popup .in .smscoin {text-align:center;}*/
+.popup .in .smscoin h3 {margin:1em 0 7px!important;}
+.popup .in .smscoin h3 b {font-style:italic;color:#000;}
+.popup .small {font-size:11px; color:#666;}
+
+input.input_signup {width:200px;  border-radius:5px; -webkit-border-radius:5px; margin: 0 4px 0 5px; padding: 4px 5px;}
+select.input_signup {border-radius:5px; -webkit-border-radius:5px;}
+
+input.login_input {font-size:12px; width:173px; border-radius:5px; -webkit-border-radius:5px;}
+.form span {display:block; padding:0 0 3px 0; color:#333; font: bold 12px Arial;}
+
+.logout_form {margin: 0 0 0 5px; display: inline;}
+.login {padding:0px !important;}
+.popup.fixed {left:50%; margin-left:-288px; width:560px;}
+
+
+/* ACCOUNT POPUP MENU */
+.account_div {position:relative; float:right;  margin:2px 0 0 0;}
+a.pw_button {display:block; height:22px; background:url(https://api.paymentwall.com/images/account.png) no-repeat right -31px; border:0; padding:0 25px 0 0; color:#000; white-space:nowrap; font:bold 12px Arial;}
+a.pw_button span {display:block; height:18px; background:url(https://api.paymentwall.com/images/account.png) no-repeat 0 0;}
+
+a.pw_button.sel {background-position: right -93px;}
+a.pw_button_balance:after {content:'.'; display:block; clear:both; font:0/0 Arial; visibility:hidden;}
+a.pw_button_balance {display:block; height:22px; background:url(https://api.paymentwall.com/images/account_balance.png) no-repeat right -62px; border:0; padding:0 25px 0 0; color:#000; white-space:nowrap; font:bold 12px/22px Arial;}
+
+a.pw_button_balance .but_logo {display:block; float:left; height:22px; background:url(https://api.paymentwall.com/images/account_balance.png) no-repeat 0 0; width:38px;}
+
+a.pw_button_balance .but_balance {display:block; float:left; height:22px; background:url(https://api.paymentwall.com/images/account_balance.png) no-repeat -38px 0; padding:0 7px; color:#FFD200; font-size:14px;}
+a.pw_button_balance .but_balance b.but_balance_77 {display:block; float:left; width:16px; height:22px; background:url(https://api.paymentwall.com/images/icon_pcoin.png) no-repeat center center; margin-right:5px;}
+a.pw_button_balance .but_balance b.but_balance_78 {display:block; float:left; width:16px; height:22px; background:url(https://api.paymentwall.com/images/icon_pdollar.png) no-repeat center center; margin-right:5px;}
+
+a.pw_button_balance .but_account {display:block; float:left; height:22px; background:url(https://api.paymentwall.com/images/account_balance.png) no-repeat 0 -31px; padding:0 0 0 10px;}
+
+a.pw_button_balance.sel {background-position: right -155px;}
+a.pw_button_balance.sel .but_logo {background-position: 0 -93px;}
+a.pw_button_balance.sel .but_account {background-position: 0 -124px;}
+
+.popup_account {position:absolute; z-index:100; top:22px; left:0; right:0;}
+
+.popup_account .welcome {background:#FFD200; color:#333; font: bold 13px Arial; padding:7px 10px; text-align:center; border:1px solid #333; border-bottom:0;}
+.acc {display:block; padding:6px 15px 6px 35px; background:#333 url(https://api.paymentwall.com/images/icons_account.png) no-repeat; color:#CCC; border-bottom:1px dotted #555; font-size: 12px; text-decoration:none;}
+.acc:hover {background-color:#000; color:#FFF; text-decoration:none;}
+.acc:last-child {border-bottom:1px dotted #555;}
+
+.acc.acc_signin {background-position:10px 0;}
+.acc.acc_signin:hover {background-position:10px -70px;}
+.acc.acc_settings {background-position:10px -140px;}
+.acc.acc_settings:hover {background-position:10px -210px;}
+.acc.acc_signup {background-position:10px -280px;}
+.acc.acc_signup:hover {background-position:10px -350px;}
+.acc.acc_forgot_password {background-position:10px -280px;}
+.acc.acc_forgot_password:hover {background-position:10px -350px;}
+.acc.acc_logout {background-position:10px -420px;}
+.acc.acc_logout:hover {background-position:10px -490px;}
+.acc.acc_faq {background-position:10px -560px;}
+.acc.acc_faq:hover {background-position:10px -630px;}
+.acc.acc_missing {background-position:10px -700px;}
+.acc.acc_missing:hover {background-position:10px -770px;}
+.acc.acc_help {background-position: 10px -840px;}
+.acc.acc_help:hover {background-position:10px -910px;}
+
+/* COMMENTS AND REVIEWS */
+.review .in {background:#FFFFFF; border:1px solid #999999; padding:20px; position:relative; font:normal 13px Arial; color:#000000;}
+.review .in {padding:20px 15px; text-align:left; font-size:13px;}
+.review .overflow { overflow:auto; max-height:400px; padding-right:10px;}
+.review h2 {font: bold 16px Arial; color:#000000; margin:0 0 10px 0; line-height:18px;}
+.popup textarea {width:99%; margin:7px 0; background:#F1F1F1; border:1px solid #DEDEDE; text-align:left;}
+.review a.button, .review input.button {background:#637BAD; border:1px solid #29447E; color:#FFFFFF;}
+.review a.button:hover, .review input.button:hover {background:#506898; color:#FFFFFF;}
+
+.comment {margin:3px 0; background:#EDF2F4; padding:7px; overflow:hidden;}
+.comment .stars, .comment .stars div {position:static;}
+.comment:after {content: ''; display: block; clear:both;}
+.comment .user {float:left; width:130px; font-size:11px; color:#333333; border-right:1px dotted #CCC;}
+.comment .content { font:normal 12px Arial; color:#666666; margin-left:140px;}
+.comment .content div {margin:0 0 7px 0;}
+.comment .completed {background:#459e45; float:left; font:bold 9px Arial; text-transform:uppercase; color:#FFF; padding:2px 5px; margin:7px 0 0 0;}
+.comment .gaveup {background:#e02121; float:left; font:bold 9px Arial; text-transform:uppercase; color:#FFF; padding:2px 5px; margin:7px 0 0 0;}
+.comment .user b {font:bold 13px Arial;}
+.useful {position:absolute; bottom:7px; right:7px; font-size:11px;}
+.useful span, .useful a {display:block; float:left; margin:0 0 0 5px;}
+.useful span {padding:2px 0 0 0;}
+.thumb_u {background:url(https://api.paymentwall.com/images/icons.png?5) -178px -4px; width:14px; height:15px; text-indent: -2000em;}
+.thumb_d {background:url(https://api.paymentwall.com/images/icons.png?5) -198px -4px; width:14px; height:15px; text-indent: -2000em;}
+
+/* LOGIN */
+.popup .poplogin {}
+.popup .divcenter {position: relative; right: 50%; float: right;}
+.popup .poplogin:after {content: ''; display: block; clear: both;}
+.popup .divcenterin {position: relative; z-index: 152; right: -50%;}
+
+.form.login {width:140px;}
+.form span {display:block; padding:0 0 3px 0; color:#444;}
+.form input { margin:0 0 8px 0; font-size:16px;}
+input.login_input {background:#FFF; font-size:11px; width:130px;}
+.form input.button {float:right; padding:5px 7px;}
+.form.login input.button {font-size:13px;}
+.button:after {content: ''; display:block; clear:both;}
+.cart_section .button:after {content:normal;clear:none;}
+.floatl1 {width:195px; padding-right:40px; /*border-right:1px solid #EDEDED; */}
+.floatl2 {margin:0 0 0 40px}
+.title {font:bold 15px Arial; color:#000; }
+.title a, .title a:hover  {font:bold 15px Arial;}
+.login {background:#e6ecf1; padding:10px;}
+
+
+/* LOGIN / SIGN UP FORM */
+
+.popup .poplogin {}
+.poplogin .close {top:-28px; right:8px;}
+.logo_paymentwall {height:40px; background:#000 url(https://api.paymentwall.com/images/logo_paymentwall2.png) no-repeat 20px 8px; text-indent:-2000em; border:1px solid #999; border-bottom:none;}
+p.title {font:normal 18px Arial; color:#000; background:#FC0; margin-top:0; padding:4px 10px;}
+.title a, a.title:hover  {font:bold 15px Arial;}
+.form span {display:block; padding:0 0 3px 0; color:#666;}
+.form input { margin:0 0 8px 0; font-size:13px; padding:4px;}
+.form select { margin:0 0 8px 0; font-size:13px; padding:3px 4px;}
+.floatl1 input.button {float:right; }
+input.input_signup {width:200px;}
+.poplogin .button {padding:5px 7px; border-radius: 5px 5px 5px 5px;}
+.poplogin ul {list-style-type:none; margin:0 0 15px 0; padding:0;}
+.poplogin ul li {padding:2px 0 5px 25px; background:url(https://api.paymentwall.com/images/icon_checkbox.png) no-repeat 0 0; font-size:12px; font-weight:bold; color:#333; line-height:14px;}
+.popup .poplogin hr {background:none; border:1px dotted #999; padding:0; height:1px; margin:15px 0 0 0;}
+
+.floatl1 {}
+.floatl1.ver2 {float:left;}
+.floatl3 {padding-right:25px; border-right:1px solid #EDEDED; width:280px;}
+.popup .poplogin .form .checkbox {background:none; border:none; margin:0; padding:0;}
+.poplogin .form.login ul {margin:0 0 15px 0;}
+.form.signup .floatl.small {width:100px;padding:2px 0 0 0;}
+
+.floatl2 {margin:0 0 0 25px;}
+.floatl2.ver2 {margin-left:240px;}
+.form.login {width:182px; background-color:#FFFFFF}
+input.login_input {font-size:12px; width:172px; background: none repeat scroll 0 0 #F1F1F1;}
+.floatl.small {padding:12px 0 0 0;}
+
+.poplogin .error ul {margin:0 0 0 15px;}
+.poplogin .error ul li {padding: 2px 0; background:none; color:#C00; font-weight:bold;}
+
+/* COPYRIGHT */
+
+.footer {padding: 0; margin:30px 0 0 0; text-align:center; font-size:11px; color:#000000;  background-color:#FFFFFF}
+.footer a, .footer a:hover {font-size:11px;color:#3B5998;}
+
+/* SPECIAL OFFER */
+.box {background:#424242; margin:15px 0 0 0;  color:#CCCCCC;}
+.box h1 {font:normal 24px Arial; text-transform:uppercase; text-align:center; margin:0;}
+.box h1 span {color:#FC0;}
+.box .panel {background:#222222; padding:6px 20px; position:relative;}
+.box .panel a, .box .panel a:hover {font:bold 16px Arial; color:#FEE900;}
+.box .panel a span {font:normal 14px Arial;}
+
+.box_offer td {font:normal 12px Arial; color:#FFF; padding:10px 15px;}
+.box_offer h2 {margin:0 0 3px 0;}
+.box_offer h2 a, .box_offer h2 a:hover {color:#ffffff; font-size:14px;}
+.box_offer p {margin:0 0 5px 0; text-align:justify; color:#CCCCCC; font-size:11px;}
+
+td.box_descr {font-size:11px; padding:10px 0;}
+.box_offer .tellmore2 {margin:4px 0 0 0; border-top:1px dotted #666666; padding:5px 0 0 0;  font-size:11px;color:#ffffff}
+.box_offer .tellmore2 strong {color:#FFFFFF}
+.box_offer .holder a {color:#ffffff!important;}
+.box_offer .holder span.howmany {color:#ffffff;}
+.box_offer .stars span {color:#999;}
+.box_offer .but, .box_offer .but:hover {background:#FFE84C; color:#A27A00;}
+.box_offer .but span, .box_offer .but:hover span {padding:7px 10px; background:#FFC000; color:#000000;}
+.box_offer .but span strong {font-size:20px;}
+
+.box_offer .actions {text-align:center; width:25%;}
+.message_area_error {
+background:#FFEDED;
+padding:20px;
+float:left;
+}
+
+/* PAYMENT SYSTEMS */
+.maintabs {position:relative; height:45px; margin-bottom:35px;}
+.paymentwall .maintabs {margin:0 5px 35px 5px;}
+.alternate {margin:0 27px; overflow:hidden; height:75px; float:left;}
+.alternate div {float:left; margin:0 3px 20px 3px;}
+.alternate a {display:block; width:107px; height:65px; font-size:11px; line-height:10px; text-align:center; color:#999999;}
+.alternate a:hover {font-size:11px; line-height:10px; text-decoration:none; color:#3B5998;}
+
+.alternate a b {display:block; width:107px; height:43px;  background-color:#FFF; background-image:url(https://api.paymentwall.com/images/pm9.png?11); background-repeat:no-repeat; border:1px solid #A0CAE7; border-radius:2ex;  -webkit-border-radius:2ex; text-indent: -2000em; margin-bottom:5px; }
+.alternate a:hover b {border:1px solid #3B5998;}
+.alternate a.sel {color:#29447E;}
+.alternate a.sel b {border:1px solid #29447E; border-bottom-width:4px; margin-bottom:2px;}
+
+a.payarr {position:absolute; padding:0; margin:0; width:23px; height:23px; background-image:url(https://api.paymentwall.com/images/icons.png?5); background-repeat:no-repeat; text-indent: -2000em; }
+a.payarr.payp {background-position:0 0; cursor:default; top:11px; left:0;}
+a.payarr.payps {background-position:-46px 0; top:11px; left:0;}
+a.payarr.payn {background-position:-23px 0; cursor:default; top:11px; right:0;}
+a.payarr.payns {background-position:-69px 0; top:11px; right:0;}
+
+/* PAYMENT POPUP + PRICE POINTS */
+h3.payment_title {display:block; padding-bottom:10px; margin:0 0 15px!important; border-bottom:1px dotted #CCC;}
+
+.package {margin:0 0 20px 0;}
+.package td {text-align:left;}
+.package th {text-align:right; font-weight:normal; color:#000; font-size:16px; white-space:nowrap; padding:4px 0 4px 5px;}
+.package.subscription2 th {text-align:left;}
+.package tr {cursor:pointer;}
+.package tr.pricepoint_over td, .package tr.pricepoint_over th {background:#F0F0F0;}
+.package td.bonus {font-size:12px; color:#666666; padding:4px 10px;}
+.package td.price {color:#29447E; font-size:16px; white-space:nowrap; padding:4px 0 4px 5px;}
+.package.subscription2 td.price {text-align:right;}
+.package td.recurring {padding-left:5px;}
+.package td.recurring div {display:block; background: url(https://api.paymentwall.com/images/icon_recurring.png); width:16px; height:16px; text-indent:-2000em;}
+p.recurring {background: url(https://api.paymentwall.com/images/icon_recurring.png) no-repeat 0 0; padding-left:25px;}
+
+.package td.price .discounted_price {color:#29447e; text-decoration:line-through;}
+.package td input[type=radio] {margin-left:10px;}
+.tag {padding-right:10px;}
+.tag div {font:bold 11px Arial; color:#FFF; text-align:center; padding:3px 7px; white-space:nowrap;}
+.tag div.popular {background:#0c2453;color:#FFFFFF;}
+.tag div.value {background:#FF0000;color:#FFFFFF;}
+.package label {cursor:pointer;}
+.package input {border:none; background:none; color:auto; padding:auto; margin:0 5px 0 0;}
+
+.button.but2 {font:normal 16px Arial!important; margin:0 auto; padding:8px 30px!important; border-radius:4px;	 -webkit-border-radius:4px;background:#637BAD; border:1px solid #29447E; color:#FFFFFF;}
+.button.but2:hover {font:normal 16px Arial!important; background:#506898; color:#FFFFFF;}
+.button.but2.left {display:block;float:left;}
+a.button.but3 {font-size:14px; padding:4px 15px;}
+a.button.but3.left {display:block;float:left;margin-left:5px;}
+/*.button#card_but {width:200px;}
+.button#card_but a {width:140px;}
+.button#card_but span {display:block; text-align:center; padding-top:5px;color:#666666;}*/
+#card_but p.small {margin-bottom:0px;}
+.paymentwall .small {color:#666666;}
+
+/* CREDIT CARD INFO */
+.pop_normal {display:none; font-size:13px; color:#333;}
+.pop_normal td {padding:2px 7px 2px 0;}
+.pop_normal input, .pop_normal select {width:200px;}
+.pop_normal h1 {margin-top:25px;}
+.cvv {position:absolute; z-index:155; left:-115px; top:25px; background:url(https://api.paymentwall.com/images/cvv2.gif) #FFF; width:478px; height:169px; border:1px solid #CCC; padding:10px;}
+
+/* SURVEY OF THE DAY */
+/*.offerwall_class.survey {width:100%; border:2px dotted #87c4e4; margin-top:15px;}
+.offerwall_class.survey .offer_over th, .offerwall_class.survey .offer_over td {background:#e3f3f8;}
+.offerwall_class.survey th {text-align:left; font:normal 11px Arial; background:#ffffff;border-bottom:none;width:75%; padding:8px 10px 8px 0;}
+.offerwall_class.survey td {font-size:11px; text-align:center; background:#ffffff;border-bottom:none;padding:10px;}
+.offerwall_class.survey .descr h2 a {font:normal 20px Georgia; color:#3b5998;}
+.offerwall_class.survey .descr p {font:normal 12px Arial; color:#%survey_text%;}
+.offerwall_class.survey .tellmore {color:#%survey_tellmore%;}
+.offerwall_class.survey a.but {background:#0589ce;color:#ffffff;}
+.offerwall_class.survey a.but span {background:#11b7e2; font-size:20px;}
+.offerwall_class.survey a.com_i, .offerwall_class.survey a.com_i:hover {color: #%survey_reviews%}
+.offerwall_class.survey span.howmany {color:#%survey_howmany%;}*/
+.manual ul {font:normal 12px Arial; color:#666666; margin:10px 10px 0px 15px; padding-left:0;}
+.path.survey span {font-weight:normal;}
+
+table.survey {border:1px solid #87c4e4; border-bottom:none; margin-top:15px; width:100%;}
+table.survey .offer_over td {background:#e3f3f8;}
+table.survey th {font:bold 12px Arial;  color:#ffffff; background-color:#11b7e2; padding:3px 5px; border-top:1px solid #4cd1f3; border-left:1px solid #4cd1f3; border-right:1px solid #00658e;}
+table.survey td {font-size:11px; background:#ffffff; border-bottom:1px solid #87c4e4; color:#666; padding:3px 0 3px 10px;}
+table.survey h2 {margin:0;}
+table.survey a {color:#3b5998;}
+
+table.survey a.but {background:#0589ce; margin:0 10px 0 0; white-space:nowrap; padding:1px;  text-align:center; font-size:12px;}
+table.survey a.but span {background:#11b7e2;  border-radius:3px; -webkit-border-radius:3px;color:#ffffff;}
+
+.survey .mainsurvey th {background:#0c88b9 url(https://api.paymentwall.com/images/survey_main_bg.png) repeat-x 0 bottom; border-bottom:none; border-top:1px solid #269fcf; border-left:1px solid #27a3d4; border-right:none; padding:8px 0 8px 7px; text-align:left;}
+.survey .mainsurvey th img {width:38px; height:50px; float:left; background:url(https://api.paymentwall.com/images/survey_icon.png) no-repeat 0 0;}
+.survey .mainsurvey th div {margin-left:50px;}
+.survey .mainsurvey td {background:#0c88b9 url(https://api.paymentwall.com/images/survey_main_bg.png) repeat-x 0 bottom; border-bottom:none; border-top:1px solid #269fcf; border-right:1px solid #004966; padding:8px 0 8px 10px;}
+.survey .mainsurvey h2 a {color:#FFF; font:normal 18px Arial;}
+.survey .mainsurvey p {color:#c6f3ff; font-size:12px;}
+.survey .mainsurvey a.but {background:#FFF; padding:3px 1px 1px 1px; color:#11b7e2;}
+.survey .mainsurvey a.but span {background:#11b7e2; color:#FFF; margin-top:2px; border-radius:3px; -webkit-border-radius:3px; }
+
+
+/* DEALS */
+
+.popup.deals ul {list-style-type:none; margin-left:10px; padding-left:0;}
+.popup.deals .floatl {margin-right:30px; margin-top:0;}
+.popup.deals ul {margin-top:0;}
+.popup.deals p {margin:20px 0 7px 0;}
+.popup.deals input[type=checkbox] {border:none;background:none;}
+
+.no_deals {border:2px dotted #89b45a; border-top:none;  margin-top:0;padding:10px;width:auto;}
+.offerwall_class.deal {border:2px dotted #89b45a; border-top:none;  margin-top:0;}
+.offerwall_class.deal th, .offerwall_class.deal td {border-bottom:none; background:#ffffff;}
+.offerwall_class.deal .offer_over th, .offerwall_class.deal .offer_over td {background:#f4ffe6;}
+.deal_div {border-top:1px dotted #DEDEDE; padding-top:5px; margin-top:5px;}
+.deal_price {float:left; font:bold 24px Arial; color:#2f920d; padding:2px 20px 0 0;}
+.deal_price2 {float:left;font:normal 10px Arial; padding-right:10px; text-align:center;color:#666;} 
+.deal_price2 span {font:bold 13px Arial; color:#333;}
+/*.deal_time {float:left; font:bold 14px Arial; color:#C00; padding:8px 20px 0 10px;}*/
+.deal_time {float:left; font:bold 14px Arial; color:#C00; padding:0 20px 0 10px;}
+.deal_time span {color:#666; font-weight:normal;}
+.deal_more {background:#89b45a; padding:4px 12px; font-size:13px; margin-top:15px;}
+.more_deals {display:block; float:left; font:bold 15px Arial; background:#6d963d; color:#ffffff; padding:4px 10px; border-radius:4px; -webkit-border-radius:4px;}
+.more_deals:hover {color:#ffffff; background:#427900; text-decoration:none;}
+.deals_settings {float:right; background:#ffffff; margin-top:3px; padding:3px 10px; border-radius:4px; -webkit-border-radius:4px;white-space:nowrap;color:#3B5998;}
+.deals_settings:hover {color:#ffffff; background:#427900; text-decoration:none;white-space:nowrap;}
+.city {float:right; margin:2px 0 0 15px; border:none; background:#FFF;width:120px;}
+.offerwall_class.deal .descr h2 a,.offerwall_class.deal .descr h2 a:hover {color:#3B5998;}
+.offerwall_class.deal a.but {color:#ffffff;background:#6d963d; padding-top:4px; font:bold 13px Arial;}
+.offerwall_class.deal a.but:hover {color:#ffffff;background:#6d963d;}
+.offerwall_class.deal a.but span {background:#427900; margin-top:4px;}
+.offerwall_class.deal a.but:hover span {background:#427900;}
+.offerwall_class.deal a.but.noprice {padding-top:2px;}
+.offerwall_class.deal a.but.noprice span {margin-top:0px;}
+.offerwall_class.deal .tellmore {color:#666666;}
+.offerwall_class.deal .tellmore strong {color:#000000;}
+.offerwall_class.deal .offer_over .tellmore {color:#2f920d;}
+
+.deal_company {float:left; margin-top:3px; text-indent:-2000em; background:url(https://api.paymentwall.com/images/deals_logos.png) no-repeat; height:25px;}
+.groupon {background-position:0 0; width:66px;}
+.yipit {background-position:0 -25px; width:71px;}
+.townhog {background-position:0 -50px; width:105px;}
+.bloomspot {background-position:0 -75px; width:111px;}
+.tippr {background-position:0 -100px; width:85px;}
+.grupanya {background-position:0 -125px; width:89px;}
+.livingsocial {background-position:0 -150px; width:101px;}
+
+.social {border-top:1px dotted #DEDEDE; padding-top:5px; margin-top:5px;}
+/*.like {display:block; float:left; margin-right:20px; background:url(https://api.paymentwall.com/images/facebook_like.png); width:53px; height:24px; text-indent:-2000em;}*/
+.howmany2 {float:left; font-size:11px; margin-top:1px; padding:4px 4px 4px 20px; background:url(https://api.paymentwall.com/images/icons.png?5) no-repeat -231px -178px; color:#666; cursor:default; }
+
+div.deals_city_autocomplete {
+  margin:0px;  
+  padding:0px;  
+  width:250px;
+  background:#fff;
+  border:1px solid #888;
+  position:absolute;
+  z-index:3;
+}
+
+div.deals_city_autocomplete.deals_index {
+  margin:0 0 0 -1px;
+  border:1px solid #89b45a;
+  border-top:none;
+}
+
+div.deals_city_autocomplete ul {
+  margin:0px!important;
+  padding:0px!important;
+  list-style-type:none;
+}
+
+div.deals_city_autocomplete ul li.selected { 
+  background-color:#eaf0f2;
+}
+
+div.deals_city_autocomplete ul li {
+  margin:0;
+  padding:2px;
+  /*height:32px;*/
+  display:block;
+  list-style-type:none;
+  cursor:pointer;
+}
+
+/* MAGAZINES */
+.mag.offer_creative {height:auto;min-height:80px;}
+.magazine_price {font:bold 13px Arial;margin:-2px 0 5px;display:block;}
+.iframecc {background: #FFF;}
+
+table.branding { background-color:#E1ECF4;padding: 7px 13px;min-height:20px;margin-top:10px;}
+.branding .logo {background: url("/https://api.paymentwall.com/images/logo_paymentwall_142x24.png") repeat scroll 0 0 transparent;display: block;float: left;height: 24px;text-indent: -2000em;width: 142px;}
+.branding span {display:block; margin-left:20px; font:bold 12px Arial; color:#000;}
+
+/* CREDIT CARD INFO */
+.pop_normal {display:none; font-size:13px; color:#333;}
+.pop_normal th {font:bold 12px Arial; color:#333; padding-right:7px;}
+.pop_normal td {padding:3px 0;}
+.pop_normal h1 {margin-top:0;}
+.pop_normal .textfield {border:1px solid #DEDEDE; margin:0; font:normal 12px Arial; background:#FaFaFa; color:#666; padding:2px 4px; border-radius:5px; -webkit-border-radius:5px; border-radius:5px; -webkit-border-radius:5px;}
+.data {float:left; background:#ecf2f5; padding:10px; border-radius:8px; -webkit-border-radius:8px; border-radius:8px; -webkit-border-radius:8px;}
+
+/* IDEAL */
+.pw_code td {padding-bottom:8px; font-size:14px; text-align:right;}
+.pw_code th {text-align:right;}
+.pop_normal .pw_code .textfield {padding:3px 5px;}
+.pw_code input { width:170px; font-size:14px; padding:3px 5px;}
+.pw_code select {width:182px; font-size:14px;}
+.pw_code .but2.button {display:inline; float:none; padding:4px 15px;}
+
+/* PAYMENT BY PHONE */
+.data_phone {width:400px; background:#ecf2f5; padding:15px; font-size:14px; border-radius:8px; -webkit-border-radius:8px; }
+.phone1 {margin:0;}
+.phone1 td {padding:2px 0 10px 0; vertical-align:top; font-size:14px;}
+.phone1 th {padding:0 0 10px 7px; vertical-align:top; text-align:left; font-size:inherit; font-weight:normal;}
+.phone1 th strong {font:bold 18px Arial; color:#000; white-space:nowrap;}
+.loader {text-align:center; font-size:12px; margin-top:20px; padding:10px; background:#FFF; border-radius:10px; -webkit-border-radius:10px;}
+.loader .bar {margin:3px 0 0 0; height:15px; border:1px solid #c5ccdc; background:#d6deed; position:relative; border-radius:5px; -webkit-border-radius:5px;}
+.loader .loading {background:#01bd05; height:15px; width:0%; border-radius:5px; -webkit-border-radius:5px;}
+.selector {background:#F0F0F0; padding:5px 10px; margin-bottom:10px; border-radius:8px; -webkit-border-radius:8px; font-size:13px;}
+.selector_text {float:left; padding:4px 7px 0 0;}
+
+/* IN WIDGET MESSAGES LIKE PAYMENT OH HOLD, REFUND OR WAIT */
+.message {font:normal 13px/18px Arial; color:#444; margin:0 0 20px 0;}
+.message h1 {font:normal 22px Arial; margin:0 0 10px 0; color:#000;}
+.message .button:after {display:inline; clear:none;}
+h1.blocked {background:url(https://api.paymentwall.com/images/icon_blocked_refunded.png) no-repeat 0 -56px; padding:8px 0 4px 42px; }
+h1.refunded {background:url(https://api.paymentwall.com/images/icon_blocked_refunded.png) no-repeat 0 0; padding:4px 0 4px 42px;}
+h1.wait {background:url(https://api.paymentwall.com/images/icon_blocked_refunded.png) no-repeat 0 -113px; padding:4px 0 4px 42px;}
+.inquiry{width:400px;}
+.inquiry h2{font: bold 16px Arial; color:#000; margin:0 0 10px 0; line-height:18px;}
+.inquiry textarea, .inquiry_reply textarea{height:150px;width:font-size:12px;}
+.inquiry input[type=text] {margin-bottom:10px;}
+
+.pm_info {position:absolute; top:0; left:100px; width:350px; background:#F5F5F5; border:1px solid #EDEDED; padding:15px; font:normal 13px Arial; color:#666;  border-radius:5px; -webkit-border-radius:5px;}
+.pm_info strong {color:#333;}
+
+.iframe_video { margin: 15px 0; text-align: center; width: 100%;}
+.video_button { background: none repeat scroll 0 0 #637BAD; border: 1px solid #29447E; color: #FFFFFF; cursor: pointer; font-weight: bold; padding: 3px 10px; text-align: center; display:block; width:80px; margin:auto; margin-top:10px; text-decoration: underline;}
+.video_button:hover {background: none repeat scroll 0 0 #506898; color: #FFFFFF; text-decoration: none;}
+
+td.other_amount input { background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #CCCCCC!important; border-radius: 3px 3px 3px 3px; font: bold 16px Arial; margin: 0; width: 50px; margin-right: 5px; color: #333;}
+
+/* STANDALONE DESIGN */
+
+/*body.standalone_vc_checkout, .standalone_vc_checkout #ppage {height:100%;}*/
+.standalone_vc_checkout .paymentwall {border:0;}
+.standalone_vc_checkout .paymentwall .menu2 {background:transparent; padding: 2px 40px 0;}
+.standalone_vc_checkout .use {padding: 3px 20px 3px 0;}
+.standalone_vc_checkout .lang {border:0; background:#F0F0F0; right: 40px; top: 33px;}
+.standalone_vc_checkout .lang a:hover {background-color:#FFF;}
+.standalone_vc_checkout .paymentwall .bg {padding: 0 40px 20px;}
+.standalone_vc_checkout .alternate {margin: 0 31px;}
+.standalone_vc_checkout .alternate div {margin: 0 7px 20px;}
+.standalone_vc_checkout .alternate a:hover {color:#666;}
+.standalone_vc_checkout .alternate a.sel:hover {color:#333;}
+.standalone_vc_checkout .alternate a b {border-color:#EDEDED; background-color: #F5F5F5;}
+.standalone_vc_checkout .alternate a:hover b {border-color:#CCC;}
+.standalone_vc_checkout .alternate a.sel b, .standalone_vc_checkout .alternate a.sel:hover  b {border:1px solid #333; background-color: #FFF; margin-bottom: 5px;}
+.standalone_vc_checkout .package tr.pricepoint_over td, .standalone_vc_checkout .package tr.pricepoint_over th {background: transparent;}
+.standalone_vc_checkout .package td.first {display:none;}
+.standalone_vc_checkout .package th {padding: 4px 0;}
+.standalone_vc_checkout .package td.price {color:#000;}
+.standalone_vc_checkout .button.but2, .standalone_vc_checkout .button.but2:hover {color:#000; border:0; border-bottom:1px solid #dca800; background: #ffdd3e; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZGQzZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGJhMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #ffdd3e 0%, #f0ba00 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffdd3e), color-stop(100%,#f0ba00)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffdd3e 0%,#f0ba00 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffdd3e 0%,#f0ba00 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffdd3e 0%,#f0ba00 100%); /* IE10+ */
+background: linear-gradient(top,  #ffdd3e 0%,#f0ba00 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdd3e', endColorstr='#f0ba00',GradientType=0 ); /* IE6-8 */
+}
+/*.standalone_vc_checkout .footer {position:absolute; bottom:10px; left:0; right:0;}*/
+
+/* CART */
+.cart {text-align:left;}
+.cart.cart_standalone {border-top:1px solid #EDEDED; padding:16px 0;}
+.cart ul {padding:0 0 0 15px; margin:0;}
+.cart li {margin:8px 0; font-size:14px; color:#666;}
+.cart strong {color:#000;}
+
+.cart table {width:100%; margin-bottom:20px;}
+.cart th {font-size:11px; color:#999; border-bottom:1px solid #EDEDED; padding:0 10px 5px 10px;}
+.cart th:first-child {padding-left:0;}
+.cart th:last-child {padding-right:0;}
+.cart td {color:#666; padding:5px 10px; font-size:13px;}
+.cart td:first-child {font-weight:bold; padding-left:0; color:#000;}
+.cart td :last-child {padding-right:0;}
+.cart td.total {text-align:right; padding-right:0;}
+
+.cart tr:last-child td {border-top:1px solid #EDEDED; font:bold 14px Arial; color:#000;}
+
+/*Cart confirmation*/
+
+.cart_section { border-top: 1px solid #EDEDED; padding: 15px 0; }
+.product_description { color: #666666; float: left; font: 13px Arial;width:300px;}
+.product_description b { color: #000000; }
+.product_description strong { color: #333333; font-size: 15px; line-height: normal; }
+.product_description a { border-bottom: 1px dashed #0066CC; text-decoration: none; }
+
+.confirmation {height:36px; padding:0 4px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+.not-enough-money-holder .get-coins{
+    display: inline-block;
+}
+.confirmation-password-holder{
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.confirmation-password-holder #recaptcha_area{
+	margin-left: -61px;
+	margin-top: -4px;
+}
+
+.confirmation-password-holder h3{
+    display: none;
+}
+
+p.error{
+    color: red; padding-bottom: 5px; font-size: 15px;
+}
+
+.pwallet-confirmation-holder.data{
+    background: none;
+    position: relative; margin-bottom:20px; right: 50%; float: right; max-width:435px;
+}
+
+.pwallet-confirmation-holder .data_in{
+    text-align: center;
+    position: relative; z-index: 1; right: -50%;
+}
+
+.pwallet-confirmation-holder .button.but2.left{
+    float: none;
+    display: inline-block;
+}
+
+.success_icon {
+    background: url(https://api.paymentwall.com/images/paymentwall_mobile/success.png);
+    width: 100px;
+    height: 100px;
+    margin: 10px auto 20px auto;
+}
+
+.pwallet_amount {
+    font-size: 1.3em;
+    border-bottom: 1px solid #DEDEDE;
+    box-shadow: 0 1px 0 #FFF;
+    padding-bottom: 10px;
+}
+
+/* preloaders */
+#ps_widget_preloader {position:absolute;z-index:100;top:0;left:0;bottom:0;left:0;width:100%;height:100%; background:#FFFFFF url(https://api.paymentwall.com/images/preloader.gif) no-repeat center 80px;}
+#ps_widget_preloader_widget {width:100%;height:200px; background:transparent url(https://api.paymentwall.com/images/preloader.gif) no-repeat center 80px !important;}
+
+/* used for recent payment custom setting */
+/*.thankyou_widget {padding:20px}
+.thankyou_widget h3 {font-size: 18px; margin: 1em 0;}*/
+
+#step2.p-wallet{display: block;background-color: #ffffff;padding: 5px 0;margin: 5px auto 0;width: 370px;-webkit-border-radius: 17px;-moz-border-radius: 17px;border-radius: 17px;}
+.trust {margin:0 auto; width:274px;}
+.trust a {margin:0 2px;}
+
+/*Buy Button animation*/
+@-webkit-keyframes shake {
+	0%, 10% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	1%, 3%, 5%, 7%, 9% {
+		-webkit-transform: translate3d(-10px, 0, 0);
+		transform: translate3d(-10px, 0, 0);
+	}
+	2%, 4%, 6%, 8% {
+		-webkit-transform: translate3d(10px, 0, 0);
+		transform: translate3d(10px, 0, 0);
+	}
+}
+@keyframes shake {
+	0%, 10% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	1%, 3%, 5%, 7%, 9% {
+		-webkit-transform: translate3d(-10px, 0, 0);
+		transform: translate3d(-10px, 0, 0);
+	}
+	2%, 4%, 6%, 8% {
+		-webkit-transform: translate3d(10px, 0, 0);
+		transform: translate3d(10px, 0, 0);
+	}
+}
+@-webkit-keyframes bounce {
+	0%, 3%, 7%, 10%, 12% {
+		-webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+		transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+	5%, 6% {
+		-webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+		transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+		-webkit-transform: translate3d(0, -30px, 0);
+		transform: translate3d(0, -30px, 0);
+	}
+	9% {
+		-webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+		transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+		-webkit-transform: translate3d(0, -15px, 0);
+		transform: translate3d(0, -15px, 0);
+	}
+	11% {
+		-webkit-transform: translate3d(0,-4px,0);
+		transform: translate3d(0,-4px,0);
+	}
+}
+@keyframes bounce {
+	0%, 3%, 7%, 10%, 12% {
+		-webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+		transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+	5%, 6% {
+		-webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+		transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+		-webkit-transform: translate3d(0, -30px, 0);
+		transform: translate3d(0, -30px, 0);
+	}
+	9% {
+		-webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+		transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+		-webkit-transform: translate3d(0, -15px, 0);
+		transform: translate3d(0, -15px, 0);
+	}
+	11% {
+		-webkit-transform: translate3d(0,-4px,0);
+		transform: translate3d(0,-4px,0);
+	}
+}
+@-webkit-keyframes tada {
+	0% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+}
+	1%, 2% {
+		-webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+}
+	3%, 5%, 7%, 9% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+	}
+	4%, 6%, 8% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+	10% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+@keyframes tada {
+	0% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+	1%, 2% {
+		-webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+	}
+	3%, 5%, 7%, 9% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+	}
+	4%, 6%, 8% {
+		-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+	}
+	10% {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+}
+.animated-buy-button {
+	-webkit-animation-duration: 10s;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-delay: 8s;
+	-webkit-animation-delay: 8s;
+}
+.animation-action-shake {
+	-webkit-animation-name: shake;
+	animation-name: shake;
+}
+.animation-action-bounce {
+	-webkit-animation-name: bounce;
+	animation-name: bounce;
+	-webkit-transform-origin: center bottom;
+	transform-origin: center bottom;
+}
+.animation-action-tada {
+	-webkit-animation-name: tada;
+	animation-name: tada;
+	-webkit-transform-origin: center bottom;
+	transform-origin: center bottom;
+}
+div.message {height: 250px;overflow: auto;}
